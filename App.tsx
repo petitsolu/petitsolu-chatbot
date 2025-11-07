@@ -115,7 +115,7 @@ const App: React.FC = () => {
         <div className="flex items-center justify-between">
             <div className="flex items-center gap-2">
                 <LogoIcon className="w-8 h-8 text-teal-400" />
-                <h1 className="text-xl font-bold">Soluble(s)</h1>
+                <h1 className="text-xl font-bold">Petit Solu</h1>
             </div>
             <button
                 onClick={handleNewChat}
@@ -141,8 +141,11 @@ const App: React.FC = () => {
         <div className="space-y-2">
             <button
                 onClick={handleListenLaterClick}
-                className="w-full flex items-center gap-3 p-2 rounded-md hover:bg-slate-800 transition-colors"
+                className="relative w-full flex items-center gap-3 p-2 rounded-md hover:bg-slate-800 transition-colors"
             >
+                {savedEpisodes.length > 0 && (
+                    <span className="absolute top-1 right-1 w-2.5 h-2.5 bg-green-500 rounded-full border-2 border-slate-950"></span>
+                )}
                 <ListenLaterIcon />
                 <span className="text-sm">Écouter plus tard ({savedEpisodes.length})</span>
             </button>
@@ -180,6 +183,9 @@ const App: React.FC = () => {
                 <ChatInput onSendMessage={(input) => handleSendMessage(input, 'input')} disabled={isLoading} />
                  <p className="text-xs text-center text-slate-500 mt-2">
                     PetitSolu peut commettre des erreurs. Pensez à vérifier les informations importantes.
+                </p>
+                <p className="text-xs text-center text-slate-500 mt-1">
+                    Ce chatbot est une IA bêta développée avec l'API Gemini de Google.
                 </p>
             </div>
         </div>
