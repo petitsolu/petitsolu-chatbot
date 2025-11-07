@@ -3,11 +3,10 @@ import { SYSTEM_PROMPT } from "../constants";
 
 let chat: Chat | null = null;
 
-// Fix: Adhering to the @google/genai coding guidelines, the API key is now sourced exclusively from `process.env.API_KEY`.
-// This resolves the TypeScript error with `import.meta.env` and ensures compliance.
-// It's assumed that the execution environment (including Vite/Netlify) is configured to make `process.env.API_KEY` available.
-const API_KEY = process.env.API_KEY as string;
-
+// This robust solution safely checks for the Vite/Netlify key first,
+// then falls back to the AI Studio preview key. It works in both environments
+// without causing type errors.
+const API_KEY = ((import.meta as any)?.env?.VITE_API_KEY || process.env.API_KEY) as string;
 
 /**
  * Retrieves the current chat session or initializes a new one.
@@ -16,8 +15,8 @@ const API_KEY = process.env.API_KEY as string;
 function getChat(): Chat {
   if (!chat) {
     if (!API_KEY) {
-      // Fix: Updated error message to be generic and not reference a specific environment variable implementation.
-      throw new Error("La clé API est manquante. Assurez-vous qu'elle est configurée dans l'environnement.");
+      // This error will now only trigger if the key is missing in both environments.
+      throw new Error("Désolé, l'assistant est indisponible en raison d'un problème de configuration. La clé API est manquante.");
     }
     const ai = new GoogleGenAI({ apiKey: API_KEY });
     chat = ai.chats.create({
