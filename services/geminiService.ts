@@ -3,21 +3,21 @@ import { SYSTEM_PROMPT } from "../constants";
 
 let chat: Chat | null = null;
 
-// FIX: Aligned API key retrieval with @google/genai guidelines.
-// The API key must be obtained exclusively from `process.env.API_KEY`.
-// This also resolves the TypeScript error on `import.meta.env`.
-const API_KEY = process.env.API_KEY;
+// This is the key change:
+// It first looks for the Netlify environment variable (`VITE_API_KEY`).
+// If it's not found, it falls back to the AI Studio preview variable (`API_KEY`).
+// This makes the code work in BOTH environments.
+const API_KEY = (import.meta.env.VITE_API_KEY || process.env.API_KEY) as string;
 
 /**
  * Retrieves the current chat session or initializes a new one.
  * @returns The active Chat instance.
- * @throws An error if the API key is missing.
  */
 function getChat(): Chat {
   if (!chat) {
-    // This is the essential safety net. If the key isn't found, this will trigger.
     if (!API_KEY) {
-      throw new Error("Désolé, l'assistant est indisponible en raison d'un problème de configuration. La clé API est manquante.");
+      // This error will now only trigger if the key is missing in both environments.
+      throw new Error("La clé API est manquante. Assurez-vous que VITE_API_KEY est configurée sur votre plateforme de déploiement.");
     }
     const ai = new GoogleGenAI({ apiKey: API_KEY });
     chat = ai.chats.create({
@@ -44,16 +44,17 @@ export async function getResponse(prompt: string): Promise<string> {
     console.error("Error getting response from Gemini:", error);
     chat = null; // Reset chat session on error to allow for a fresh start.
     
-    // If the error was thrown by our getChat() function (missing key), re-throw it directly.
-    if (error instanceof Error && error.message.includes("La clé API est manquante")) {
-        throw error;
+    // Provide a user-friendly error message for API key issues or other problems.
+    if (error instanceof Error && (error.message.includes('API key not valid') || error.message.includes('PERMISSION_DENIED'))) {
+        return "La clé API semble invalide ou ne dispose pas des autorisations nécessaires. Veuillez vérifier sa configuration.";
+    }
+    
+    // Display a clear error message if the key is missing from both environments.
+    if (error instanceof Error && error.message.includes('La clé API est manquante')) {
+        return "Désolé, l'assistant est indisponible en raison d'un problème de configuration. La clé API est manquante.";
     }
 
-    // Provide a more specific error message if it's likely an API key issue from Google.
-    if (error instanceof Error && (error.message.includes('API key not valid') || error.message.includes('PERMISSION_DENIED'))) {
-        throw new Error("La clé API semble invalide ou ne dispose pas des autorisations nécessaires. Veuillez vérifier sa configuration.");
-    }
-    throw new Error("Désolé, une erreur est survenue lors de la communication avec l'assistant. Veuillez réessayer.");
+    return "Désolé, une erreur est survenue lors de la communication avec l'assistant. Veuillez réessayer.";
   }
 }
 
