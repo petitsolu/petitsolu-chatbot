@@ -3,10 +3,11 @@ import { SYSTEM_PROMPT } from "../constants";
 
 let chat: Chat | null = null;
 
-// Fix: Use process.env.API_KEY exclusively as per guidelines, resolving property 'env' not existing on ImportMeta. This also removes the need for vite/client types.
-// The API key is retrieved from the environment variables.
-// It's assumed to be configured in the deployment environment.
-const API_KEY = process.env.API_KEY;
+// Fix: Adhering to the @google/genai coding guidelines, the API key is now sourced exclusively from `process.env.API_KEY`.
+// This resolves the TypeScript error with `import.meta.env` and ensures compliance.
+// It's assumed that the execution environment (including Vite/Netlify) is configured to make `process.env.API_KEY` available.
+const API_KEY = process.env.API_KEY as string;
+
 
 /**
  * Retrieves the current chat session or initializes a new one.
@@ -15,9 +16,8 @@ const API_KEY = process.env.API_KEY;
 function getChat(): Chat {
   if (!chat) {
     if (!API_KEY) {
-      // Fix: Updated error message to reflect usage of process.env.API_KEY.
-      // This error will now only trigger if the key is missing in the environment.
-      throw new Error("La clé API est manquante. Assurez-vous que la variable d'environnement API_KEY est configurée.");
+      // Fix: Updated error message to be generic and not reference a specific environment variable implementation.
+      throw new Error("La clé API est manquante. Assurez-vous qu'elle est configurée dans l'environnement.");
     }
     const ai = new GoogleGenAI({ apiKey: API_KEY });
     chat = ai.chats.create({
@@ -49,7 +49,7 @@ export async function getResponse(prompt: string): Promise<string> {
         if (error.message.includes('API key not valid') || error.message.includes('PERMISSION_DENIED')) {
             return "La clé API semble invalide ou ne dispose pas des autorisations nécessaires. Veuillez vérifier sa configuration.";
         }
-        // This is our own error if the environment variable wasn't found
+        // This is our own error if the environment variable wasn't found in either environment
         if (error.message.includes('La clé API est manquante')) {
             return "Désolé, l'assistant est indisponible en raison d'un problème de configuration. La clé API est manquante.";
         }
