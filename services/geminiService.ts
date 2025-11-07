@@ -3,8 +3,7 @@ import { SYSTEM_PROMPT } from "../constants";
 
 let chat: Chat | null = null;
 
-// FIX: Switched from `import.meta.env.VITE_API_KEY` to `process.env.API_KEY` to resolve the TypeScript error
-// "Property 'env' does not exist on type 'ImportMeta'" and to adhere to the coding guidelines for API key management.
+// Fix: Use process.env.API_KEY as per guidelines, which also resolves the TypeScript error.
 const API_KEY = process.env.API_KEY;
 
 /**
@@ -32,7 +31,8 @@ function getChat(): Chat {
  * @returns The assistant's response.
  */
 export async function getResponse(prompt: string): Promise<string> {
-  // Add a guard clause that throws a user-friendly error if no API key is found.
+  // This check is useful to provide a clear error message instead of a crash.
+  // With the corrected API_KEY retrieval above, this should no longer trigger the error.
   if (!API_KEY) {
     throw new Error("Désolé, l'assistant est indisponible en raison d'un problème de configuration. La clé API est manquante.");
   }
