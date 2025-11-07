@@ -23,6 +23,10 @@
     </script>
     
     <style>
+      /* FIX: Ensure the entire page background is dark to prevent white bars */
+      html {
+        background-color: #020617; /* slate-950 */
+      }
       /* Custom scrollbar for a more polished look */
       ::-webkit-scrollbar {
         width: 8px;
@@ -50,7 +54,6 @@
   }
 }
 </script>
-<link rel="stylesheet" href="/index.css">
 </head>
   <body class="bg-slate-950 text-white">
     <div id="root"></div>
