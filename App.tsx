@@ -3,7 +3,7 @@ import { v4 as uuidv4 } from 'uuid';
 import { ChatMessage } from './components/ChatMessage';
 import { ChatInput } from './components/ChatInput';
 import { ListenLaterPanel } from './components/ListenLaterPanel';
-import { NewChatIcon, ListenLaterIcon, GuestsIcon, NewsletterIcon, LinkedInIcon, LogoIcon } from './components/icons';
+import { NewChatIcon, ListenLaterIcon, GuestsIcon, NewsletterIcon, LinkedInIcon, LogoIcon, MenuIcon } from './components/icons';
 import { useListenLater } from './hooks/useListenLater';
 import { getResponse, startNewConversation } from './services/geminiService';
 import { trackEvent } from './services/analyticsService';
@@ -14,6 +14,7 @@ const App: React.FC = () => {
   const [messages, setMessages] = useState<Message[]>([]);
   const [isLoading, setIsLoading] = useState(false);
   const [isListenLaterOpen, setIsListenLaterOpen] = useState(false);
+  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   const chatContainerRef = useRef<HTMLDivElement>(null);
   const hasSentFirstMessage = useRef(false);
 
@@ -36,6 +37,12 @@ const App: React.FC = () => {
       chatContainerRef.current.scrollTop = chatContainerRef.current.scrollHeight;
     }
   }, [messages]);
+
+  const closeSidebar = () => {
+    if (isSidebarOpen) {
+      setIsSidebarOpen(false);
+    }
+  }
 
   const handleSendMessage = useCallback(async (input: string, source: 'input' | 'suggestion' = 'input') => {
     if (!input.trim()) return;
@@ -90,28 +97,46 @@ const App: React.FC = () => {
         suggestions: ['🌍 Environnement', '🤝 Société', '🏡 Vie quotidienne', '🎁 Épisode surprise'],
       },
     ]);
+    closeSidebar();
   };
   
   const handleFaqClick = (question: string) => {
     if (!isLoading) {
       trackEvent('click_faq', { question });
       handleSendMessage(question);
+      closeSidebar();
     }
   }
 
   const handleListenLaterClick = () => {
     trackEvent('open_listen_later');
     setIsListenLaterOpen(true);
+    closeSidebar();
   }
   
   const handleSidebarLinkClick = (linkName: string) => {
     trackEvent('click_sidebar_link', { link_name: linkName });
+    closeSidebar();
   }
 
   return (
-    <div className="bg-slate-900 text-white min-h-screen flex flex-col md:flex-row font-sans">
+    <div className="bg-slate-900 text-white h-dvh flex font-sans">
+      {/* Sidebar Overlay */}
+      {isSidebarOpen && (
+        <div 
+          className="md:hidden fixed inset-0 bg-black/60 z-30 transition-opacity"
+          onClick={closeSidebar}
+          aria-hidden="true"
+        ></div>
+      )}
+
       {/* Sidebar */}
-      <aside className="w-full md:w-64 bg-slate-950 p-4 flex flex-col gap-4 border-b md:border-b-0 md:border-r border-slate-800">
+      <aside className={`
+        fixed top-0 left-0 h-full w-64 bg-slate-950 p-4 flex flex-col gap-4 border-r border-slate-800 z-40
+        transform transition-transform
+        ${isSidebarOpen ? 'translate-x-0' : '-translate-x-full'}
+        md:static md:translate-x-0 md:flex-shrink-0
+      `}>
         <div className="flex items-center justify-between">
             <div className="flex items-center gap-2">
                 <LogoIcon className="w-8 h-8 text-teal-400" />
@@ -164,32 +189,46 @@ const App: React.FC = () => {
         </div>
       </aside>
       
-      {/* Main Chat Area */}
-      <main className="flex-1 flex flex-col h-[calc(100vh-230px)] md:h-screen">
-        <div ref={chatContainerRef} className="flex-1 overflow-y-auto p-6 space-y-6">
-          {messages.map((message) => (
-            <ChatMessage
-              key={message.id}
-              message={message}
-              onSendMessage={(input) => handleSendMessage(input, 'suggestion')}
-              onAddEpisode={addEpisode}
-              onRemoveEpisode={removeEpisode}
-              isEpisodeSaved={isSaved}
-            />
-          ))}
-        </div>
-        <div className="p-4 bg-slate-900/50 border-t border-slate-800">
-            <div className="max-w-3xl mx-auto">
-                <ChatInput onSendMessage={(input) => handleSendMessage(input, 'input')} disabled={isLoading} />
-                 <p className="text-xs text-center text-slate-500 mt-2">
-                    PetitSolu peut commettre des erreurs. Pensez à vérifier les informations importantes.
-                </p>
-                <p className="text-xs text-center text-slate-500 mt-1">
-                    Ce chatbot est une IA bêta développée avec l'API Gemini de Google.
-                </p>
-            </div>
-        </div>
-      </main>
+      {/* Main Content Area */}
+      <div className="flex-1 flex flex-col min-h-0">
+        {/* Mobile Header */}
+        <header className="md:hidden flex items-center justify-start p-4 bg-slate-900 border-b border-slate-800 flex-shrink-0">
+          <button onClick={() => setIsSidebarOpen(true)} className="p-2 mr-2 -ml-2 text-white" aria-label="Ouvrir le menu">
+            <MenuIcon />
+          </button>
+          <div className="flex items-center gap-2">
+              <LogoIcon className="w-6 h-6 text-teal-400" />
+              <h1 className="text-lg font-bold">Petit Solu</h1>
+          </div>
+        </header>
+
+        {/* Main Chat Area */}
+        <main className="flex-1 flex flex-col min-h-0">
+          <div ref={chatContainerRef} className="flex-1 overflow-y-auto p-6 space-y-6">
+            {messages.map((message) => (
+              <ChatMessage
+                key={message.id}
+                message={message}
+                onSendMessage={(input) => handleSendMessage(input, 'suggestion')}
+                onAddEpisode={addEpisode}
+                onRemoveEpisode={removeEpisode}
+                isEpisodeSaved={isSaved}
+              />
+            ))}
+          </div>
+          <div className="p-4 bg-slate-900/50 border-t border-slate-800">
+              <div className="max-w-3xl mx-auto">
+                  <ChatInput onSendMessage={(input) => handleSendMessage(input, 'input')} disabled={isLoading} />
+                   <p className="text-xs text-center text-slate-500 mt-2">
+                      PetitSolu peut commettre des erreurs. Pensez à vérifier les informations importantes.
+                  </p>
+                  <p className="text-xs text-center text-slate-500 mt-1">
+                      Ce chatbot est une IA bêta développée avec l'API Gemini de Google.
+                  </p>
+              </div>
+          </div>
+        </main>
+      </div>
 
       <ListenLaterPanel 
         isOpen={isListenLaterOpen}
