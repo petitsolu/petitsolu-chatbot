@@ -18,6 +18,44 @@ export const PLATFORM_LABELS: { [key: string]: string } = {
 
 export const EPISODE_DATA: Episode[] = [
   {
+  "id": "ep109",
+  "title": "Conseiller mobilité : l’allié méconnu qui redonne le pouvoir de bouger – Avec Sébastien Bailleul (Wimoov)",
+  "date": "2025-11-12",
+  "duration": "34:37",
+  "guest": "Sébastien Bailleul",
+  "category": "Vie quotidienne",
+  "description": "Sébastien Bailleul, directeur plaidoyer de Wimoov, décrypte le métier de conseiller mobilité : un accompagnement personnalisé pour sortir de la précarité mobilité (15 millions de personnes concernées en France). Explication du diagnostic mobilité, de l’accès gratuit via France Travail, missions locales ou CCAS, et des solutions concrètes (tarification sociale, microcrédit, autopartage, transport à la demande, soutien administratif et numérique). Focus sur l’impact : 52 % des bénéficiaires retrouvent un emploi ou une formation, 96 % des seniors renouent du lien social, et chaque accompagnement évite une tonne de CO₂ par an. Wimoov milite pour tripler le nombre de conseillers et défend une politique locale inclusive, solidaire et écologique.",
+  "themes": [
+    "mobilité",
+    "Wimoov",
+    "précarité mobilité",
+    "conseiller mobilité",
+    "autonomie",
+    "emploi",
+    "formation",
+    "seniors",
+    "territoire",
+    "transition écologique",
+    "France Travail",
+    "CCAS",
+    "solidarité",
+    "inclusion",
+    "solutions",
+    "transports",
+    "microcrédit",
+    "autopartage"
+  ],
+  "links": {
+    "page": "https://csoluble.media/epsode/conseiller-mobilite-redonne-le-pouvoir-de-bouger-avec-sebastien-bailleul-wimoov/",
+    "spotify": "https://open.spotify.com/episode/6UITdE0zG3oFiW11ppGwtH?si=A8X1oB0WTlO2PhPvPvEs3g",
+    "apple": "https://podcasts.apple.com/fr/podcast/conseiller-mobilit%C3%A9-lalli%C3%A9-m%C3%A9connu-qui-redonne-le-pouvoir/id1640003869?i=1000736373639",
+    "deezer": null,
+    "youtube": null,
+    "transcription": "https://csoluble.media/epsode/transcription-conseiller-mobilite-lallie-meconnu-qui-redonne-le-pouvoir-de-bouger-avec-sebastien-bailleul-wimoov/",
+    "summary": "https://csoluble.media/epsode/conseiller-mobilite-comment-sortir-de-la-galere-des-deplacements-en-france/"
+  }
+}
+,  {
     "id": "ep108",
     "title": "Faut qu’on parle – Cette alliance de médias qui mise sur le dialogue pour secourir la démocratie. Avec Béatrice Bouniol (La Croix)",
     "date": "2025-11-03",
