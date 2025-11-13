@@ -1,7 +1,8 @@
+
 import React, { useState } from 'react';
 import { Message, Role, Episode } from '../types';
 import { EPISODE_DATA, PLATFORM_LABELS } from '../constants';
-import { CopyIcon, CheckIcon, SpotifyIcon, ApplePodcastsIcon, YouTubeIcon, DeezerIcon, LinkIcon, LogoIcon, ListenLaterIcon, SavedIcon, TranscriptionIcon, SummaryIcon } from './icons';
+import { CopyIcon, CheckIcon, SpotifyIcon, ApplePodcastsIcon, YouTubeIcon, DeezerIcon, LinkIcon, LogoIcon, ListenLaterIcon, SavedIcon, TranscriptionIcon } from './icons';
 import { Remarkable } from 'remarkable';
 import { trackEvent } from '../services/analyticsService';
 
@@ -53,7 +54,6 @@ const EpisodeCard: React.FC<{ episode: Episode; onAdd: (ep: Episode) => void; on
     deezer: <DeezerIcon />,
     page: <LinkIcon />,
     transcription: <TranscriptionIcon />,
-    summary: <SummaryIcon />,
     default: <LinkIcon />,
   };
   
@@ -79,6 +79,24 @@ const EpisodeCard: React.FC<{ episode: Episode; onAdd: (ep: Episode) => void; on
     });
   }
 
+  // Group links for two-column display
+  const contentKeys = ['page', 'transcription'];
+  const platformOrder = ['apple', 'deezer', 'youtube', 'spotify'];
+
+  const allLinks = Object.entries(episode.links).filter(([, link]) => link);
+  
+  const contentLinksFiltered = allLinks.filter(([platform]) => contentKeys.includes(platform));
+  const platformLinksFiltered = allLinks
+    .filter(([platform]) => !contentKeys.includes(platform))
+    .sort(([a], [b]) => {
+        const indexA = platformOrder.indexOf(a);
+        const indexB = platformOrder.indexOf(b);
+        if (indexA === -1 && indexB === -1) return a.localeCompare(b); // both not in order, sort alphabetically
+        if (indexA === -1) return 1; // a is not in order, move to end
+        if (indexB === -1) return -1; // b is not in order, move to end
+        return indexA - indexB; // sort by predefined order
+    });
+
   return (
     <div className="bg-slate-900/50 border border-slate-700 rounded-lg p-4 mt-2 max-w-2xl overflow-hidden">
       <div className="mb-3">
@@ -94,20 +112,40 @@ const EpisodeCard: React.FC<{ episode: Episode; onAdd: (ep: Episode) => void; on
       
       <div className="mb-4">
         <h4 className="text-sm font-semibold text-slate-200 mb-2">Liens :</h4>
-        <div className="grid grid-cols-2 gap-x-4 gap-y-2 text-sm">
-          {Object.entries(episode.links).filter(([, link]) => link).map(([platform, link]) => (
-            <a
-              key={platform}
-              href={link as string}
-              target="_blank"
-              rel="noopener noreferrer"
-              onClick={() => handlePlatformClick(platform)}
-              className="flex items-center gap-2 text-slate-300 hover:text-teal-400 transition-colors"
-            >
-              <span className="w-4 h-4">{getIconForPlatform(platform)}</span>
-              <span>{PLATFORM_LABELS[platform] || platform}</span>
-            </a>
-          ))}
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-2 text-sm">
+          {/* Column 1: Content Links */}
+          <div className="flex flex-col space-y-2">
+            {contentLinksFiltered.map(([platform, link]) => (
+              <a
+                key={platform}
+                href={link as string}
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={() => handlePlatformClick(platform)}
+                className="flex items-center gap-2 text-slate-300 hover:text-teal-400 transition-colors"
+              >
+                <span className="w-4 h-4">{getIconForPlatform(platform)}</span>
+                <span>{PLATFORM_LABELS[platform] || platform}</span>
+              </a>
+            ))}
+          </div>
+
+          {/* Column 2: Platform Links */}
+          <div className="flex flex-col space-y-2">
+            {platformLinksFiltered.map(([platform, link]) => (
+              <a
+                key={platform}
+                href={link as string}
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={() => handlePlatformClick(platform)}
+                className="flex items-center gap-2 text-slate-300 hover:text-teal-400 transition-colors"
+              >
+                <span className="w-4 h-4">{getIconForPlatform(platform)}</span>
+                <span>{PLATFORM_LABELS[platform] || platform}</span>
+              </a>
+            ))}
+          </div>
         </div>
       </div>
 
