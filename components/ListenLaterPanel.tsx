@@ -35,11 +35,19 @@ export const ListenLaterPanel: React.FC<ListenLaterPanelProps> = ({ isOpen, onCl
   const getShareableTextForCopy = () => {
     const introText = "Voici ma sélection du podcast Soluble(s) à écouter plus tard :\n\n";
 
-    return introText + episodes.map(ep => 
+    const episodeListText = episodes.map(ep => 
       `🎙️ ${ep.title}\n` +
       `Invité(e) : ${ep.guest}\n` +
       `Lien : ${ep.links.page || 'Non disponible'}`
     ).join('\n\n---\n\n');
+    
+    const footerText = `\n\n---\n\n` +
+    `Si vous appréciez Soluble(s), un immense merci de prendre un instant pour laisser une note 5 étoiles et un commentaire. Cela aide énormément à faire découvrir le podcast !\n\n` +
+    `- Noter sur Apple Podcasts : ${GENERAL_PLATFORM_LINKS.apple}\n` +
+    `- Noter sur Spotify : ${GENERAL_PLATFORM_LINKS.spotify}\n\n` +
+    `Merci infiniment pour votre écoute et votre soutien !`;
+
+    return introText + episodeListText + footerText;
   };
   
   const getShareableTextForEmail = () => {
@@ -124,6 +132,8 @@ Créateur du podcast Soluble(s)
                 <div className="grid grid-cols-2 gap-2 mb-4">
                     <a
                       href={mailtoLink}
+                      target="_blank"
+                      rel="noopener noreferrer"
                       onClick={() => trackEvent('send_email_list', { episode_count: episodes.length })}
                       className="w-full flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-semibold transition-colors bg-slate-600 hover:bg-slate-500 border border-slate-500 text-white"
                     >
