@@ -1,7 +1,7 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Episode } from '../types';
-import { CloseIcon, TrashIcon, SpotifyIcon, ApplePodcastsIcon, YouTubeIcon, DeezerIcon, LinkIcon, EmailIcon } from './icons';
-import { PLATFORM_LABELS } from '../constants';
+import { CloseIcon, TrashIcon, SpotifyIcon, ApplePodcastsIcon, YouTubeIcon, DeezerIcon, LinkIcon, EmailIcon, CopyIcon, CheckIcon } from './icons';
+import { PLATFORM_LABELS, GENERAL_PLATFORM_LINKS } from '../constants';
 import { trackEvent } from '../services/analyticsService';
 
 interface ListenLaterPanelProps {
@@ -30,19 +30,68 @@ const getIconForPlatform = (platform: string) => {
 };
 
 export const ListenLaterPanel: React.FC<ListenLaterPanelProps> = ({ isOpen, onClose, episodes, onRemove }) => {
-  const handleSendEmail = () => {
-    trackEvent('send_email_list', { episode_count: episodes.length });
-    const subject = "Mes épisodes Soluble(s) à écouter plus tard";
-    const body = "Voici les épisodes du podcast Soluble(s) que j'ai sauvegardés :\n\n" + episodes.map(ep => 
+  const [isCopied, setIsCopied] = useState(false);
+
+  const getShareableTextForCopy = () => {
+    const introText = "Voici ma sélection du podcast Soluble(s) à écouter plus tard :\n\n";
+
+    return introText + episodes.map(ep => 
       `🎙️ ${ep.title}\n` +
       `Invité(e) : ${ep.guest}\n` +
       `Lien : ${ep.links.page || 'Non disponible'}`
     ).join('\n\n---\n\n');
-    
-    const mailtoLink = `mailto:?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-    window.location.href = mailtoLink;
   };
   
+  const getShareableTextForEmail = () => {
+    const episodeList = episodes.map(ep => 
+      `🎙️ ${ep.title}\n` +
+      `Invité(e) : ${ep.guest}\n` +
+      `Lien vers la page de l'épisode : ${ep.links.page || 'Non disponible'}`
+    ).join('\n\n---\n\n');
+
+    const introText = "Comme convenu, voici votre sélection du podcast Soluble(s) mise de côté pour écouter plus tard :";
+
+    return (
+`Bonjour,
+
+${introText}
+
+---
+
+${episodeList}
+
+---
+
+Si vous appréciez Soluble(s), prendre un instant pour laisser une note 5 étoiles et un commentaire serait un soutien immense.
+
+- Noter sur Apple Podcasts : ${GENERAL_PLATFORM_LINKS.apple}
+- Noter sur Spotify : ${GENERAL_PLATFORM_LINKS.spotify}
+
+Cela aide énormément à faire découvrir le podcast. Merci infiniment pour votre écoute et votre soutien !
+
+Bien à vous,
+
+Simon Icard
+Créateur du podcast Soluble(s)
+
+---
+*Nous n'avons pas accès à votre adresse e-mail via ce dispositif.`
+    );
+  };
+
+
+  const handleCopy = () => {
+    trackEvent('copy_listen_later_list', { episode_count: episodes.length });
+    const textToCopy = getShareableTextForCopy();
+    navigator.clipboard.writeText(textToCopy);
+    setIsCopied(true);
+    setTimeout(() => setIsCopied(false), 2000);
+  };
+  
+  const subject = "Vos épisodes Soluble(s) à écouter plus tard";
+  const body = getShareableTextForEmail();
+  const mailtoLink = `mailto:?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+
   return (
     <>
       <div 
@@ -72,13 +121,23 @@ export const ListenLaterPanel: React.FC<ListenLaterPanelProps> = ({ isOpen, onCl
               </div>
             ) : (
               <>
-                <button
-                  onClick={handleSendEmail}
-                  className="w-full flex items-center justify-center gap-2 px-4 py-2 mb-4 rounded-md text-sm font-semibold transition-colors bg-slate-600 hover:bg-slate-500 border border-slate-500 text-white"
-                >
-                  <EmailIcon />
-                  S'envoyer la liste par e-mail
-                </button>
+                <div className="grid grid-cols-2 gap-2 mb-4">
+                    <a
+                      href={mailtoLink}
+                      onClick={() => trackEvent('send_email_list', { episode_count: episodes.length })}
+                      className="w-full flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-semibold transition-colors bg-slate-600 hover:bg-slate-500 border border-slate-500 text-white"
+                    >
+                      <EmailIcon />
+                      Envoyer par e-mail
+                    </a>
+                    <button
+                        onClick={handleCopy}
+                        className="w-full flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-semibold transition-colors bg-slate-600 hover:bg-slate-500 border border-slate-500 text-white"
+                    >
+                        {isCopied ? <CheckIcon /> : <CopyIcon />}
+                        {isCopied ? 'Copié !' : 'Copier la sélection'}
+                    </button>
+                </div>
                 <ul className="space-y-3">
                   {episodes.map(episode => (
                     <li key={episode.id} className="bg-slate-700 rounded-lg p-3 group">
