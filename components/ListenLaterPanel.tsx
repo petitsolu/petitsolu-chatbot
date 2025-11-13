@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Episode } from '../types';
-import { CloseIcon, TrashIcon, SpotifyIcon, ApplePodcastsIcon, YouTubeIcon, DeezerIcon, LinkIcon, EmailIcon, CopyIcon, CheckIcon } from './icons';
+import { CloseIcon, TrashIcon, SpotifyIcon, ApplePodcastsIcon, YouTubeIcon, DeezerIcon, LinkIcon, EmailIcon, CopyIcon, CheckIcon, BackIcon } from './icons';
 import { PLATFORM_LABELS, GENERAL_PLATFORM_LINKS } from '../constants';
 import { trackEvent } from '../services/analyticsService';
 
@@ -31,6 +31,7 @@ const getIconForPlatform = (platform: string) => {
 
 export const ListenLaterPanel: React.FC<ListenLaterPanelProps> = ({ isOpen, onClose, episodes, onRemove }) => {
   const [isCopied, setIsCopied] = useState(false);
+  const isStandalonePage = window.self === window.top;
 
   // This wrapper function prevents the click event from bubbling up to the parent page,
   // and also prevents the browser's default action, ensuring only our code runs.
@@ -124,7 +125,14 @@ Créateur du podcast Soluble(s)
       >
         <div className="flex flex-col h-full">
           <header className="flex items-center justify-between p-4 border-b border-slate-700">
-            <h2 id="listen-later-title" className="text-xl font-bold">Écouter plus tard</h2>
+            <div className="flex items-center gap-2">
+               {isStandalonePage && (
+                    <a href="https://csoluble.media" onClick={() => trackEvent('quit_from_listen_later')} className="p-2 rounded-full hover:bg-slate-700" aria-label="Quitter et retourner au site">
+                        <BackIcon />
+                    </a>
+                )}
+              <h2 id="listen-later-title" className="text-xl font-bold">Écouter plus tard</h2>
+            </div>
             <button onMouseDown={handleClose} className="p-2 rounded-full hover:bg-slate-700" aria-label="Fermer le panneau">
               <CloseIcon />
             </button>
