@@ -34,6 +34,7 @@ export const ListenLaterPanel: React.FC<ListenLaterPanelProps> = ({ isOpen, onCl
 
   // This wrapper function prevents the click event from bubbling up to the parent page,
   // and also prevents the browser's default action, ensuring only our code runs.
+  // Using onMouseDown to catch the event earlier than onClick.
   const handleClose = (e: React.MouseEvent<HTMLElement>) => {
     e.preventDefault();
     e.stopPropagation();
@@ -112,7 +113,7 @@ Créateur du podcast Soluble(s)
     <>
       <div 
         className={`fixed inset-0 bg-black/60 z-40 transition-opacity ${isOpen ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}
-        onClick={handleClose}
+        onMouseDown={handleClose}
         aria-hidden="true"
       ></div>
       <aside 
@@ -124,7 +125,7 @@ Créateur du podcast Soluble(s)
         <div className="flex flex-col h-full">
           <header className="flex items-center justify-between p-4 border-b border-slate-700">
             <h2 id="listen-later-title" className="text-xl font-bold">Écouter plus tard</h2>
-            <button onClick={handleClose} className="p-2 rounded-full hover:bg-slate-700" aria-label="Fermer le panneau">
+            <button onMouseDown={handleClose} className="p-2 rounded-full hover:bg-slate-700" aria-label="Fermer le panneau">
               <CloseIcon />
             </button>
           </header>
