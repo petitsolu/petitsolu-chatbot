@@ -1,3 +1,4 @@
+
 import { Episode, FAQ } from "./types";
 
 export const MAX_MESSAGES_PER_CONVERSATION = 15;
@@ -18,44 +19,44 @@ export const PLATFORM_LABELS: { [key: string]: string } = {
 
 export const EPISODE_DATA: Episode[] = [
   {
-  "id": "ep109",
-  "title": "Conseiller mobilité : l’allié méconnu qui redonne le pouvoir de bouger – Avec Sébastien Bailleul (Wimoov)",
-  "date": "2025-11-12",
-  "duration": "34:37",
-  "guest": "Sébastien Bailleul",
-  "category": "Vie quotidienne",
-  "description": "Sébastien Bailleul, directeur plaidoyer de Wimoov, décrypte le métier de conseiller mobilité : un accompagnement personnalisé pour sortir de la précarité mobilité (15 millions de personnes concernées en France). Explication du diagnostic mobilité, de l’accès gratuit via France Travail, missions locales ou CCAS, et des solutions concrètes (tarification sociale, microcrédit, autopartage, transport à la demande, soutien administratif et numérique). Focus sur l’impact : 52 % des bénéficiaires retrouvent un emploi ou une formation, 96 % des seniors renouent du lien social, et chaque accompagnement évite une tonne de CO₂ par an. Wimoov milite pour tripler le nombre de conseillers et défend une politique locale inclusive, solidaire et écologique.",
-  "themes": [
-    "mobilité",
-    "Wimoov",
-    "précarité mobilité",
-    "conseiller mobilité",
-    "autonomie",
-    "emploi",
-    "formation",
-    "seniors",
-    "territoire",
-    "transition écologique",
-    "France Travail",
-    "CCAS",
-    "solidarité",
-    "inclusion",
-    "solutions",
-    "transports",
-    "microcrédit",
-    "autopartage"
-  ],
-  "links": {
-    "page": "https://csoluble.media/epsode/conseiller-mobilite-redonne-le-pouvoir-de-bouger-avec-sebastien-bailleul-wimoov/",
-    "spotify": "https://open.spotify.com/episode/6UITdE0zG3oFiW11ppGwtH?si=A8X1oB0WTlO2PhPvPvEs3g",
-    "apple": "https://podcasts.apple.com/fr/podcast/conseiller-mobilit%C3%A9-lalli%C3%A9-m%C3%A9connu-qui-redonne-le-pouvoir/id1640003869?i=1000736373639",
-    "deezer": null,
-    "youtube": null,
-    "transcription": "https://csoluble.media/epsode/transcription-conseiller-mobilite-lallie-meconnu-qui-redonne-le-pouvoir-de-bouger-avec-sebastien-bailleul-wimoov/",
-    "summary": "https://csoluble.media/epsode/conseiller-mobilite-comment-sortir-de-la-galere-des-deplacements-en-france/"
-  }
-}
-,  {
+    "id": "ep109",
+    "title": "Conseiller mobilité : l’allié méconnu qui redonne le pouvoir de bouger – Avec Sébastien Bailleul (Wimoov)",
+    "date": "2025-11-12",
+    "duration": "34:37",
+    "guest": "Sébastien Bailleul",
+    "category": "Vie quotidienne",
+    "description": "Sébastien Bailleul, directeur plaidoyer de Wimoov, décrypte le métier de conseiller mobilité : un accompagnement personnalisé pour sortir de la précarité mobilité (15 millions de personnes concernées en France). Explication du diagnostic mobilité, de l’accès gratuit via France Travail, missions locales ou CCAS, et des solutions concrètes (tarification sociale, microcrédit, autopartage, transport à la demande, soutien administratif et numérique). Focus sur l’impact : 52 % des bénéficiaires retrouvent un emploi ou une formation, 96 % des seniors renouent du lien social, et chaque accompagnement évite une tonne de CO₂ par an. Wimoov milite pour tripler le nombre de conseillers et défend une politique locale inclusive, solidaire et écologique.",
+    "themes": [
+      "mobilité",
+      "Wimoov",
+      "précarité mobilité",
+      "conseiller mobilité",
+      "autonomie",
+      "emploi",
+      "formation",
+      "seniors",
+      "territoire",
+      "transition écologique",
+      "France Travail",
+      "CCAS",
+      "solidarité",
+      "inclusion",
+      "solutions",
+      "transports",
+      "microcrédit",
+      "autopartage"
+    ],
+    "links": {
+      "page": "https://csoluble.media/epsode/conseiller-mobilite-redonne-le-pouvoir-de-bouger-avec-sebastien-bailleul-wimoov/",
+      "spotify": "https://open.spotify.com/episode/6UITdE0zG3oFiW11ppGwtH?si=A8X1oB0WTlO2PhPvPvEs3g",
+      "apple": "https://podcasts.apple.com/fr/podcast/conseiller-mobilit%C3%A9-lalli%C3%A9-m%C3%A9connu-qui-redonne-le-pouvoir/id1640003869?i=1000736373639",
+      "deezer": "https://link.deezer.com/s/31AQMopbZ2aLtpomVsN50",
+      "youtube": "https://www.youtube.com/watch?v=RxlFruK6RU4",
+      "transcription": "https://csoluble.media/epsode/transcription-conseiller-mobilite-lallie-meconnu-qui-redonne-le-pouvoir-de-bouger-avec-sebastien-bailleul-wimoov/",
+      "summary": null
+    }
+  },
+  {
     "id": "ep108",
     "title": "Faut qu’on parle – Cette alliance de médias qui mise sur le dialogue pour secourir la démocratie. Avec Béatrice Bouniol (La Croix)",
     "date": "2025-11-03",
@@ -68,10 +69,10 @@ export const EPISODE_DATA: Episode[] = [
       "page": "https://csoluble.media/epsode/faut-quon-parle-cette-alliance-de-medias-qui-mise-sur-le-dialogue-pour-secourir-la-democratie-avec-beatrice-bouniol-la-croix/",
       "spotify": "https://open.spotify.com/episode/2b8ZeSej9tbN6OuLoLNmpE?si=e6d2b6856c694987",
       "apple": "https://podcasts.apple.com/fr/podcast/faut-quon-parle-cette-alliance-de-m%C3%A9dias-qui-mise/id1640003869?i=1000734986110",
-      "deezer": "https://link.deezer.com/s/31uYHTKXpPWmCoycZEeTj",
-      "youtube": null,
+      "deezer": "https://link.deezer.com/s/31A9PU8xh8N2NBJmF60hR",
+      "youtube": "https://www.youtube.com/watch?v=cmaLVR2PV8Y",
       "transcription": "https://csoluble.media/epsode/transcription-faut-quon-parle-cette-alliance-de-medias-qui-mise-sur-le-dialogue-pour-secourir-la-democratie-avec-beatrice-bouniol-la-croix/",
-      "summary": "https://csoluble.media/epsode/cest-quoi-faut-quon-parle-lalliance-des-medias-qui-reunit-des-citoyens-pour-dialoguer-en-face-a-face-meme-quand-tout-les-oppose/"
+      "summary": null
     }
   },
   {
@@ -87,8 +88,8 @@ export const EPISODE_DATA: Episode[] = [
       "page": "https://csoluble.media/epsode/cocaine-france-addiction-comment-en-sortir-solubles-naira-meliava/",
       "spotify": "https://open.spotify.com/episode/5KAdJgqF9cAkdOgjdSjPlJ?si=de4c66eb2ad8489e",
       "apple": "https://podcasts.apple.com/fr/podcast/pourquoi-la-coca%C3%AFne-explose-en-france-et-comment-en-sortir/id1640003869?i=1000731533505",
-      "deezer": null,
-      "youtube": null,
+      "deezer": "https://link.deezer.com/s/31ARyqlYmC7kzEtHY855V",
+      "youtube": "https://www.youtube.com/watch?v=QEr3qJSHSXI",
       "transcription": "https://csoluble.media/epsode/transcription-cocaine-france-addiction-comment-en-sortir-solubles-naira-meliava/",
       "summary": null
     }
@@ -106,8 +107,8 @@ export const EPISODE_DATA: Episode[] = [
       "page": "https://csoluble.media/epsode/meteo-climat-solutions-paul-marquis/",
       "spotify": "https://open.spotify.com/episode/37Har73fULpZYzmHAHXIJW?si=GINGDRuURwu_jjJvK2JUfQ",
       "apple": "https://podcasts.apple.com/fr/podcast/m%C3%A9t%C3%A9o-climat-et-solutions-tout-comprendre-pour-se-prot%C3%A9ger/id1640003869?i=1000728974829",
-      "deezer": null,
-      "youtube": null,
+      "deezer": "https://link.deezer.com/s/31ARySd1Ol5YFlwLj9O6v",
+      "youtube": "https://www.youtube.com/watch?v=flVV7J7VsXg",
       "transcription": "https://csoluble.media/epsode/transcription-meteo-climat-solutions-paul-marquis/",
       "summary": null
     }
@@ -125,8 +126,8 @@ export const EPISODE_DATA: Episode[] = [
       "page": "https://csoluble.media/epsode/comment-soutenir-9-millions-de-proches-aidants-en-france/",
       "spotify": "https://open.spotify.com/episode/5FglWim14Uzqc0Nh9ovUbg?si=SqlrjKh8T2uzcYX9WSHdKw",
       "apple": "https://podcasts.apple.com/fr/podcast/comment-soutenir-9-millions-de-proches-aidants-en-france/id1640003869?i=1000726845523",
-      "deezer": null,
-      "youtube": null,
+      "deezer": "https://link.deezer.com/s/31ARzdlse2woWYwdzrOLQ",
+      "youtube": "https://www.youtube.com/watch?v=_wyhqOz4OP4",
       "transcription": "https://csoluble.media/epsode/transcription-comment-soutenir-9-millions-de-proches-aidants-en-france/",
       "summary": null
     }
@@ -144,8 +145,8 @@ export const EPISODE_DATA: Episode[] = [
       "page": "https://csoluble.media/epsode/comment-les-boites-aux-lettres-papillons-liberent-la-parole-des-enfants-victimes-de-violences/",
       "spotify": "https://open.spotify.com/episode/0iYcJLNkLeWEsHM23yGEwj?si=DqXV31KdTw2oCSA3LsgJNQ",
       "apple": "https://podcasts.apple.com/fr/podcast/comment-les-bo%C3%AEtes-aux-lettres-papillons-lib%C3%A8rent-la/id1640003869?i=1000725457493",
-      "deezer": null,
-      "youtube": null,
+      "deezer": "https://link.deezer.com/s/31ARzwfWxIyATnuqhawuA",
+      "youtube": "https://www.youtube.com/watch?v=W7ILTbAB-b8",
       "transcription": "https://csoluble.media/epsode/transcription-comment-les-boites-aux-lettres-papillons-liberent-la-parole-des-enfants-victimes-de-violences/",
       "summary": null
     }
@@ -163,8 +164,8 @@ export const EPISODE_DATA: Episode[] = [
       "page": "https://csoluble.media/epsode/climat-s-adapter-a-plus-4-degres-en-france-mode-demploi-avec-goneri-le-cozannet/",
       "spotify": "https://open.spotify.com/episode/7AKUmtZ0Qe1SXzlXIvVISz?si=oJkHV24eQbi65GjCtfMm-Q",
       "apple": "https://podcasts.apple.com/fr/podcast/climat-sadapter-%C3%A0-4-c-en-france-mode-demploi-avec-gon%C3%A9ri/id1640003869?i=1000724326080",
-      "deezer": null,
-      "youtube": null,
+      "deezer": "https://link.deezer.com/s/31ARzQHbswTAOaauLTCfc",
+      "youtube": "https://www.youtube.com/watch?v=47tKMQXWs2o",
       "transcription": "https://csoluble.media/epsode/transcription-climat-s-adapter-a-plus-4-degres-en-france-mode-demploi-avec-goneri-le-cozannet/",
       "summary": null
     }
@@ -182,8 +183,8 @@ export const EPISODE_DATA: Episode[] = [
       "page": "https://csoluble.media/epsode/sante-mentale-ce-que-peut-vraiment-la-psychiatrie-avec-dr-david-masson/",
       "spotify": "https://open.spotify.com/episode/3d6VTe10LguEwvLhd0EzYa?si=N2CvAiraQJC5OJjMp1xcow",
       "apple": "https://podcasts.apple.com/fr/podcast/sant%C3%A9-mentale-ce-que-peut-vraiment-la-psychiatrie-avec/id1640003869?i=1000723381293",
-      "deezer": null,
-      "youtube": null,
+      "deezer": "https://link.deezer.com/s/31ARAbzIMXzbPYoYL3iRx",
+      "youtube": "https://www.youtube.com/watch?v=jBq3PBFyO7Y",
       "transcription": "https://csoluble.media/epsode/transcription-sante-mentale-ce-que-peut-vraiment-la-psychiatrie-avec-dr-david-masson/",
       "summary": null
     }
@@ -201,8 +202,8 @@ export const EPISODE_DATA: Episode[] = [
       "page": "https://csoluble.media/epsode/marcelle-media-7-ans-de-journalisme-de-solutions-depuis-marseille-avec-nathania-cahen/",
       "spotify": "https://open.spotify.com/episode/1sjZWlYmSiOos3eUWza8Ac?si=I3wg7Ge6RtmlS8WVZT2-3g",
       "apple": "https://podcasts.apple.com/fr/podcast/marcelle-7-ans-de-journalisme-de-solutions/id1640003869?i=1000722356546",
-      "deezer": null,
-      "youtube": null,
+      "deezer": "https://link.deezer.com/s/31ARAvOi0kjoVeOhFZ99W",
+      "youtube": "https://www.youtube.com/watch?v=HC0sEO0fQmQ",
       "transcription": "https://csoluble.media/epsode/transcription-marcelle-media-7-ans-de-journalisme-de-solutions-depuis-marseille-avec-nathania-cahen/",
       "summary": null
     }
@@ -220,8 +221,8 @@ export const EPISODE_DATA: Episode[] = [
       "page": "https://csoluble.media/epsode/climax-le-media-qui-documente-la-revolution-culturelle-ecologique-avec-millie-servant/",
       "spotify": "https://open.spotify.com/episode/5wrKvIKo8HHV3IbCSlO7kC?si=AfgTUaAgQnOFQhF4h9qEWA",
       "apple": "https://podcasts.apple.com/fr/podcast/climax-le-m%C3%A9dia-qui-documente-la-r%C3%A9volution-culturelle/id1640003869?i=1000720545348",
-      "deezer": null,
-      "youtube": null,
+      "deezer": "https://link.deezer.com/s/31ARANXTys0UAseSMSKte",
+      "youtube": "https://www.youtube.com/watch?v=-fTVONCb1bI",
       "transcription": "https://csoluble.media/epsode/transcription-climax-le-media-qui-documente-la-revolution-culturelle-ecologique-avec-millie-servant/",
       "summary": null
     }
@@ -239,8 +240,8 @@ export const EPISODE_DATA: Episode[] = [
       "page": "https://csoluble.media/epsode/ia-rester-humain-face-a-la-machine-mission-impossible-avec-maxime-derian/",
       "spotify": "https://open.spotify.com/episode/4N8UHJCReg2M3OhLYF8yTN",
       "apple": "https://podcasts.apple.com/fr/podcast/ia-rester-humain-face-%C3%A0-la-machine-mission-impossible/id1640003869?i=1000719446580",
-      "deezer": null,
-      "youtube": null,
+      "deezer": "https://link.deezer.com/s/31ARB7ZcIM1NQFHZFzKfS",
+      "youtube": "https://www.youtube.com/watch?v=bs0_3egpXp0",
       "transcription": "https://csoluble.media/epsode/transcription-ia-rester-humain-face-a-la-machine-mission-impossible-avec-maxime-derian/",
       "summary": null
     }
@@ -258,8 +259,8 @@ export const EPISODE_DATA: Episode[] = [
       "page": "https://csoluble.media/epsode/climat-biodiversite-les-entreprises-peuvent-elles-vraiment-faire-partie-de-la-solution/",
       "spotify": "https://open.spotify.com/episode/1Gje9Rj9qf03KrmiT2Jht2?si=_dQkEwarTpiLb3LiCE6stg",
       "apple": "https://podcasts.apple.com/fr/podcast/climat-biodiversit%C3%A9-les-entreprises-peuvent-elles-vraiment/id1640003869?i=1000718220591",
-      "deezer": null,
-      "youtube": null,
+      "deezer": "https://link.deezer.com/s/31ARBrthhLQEWKnP2PbZw",
+      "youtube": "https://www.youtube.com/watch?v=CL4n_WmNHyw",
       "transcription": "https://csoluble.media/epsode/transcription-climat-biodiversite-les-entreprises-peuvent-elles-vraiment-faire-partie-de-la-solution/",
       "summary": null
     }
@@ -277,8 +278,8 @@ export const EPISODE_DATA: Episode[] = [
       "page": "https://csoluble.media/epsode/ia-et-numerique-peut-on-innover-sans-aggraver-le-changement-climatique/",
       "spotify": "https://open.spotify.com/episode/4OjP3Ocmpr40FYoUJqtIxs?si=f9x3LUp2RUWV_ZdV7Fio6w",
       "apple": "https://podcasts.apple.com/fr/podcast/ia-et-num%C3%A9rique-peut-on-innover-sans-aggraver-le-changement/id1640003869?i=1000717275012",
-      "deezer": null,
-      "youtube": null,
+      "deezer": "https://link.deezer.com/s/31ARCz1HhzFjSL1Rt2MXK",
+      "youtube": "https://www.youtube.com/watch?v=5SQ_VaqaG2E",
       "transcription": "https://csoluble.media/epsode/transcription-ia-et-numerique-peut-on-innover-sans-aggraver-le-changement-climatique/",
       "summary": null
     }
@@ -296,8 +297,8 @@ export const EPISODE_DATA: Episode[] = [
       "page": "https://csoluble.media/epsode/30-000-citoyens-shifters-pour-decarboner-la-france-face-a-lurgence-climatique/",
       "spotify": "https://open.spotify.com/episode/1ufDdiNzHcXgOWKRXMrBqq?si=0wi-_BkuTNCps-e0_zlMcA",
       "apple": "https://podcasts.apple.com/fr/podcast/30-000-citoyens-shifters-pour-d%C3%A9carboner-la-france/id1640003869?i=1000716047953",
-      "deezer": null,
-      "youtube": null,
+      "deezer": "https://link.deezer.com/s/31ARBLjFCiEjff1wtufls",
+      "youtube": "https://www.youtube.com/watch?v=0NnjPvs75sA",
       "transcription": "https://csoluble.media/epsode/transcription-30-000-citoyens-shifters-pour-decarboner-la-france-face-a-lurgence-climatique/",
       "summary": null
     }
@@ -315,8 +316,8 @@ export const EPISODE_DATA: Episode[] = [
       "page": "https://csoluble.media/epsode/canicules-inondations-tempetes-feux-de-forets-comment-sy-preparer-avec-la-croix-rouge/",
       "spotify": "https://open.spotify.com/episode/3dSLxqWI3z66djP1Yg99nr?si=Vp8Ik0EaQ-G3z_dx0TyYbQ",
       "apple": "https://podcasts.apple.com/fr/podcast/canicules-inondations-temp%C3%AAtes-feux-de-for%C3%AAts/id1640003869?i=1000715077376",
-      "deezer": null,
-      "youtube": null,
+      "deezer": "https://link.deezer.com/s/31ARDcgNKBTwSPDpwGs5c",
+      "youtube": "https://www.youtube.com/watch?v=NvDZmpBX-JI",
       "transcription": "https://csoluble.media/epsode/transcription-canicules-inondations-tempetes-feux-de-forets-comment-sy-preparer-avec-la-croix-rouge/",
       "summary": null
     }
@@ -334,8 +335,8 @@ export const EPISODE_DATA: Episode[] = [
       "page": "https://csoluble.media/epsode/memo-de-vie-coffre-fort-numerique-pour-aider-les-victimes-de-violences-repetees/",
       "spotify": "https://open.spotify.com/episode/6N3unofMwe8znCMKU3Kxk7?si=kvUyscVVQYy7w6HMg-gD2A",
       "apple": "https://podcasts.apple.com/fr/podcast/m%C3%A9mo-de-vie-coffre-fort-num%C3%A9rique-pour-aider-les/id1640003869?i=1000714125595",
-      "deezer": null,
-      "youtube": null,
+      "deezer": "https://link.deezer.com/s/31ARDvWbnhkrzT9BLXXOa",
+      "youtube": "https://www.youtube.com/watch?v=1NfKIz7J8jA",
       "transcription": "https://csoluble.media/epsode/transcription-memo-de-vie-coffre-fort-numerique-pour-aider-les-victimes-de-violences-repetees/",
       "summary": null
     }
@@ -353,8 +354,8 @@ export const EPISODE_DATA: Episode[] = [
       "page": "https://csoluble.media/epsode/endotest-un-test-salivaire-pour-reduire-l-errance-diagnostique-de-l-endometriose/",
       "spotify": "https://open.spotify.com/episode/1tclIpTArakUSH0iJ3bUje?si=zv-SMSUDRs-J1hJJhq-lVQ",
       "apple": "https://podcasts.apple.com/fr/podcast/lendotest-un-test-salivaire-pour-r%C3%A9duire-lerrance/id1640003869?i=1000713033352",
-      "deezer": null,
-      "youtube": null,
+      "deezer": "https://link.deezer.com/s/31ARDONyhJCq7YnQcWw3v",
+      "youtube": "https://www.youtube.com/watch?v=Odtln9R_2A4",
       "transcription": "https://csoluble.media/epsode/transcription-endotest-un-test-salivaire-pour-reduire-l-errance-diagnostique-de-l-endometriose/",
       "summary": null
     }
@@ -372,8 +373,8 @@ export const EPISODE_DATA: Episode[] = [
       "page": "https://csoluble.media/epsode/aimer-et-proteger-les-chauves-souris-avec-manon-berehouc/",
       "spotify": "https://open.spotify.com/episode/4sZVi42zzDGhRWlemLdnhC?si=IQCwWF3wQouBRhN5s8JDBg",
       "apple": "https://podcasts.apple.com/fr/podcast/aimer-et-prot%C3%A9ger-les-chauves-souris-avec-manon-b%C3%A9r%C3%A9houc/id1640003869?i=1000712042613",
-      "deezer": null,
-      "youtube": null,
+      "deezer": "https://link.deezer.com/s/31AREcqhYJFXEF0dvZXXt",
+      "youtube": "https://www.youtube.com/watch?v=DM1otbypej0",
       "transcription": "https://csoluble.media/epsode/transcription-aimer-et-proteger-les-chauves-souris-avec-manon-berehouc/",
       "summary": null
     }
@@ -391,8 +392,8 @@ export const EPISODE_DATA: Episode[] = [
       "page": "https://csoluble.media/epsode/vera-l-ia-francaise-qui-combat-les-fake-news-en-3-secondes-chrono/",
       "spotify": "https://open.spotify.com/episode/0rPudSYKkJxcaiIweyuM9b?si=FtMs_Ky_THWX1LuRehbeew",
       "apple": "https://podcasts.apple.com/fr/podcast/vera-lia-fran%C3%A7aise-qui-combat-les-fake-news-en-3-secondes/id1640003869?i=1000710808246",
-      "deezer": null,
-      "youtube": null,
+      "deezer": "https://link.deezer.com/s/31AREx0N5A2FYI0lYLq7i",
+      "youtube": "https://www.youtube.com/watch?v=f2EA3Ik2Rcs",
       "transcription": "https://csoluble.media/epsode/transcription-vera-l-ia-francaise-qui-combat-les-fake-news-en-3-secondes-chrono/",
       "summary": null
     }
@@ -410,8 +411,8 @@ export const EPISODE_DATA: Episode[] = [
       "page": "https://csoluble.media/epsode/relancer-le-velo-carbone-made-in-france-le-defi-de-nilman-bicycle/",
       "spotify": "https://open.spotify.com/episode/1U0oYtSTrWd5hco1FxBDsC?si=-R1k58Z9R-ydRdu8BjEr_w",
       "apple": "https://podcasts.apple.com/fr/podcast/relancer-le-v%C3%A9lo-carbone-made-in-france-le-d%C3%A9fi-de/id1640003869?i=1000709853145",
-      "deezer": null,
-      "youtube": null,
+      "deezer": "https://link.deezer.com/s/31ARENiuqV4E4wUEaWWEa",
+      "youtube": "https://www.youtube.com/watch?v=zrvJlAcuuN8",
       "transcription": "https://csoluble.media/epsode/transcription-relancer-le-velo-carbone-made-in-france-le-defi-de-nilman-bicycle/",
       "summary": null
     }
@@ -429,8 +430,8 @@ export const EPISODE_DATA: Episode[] = [
       "page": "https://csoluble.media/epsode/les-navettes-autonomes-la-cle-pour-une-mobilite-periurbaine-plus-verte/",
       "spotify": "https://open.spotify.com/episode/7wxBH7SKTOvZdhLvO5ISax?si=gX8lwWwwS22y7NUamoGMpw",
       "apple": "https://podcasts.apple.com/fr/podcast/les-navettes-autonomes-la-cl%C3%A9-pour-une-mobilit%C3%A9-p%C3%A9riurbaine/id1640003869?i=1000708940686",
-      "deezer": null,
-      "youtube": null,
+      "deezer": "https://link.deezer.com/s/31ARF8arkCi9MqxWHBv4M",
+      "youtube": "https://www.youtube.com/watch?v=svzDEghbCkk",
       "transcription": "https://csoluble.media/epsode/transcription-les-navettes-autonomes-la-cle-pour-une-mobilite-periurbaine-plus-verte/",
       "summary": null
     }
@@ -448,8 +449,8 @@ export const EPISODE_DATA: Episode[] = [
       "page": "https://csoluble.media/epsode/peut-on-rendre-le-bio-accessible-sans-sacrifier-les-agriculteurs/",
       "spotify": "https://open.spotify.com/episode/1TGf5Vush2gbHn63MWa1Df?si=niWq0kC7QdGISPOoVSyfkg",
       "apple": "https://podcasts.apple.com/fr/podcast/peut-on-rendre-le-bio-accessible-sans-sacrifier-les/id1640003869?i=1000708051424",
-      "deezer": null,
-      "youtube": null,
+      "deezer": "https://link.deezer.com/s/31ARFqBSKKlLM2jR2pe5i",
+      "youtube": "https://www.youtube.com/watch?v=Qb1XnsmnCYY",
       "transcription": "https://csoluble.media/epsode/transcription-peut-on-rendre-le-bio-accessible-sans-sacrifier-les-agriculteurs/",
       "summary": null
     }
@@ -467,8 +468,8 @@ export const EPISODE_DATA: Episode[] = [
       "page": "https://csoluble.media/epsode/studiava-le-tinder-de-lorientation-post-bac-qui-utilise-lia-pour-aider-les-lyceens/",
       "spotify": "https://open.spotify.com/episode/0hXbd6KgfFtqi7qhh5pCuA?si=f1efac24ac854d16",
       "apple": "https://podcasts.apple.com/fr/podcast/studiava-le-tinder-de-lorientation-post-bac-qui/id1640003869?i=1000679699893",
-      "deezer": null,
-      "youtube": null,
+      "deezer": "https://link.deezer.com/s/31ARFNnMz1TWcLMvyjZJo",
+      "youtube": "https://www.youtube.com/watch?v=9u45EwKfXqg",
       "transcription": "https://csoluble.media/epsode/transcription-studiava-le-tinder-de-lorientation-post-bac-qui-utilise-lia-pour-aider-les-lyceens/",
       "summary": null
     }
@@ -484,10 +485,10 @@ export const EPISODE_DATA: Episode[] = [
     "themes": ["Vêtements adaptés", "chimiothérapie", "style", "confort"],
     "links": {
       "page": "https://csoluble.media/epsode/qi-bo-de-beaux-vetements-adaptes-aux-soins-a-porter-malgre-la-chimiotherapie/",
-      "spotify": "https://open.spotify.com/episode/6tufkyRYDc1POCkEZW75q6?si=ca8c1d2eda4c44a1StudiAva",
+      "spotify": "https://open.spotify.com/episode/6tufkyRYDc1POCkEZW75q6?si=ca8c1d2eda4c44a1",
       "apple": "https://podcasts.apple.com/fr/podcast/qi-b%C3%B4-de-beaux-v%C3%AAtements-adapt%C3%A9s-aux-soins-%C3%A0-porter/id1640003869?i=1000675559661",
-      "deezer": null,
-      "youtube": null,
+      "deezer": "https://link.deezer.com/s/31ARGj6JMjuh0a0mO9pf5",
+      "youtube": "https://www.youtube.com/watch?v=sm9UhMgtWu4",
       "transcription": "https://csoluble.media/epsode/transcription-qi-bo-de-beaux-vetements-adaptes-aux-soins-a-porter-malgre-la-chimiotherapie/",
       "summary": null
     }
@@ -496,17 +497,17 @@ export const EPISODE_DATA: Episode[] = [
     "id": "ep85",
     "title": "NewsTruck, vidéos, ateliers : Lumières sur l'info engage les jeunes contre la désinformation",
     "date": "2024-10-28",
-    "duration": "34:57:00",
+    "duration": "34:57",
     "guest": "Damien Fleurot",
     "category": "Société",
     "description": "L'association Lumières sur l'info aide les jeunes à distinguer le vrai du faux dans un monde où l'information circule rapidement. Présidée par Damien Fleurot, elle propose des ateliers et des vidéos pour éduquer aux médias.",
     "themes": ["Désinformation", "éducation aux médias", "jeunes", "fake news"],
     "links": {
       "page": "https://csoluble.media/epsode/newstruck-videos-ateliers-lumieres-sur-linfo-engage-les-jeunes-contre-la-desinformation/",
-      "spotify": "https://open.spotify.com/episode/6PwHsqaRRbrse0HGRwrTos?si=M8PCw-jcQ9WMzT2jZA3E1wQi-Bô",
+      "spotify": "https://open.spotify.com/episode/6PwHsqaRRbrse0HGRwrTos?si=M8PCw-jcQ9WMzT2jZA3E1w",
       "apple": "https://podcasts.apple.com/fr/podcast/newstruck-vid%C3%A9os-ateliers-lumi%C3%A8res-sur-linfo-engage/id1640003869?i=1000674657485",
-      "deezer": null,
-      "youtube": null,
+      "deezer": "https://link.deezer.com/s/31ARJeCqjzDgNDda0tMfZ",
+      "youtube": "https://www.youtube.com/watch?v=0Cak9PqPvjQ",
       "transcription": "https://csoluble.media/epsode/transcription-newstruck-videos-ateliers-lumieres-sur-linfo-engage-les-jeunes-contre-la-desinformation/",
       "summary": null
     }
@@ -522,10 +523,10 @@ export const EPISODE_DATA: Episode[] = [
     "themes": ["Poules d'ornement", "races anciennes", "écologie", "biodiversité"],
     "links": {
       "page": "https://csoluble.media/epsode/les-poules-dornement-et-de-races-anciennes-ne-sont-pas-avares-en-solutions/",
-      "spotify": "https://open.spotify.com/episode/3emGh6iyOngOGsFFwgePxU?si=0mTNMrOiSR2DQ1kMWxOVTANewsTruck",
+      "spotify": "https://open.spotify.com/episode/3emGh6iyOngOGsFFwgePxU?si=0mTNMrOiSR2DQ1kMWxOVTQ",
       "apple": "https://podcasts.apple.com/fr/podcast/les-poules-dornement-et-de-races-anciennes-ne-sont/id1640003869?i=1000673788234",
-      "deezer": null,
-      "youtube": null,
+      "deezer": "https://link.deezer.com/s/31ARJAp0FzwImPcVNLeOz",
+      "youtube": "https://www.youtube.com/watch?v=SWbPBxN64VU",
       "transcription": "https://csoluble.media/epsode/transcription-les-poules-dornement-et-de-races-anciennes-ne-sont-pas-avares-en-solutions/",
       "summary": null
     }
@@ -534,17 +535,17 @@ export const EPISODE_DATA: Episode[] = [
     "id": "ep83",
     "title": "L'adoption des coraux : une solution pour préserver les écosystèmes marins",
     "date": "2024-10-07",
-    "duration": "26:49:00",
+    "duration": "26:49",
     "guest": "Jeimila Donty",
     "category": "Environnement",
     "description": "Dans un contexte de dégradation accélérée des écosystèmes marins, les récifs coralliens sont en première ligne. Face à cette urgence, des initiatives innovantes ont émergé, comme celle de Koraï, qui propose une approche novatrice pour restaurer les coraux et préserver les océans.",
     "themes": ["Coraux", "Restauration", "Biodiversité", "Océans", "Madagascar"],
     "links": {
       "page": "https://csoluble.media/epsode/ladoption-des-coraux-une-solution-pour-preserver-les-ecosystemes-marins/",
-      "spotify": "https://open.spotify.com/episode/1KiKmWzc4b1dxQSUYAhFc1?si=ebd1ba7e0ac243c6Les",
+      "spotify": "https://open.spotify.com/episode/1KiKmWzc4b1dxQSUYAhFc1?si=ebd1ba7e0ac243c6",
       "apple": "https://podcasts.apple.com/fr/podcast/ladoption-des-coraux-une-solution-pour-pr%C3%A9server-les/id1640003869?i=1000672003209",
-      "deezer": null,
-      "youtube": null,
+      "deezer": "https://link.deezer.com/s/31ARJR1trMCVU2aBpIzgV",
+      "youtube": "https://www.youtube.com/watch?v=gDRlnu47nVY",
       "transcription": "https://csoluble.media/epsode/transcription-ladoption-des-coraux-une-solution-pour-preserver-les-ecosystemes-marins/",
       "summary": null
     }
@@ -553,17 +554,17 @@ export const EPISODE_DATA: Episode[] = [
     "id": "ep82",
     "title": "La soumission chimique : un phénomène criminel à combattre",
     "date": "2024-09-30",
-    "duration": "29:36:00",
+    "duration": "29:36",
     "guest": "Arnaud Gallais",
     "category": "Société",
     "description": "Cet épisode met en lumière le phénomène de la soumission chimique, en particulier à travers le procès des viols de Mazan. Quelles sont les solutions ? Ecoutez.",
     "themes": ["Soumission chimique", "violences sexuelles", "procès Pélicot", "santé publique", "prévention"],
     "links": {
       "page": "https://csoluble.media/epsode/la-soumission-chimique-un-phenomene-criminel-a-combattre/",
-      "spotify": "https://open.spotify.com/episode/69RUd4ZD3hSpZr2uO9Jv1n?si=vItSXRuaQfq90srGN87rHAL'adoption",
+      "spotify": "https://open.spotify.com/episode/69RUd4ZD3hSpZr2uO9Jv1n?si=vItSXRuaQfq90srGN87rHA",
       "apple": "https://podcasts.apple.com/fr/podcast/la-soumission-chimique-un-ph%C3%A9nom%C3%A8ne-criminel-%C3%A0-combattre/id1640003869?i=1000671235662",
-      "deezer": null,
-      "youtube": null,
+      "deezer": "https://link.deezer.com/s/31ARK87XqsUDKBoDrB3Fr",
+      "youtube": "https://www.youtube.com/watch?v=HgSkvZvRCfU",
       "transcription": "https://csoluble.media/epsode/transcription-la-soumission-chimique-un-phenomene-criminel-a-combattre/",
       "summary": null
     }
@@ -579,10 +580,10 @@ export const EPISODE_DATA: Episode[] = [
     "themes": ["Revenu minimum étudiant", "soutien financier", "inégalités", "études supérieures", "aide communale"],
     "links": {
       "page": "https://csoluble.media/epsode/un-revenu-minimum-pour-les-etudiants-de-petit-quevilly/",
-      "spotify": "https://open.spotify.com/episode/3nUrmp1sbyjL8Yw8Vfz2iT?si=MZpN1_FmSACKA7apEODvRQLa",
+      "spotify": "https://open.spotify.com/episode/3nUrmp1sbyjL8Yw8Vfz2iT?si=MZpN1_FmSACKA7apEODvRQ",
       "apple": "https://podcasts.apple.com/fr/podcast/un-revenu-minimum-pour-les-%C3%A9tudiants-de-petit-quevilly/id1640003869?i=1000670345288",
-      "deezer": null,
-      "youtube": null,
+      "deezer": "https://link.deezer.com/s/31ARKtxxCqKh9tbnxd99o",
+      "youtube": "https://www.youtube.com/watch?v=TEbXeK3v_o8",
       "transcription": "https://csoluble.media/epsode/transcription-un-revenu-minimum-pour-les-etudiants-de-petit-quevilly/",
       "summary": null
     }
@@ -591,17 +592,17 @@ export const EPISODE_DATA: Episode[] = [
     "id": "ep80",
     "title": "Derrière les chiffres du harcèlement scolaire : comprendre et agir",
     "date": "2024-09-02",
-    "duration": "43:21:00",
+    "duration": "43:21",
     "guest": "Marie Quartier",
     "category": "Société",
     "description": "Marie Quartier, cofondatrice du centre ReSIS, explique les mécanismes du harcèlement scolaire et propose des solutions pour le prévenir et le résoudre. Elle met en avant l'importance de l'effet de groupe et la méthode de la préoccupation partagée.",
-    "themes": ["Harcèlement scolaire", "prévention", "effet de groupe", "méthode de la préoccupation partagée", "éducation", "parents", "élèves", "programme pHARE", "numéro d'appel 3018", "Centre ReSIS"],
+    "themes": ["Harcèlement scolaire", "prévention", "effet de groupe", "méthode de la préoccupation partagée", "éducation", "parents", "élèves", "programme pHAre", "numéro d'appel 3018", "Centre ReSIS"],
     "links": {
       "page": "https://csoluble.media/epsode/derriere-les-chiffres-du-harcelement-scolaire-comprendre-et-agir/",
-      "spotify": "https://open.spotify.com/episode/0DmYoaTwBpktGxRBMU7MMz?si=Cj8VjnghQJCMJya9_lAVTwUn",
+      "spotify": "https://open.spotify.com/episode/0DmYoaTwBpktGxRBMU7MMz?si=Cj8VjnghQJCMJya9_lAVTw",
       "apple": "https://podcasts.apple.com/fr/podcast/derri%C3%A8re-les-chiffres-du-harc%C3%A8lement-scolaire-comprendre/id1640003869?i=1000668003821",
-      "deezer": null,
-      "youtube": null,
+      "deezer": "https://link.deezer.com/s/31ARKON5mjYsWfCFGkCFQ",
+      "youtube": "https://www.youtube.com/watch?v=ph6C5eLKybA",
       "transcription": "https://csoluble.media/epsode/transcription-derriere-les-chiffres-du-harcelement-scolaire-comprendre-et-agir/",
       "summary": null
     }
@@ -610,17 +611,17 @@ export const EPISODE_DATA: Episode[] = [
     "id": "ep79",
     "title": "Le design climatique : une solution pour rafraîchir nos villes et nos logements",
     "date": "2024-08-28",
-    "duration": "35:13:00",
+    "duration": "35:13",
     "guest": "Clément Gaillard",
     "category": "Environnement",
     "description": "Dans cet épisode, nous explorons les solutions de design climatique pour adapter nos environnements aux étés caniculaires de plus en plus fréquents.",
     "themes": ["Design climatique", "urbanisme", "bioclimatique", "réchauffement climatique", "îlots de chaleur urbains"],
     "links": {
       "page": "https://csoluble.media/epsode/le-design-climatique-une-solution-pour-rafraichir-nos-villes-et-nos-logements/",
-      "spotify": "https://open.spotify.com/episode/7GKqFjdrYSo5QoNZgDlnY9?si=IsLEDvIrQZSAN57LYhueUwDerrière",
+      "spotify": "https://open.spotify.com/episode/7GKqFjdrYSo5QoNZgDlnY9?si=IsLEDvIrQZSAN57LYhueUw",
       "apple": "https://podcasts.apple.com/fr/podcast/le-design-climatique-une-solution-pour-rafra%C3%AEchir-nos/id1640003869?i=1000666854296",
-      "deezer": null,
-      "youtube": null,
+      "deezer": "https://link.deezer.com/s/31ARLocJ6nuPi7nRuWMNq",
+      "youtube": "https://www.youtube.com/watch?v=f8c9cB5EmMg",
       "transcription": "https://csoluble.media/epsode/transcription-le-design-climatique-une-solution-pour-rafraichir-nos-villes-et-nos-logements/",
       "summary": null
     }
@@ -629,17 +630,17 @@ export const EPISODE_DATA: Episode[] = [
     "id": "ep78",
     "title": "Basilic, un podcast engagé pour rendre la vie écolo accessible et désirable",
     "date": "2024-07-22",
-    "duration": "28:33:00",
+    "duration": "28:33",
     "guest": "Jeane Clesse",
     "category": "Environnement",
     "description": "Jeane Clesse discute de son podcast Basilic, qui propose des clés pour agir en faveur de la transition écologique.",
     "themes": ["Transition écologique", "Podcast écologique", "Initiatives positives"],
     "links": {
       "page": "https://csoluble.media/epsode/basilic-un-podcast-engage-pour-rendre-la-vie-ecolo-accessible-et-desirable/",
-      "spotify": "https://open.spotify.com/episode/4nasxslnHUNFHOHhuiN9xx?si=X0HMxboqRNK31j36KTm8NQLe",
+      "spotify": "https://open.spotify.com/episode/4nasxslnHUNFHOHhuiN9xx?si=X0HMxboqRNK31j36KTm8NQ",
       "apple": "https://podcasts.apple.com/fr/podcast/basilic-un-podcast-engag%C3%A9-pour-rendre-accessible-et/id1640003869?i=1000662929665",
-      "deezer": null,
-      "youtube": null,
+      "deezer": "https://link.deezer.com/s/31ARMSyjOZhkpRFegDoDI",
+      "youtube": "https://www.youtube.com/watch?v=Z1-fiqMtbes",
       "transcription": "https://csoluble.media/epsode/transcription-basilic-un-podcast-engage-pour-rendre-la-vie-ecolo-accessible-et-desirable/",
       "summary": null
     }
@@ -655,10 +656,10 @@ export const EPISODE_DATA: Episode[] = [
     "themes": ["Journalisme", "Initiatives locales", "Engagement citoyen"],
     "links": {
       "page": "https://csoluble.media/epsode/les-bonnes-idees-sont-dans-lesprit-dinitiative-sur-france-inter/",
-      "spotify": "https://open.spotify.com/episode/2epVISjdzW0FabsrROsb1w?si=Smfp1xO_SGOnQdWbhFWCRQBasilic",
+      "spotify": "https://open.spotify.com/episode/2epVISjdzW0FabsrROsb1w?si=Smfp1xO_SGOnQdWbhFWCRQ",
       "apple": "https://podcasts.apple.com/fr/podcast/les-bonnes-id%C3%A9es-sont-dans-lesprit-dinitiative-sur/id1640003869?i=1000662243390",
-      "deezer": null,
-      "youtube": null,
+      "deezer": "https://link.deezer.com/s/31ARNdnxirPlFOStQZ5h3",
+      "youtube": "https://www.youtube.com/watch?v=yStXwaVmlL8",
       "transcription": "https://csoluble.media/epsode/transcription-les-bonnes-idees-sont-dans-lesprit-dinitiative-sur-france-inter/",
       "summary": null
     }
@@ -674,10 +675,10 @@ export const EPISODE_DATA: Episode[] = [
     "themes": ["Pollution marine", "déchets", "filets collecteurs", "océans", "environnement"],
     "links": {
       "page": "https://csoluble.media/epsode/ces-filets-interceptent-in-extremis-nos-dechets-qui-polluent-gravement-les-oceans/",
-      "spotify": "https://open.spotify.com/episode/2qnWZqwRQKVAA7MtuIEUjy?si=IBePBiXQR_aBsFud8peFVALes",
+      "spotify": "https://open.spotify.com/episode/2qnWZqwRQKVAA7MtuIEUjy?si=IBePBiXQR_aBsFud8peFVA",
       "apple": "https://podcasts.apple.com/fr/podcast/ces-filets-interceptent-in-extremis-nos-d%C3%A9chets-qui/id1640003869?i=1000660258600",
-      "deezer": null,
-      "youtube": null,
+      "deezer": "https://link.deezer.com/s/31ARNxHXqsyyF03SCHQmg",
+      "youtube": "https://www.youtube.com/watch?v=ejQbNu7EUSE",
       "transcription": "https://csoluble.media/epsode/transcription-ces-filets-interceptent-in-extremis-nos-dechets-qui-polluent-gravement-les-oceans/",
       "summary": null
     }
@@ -686,17 +687,17 @@ export const EPISODE_DATA: Episode[] = [
     "id": "ep75",
     "title": "Tortues marines menacées : les soigner et les préserver",
     "date": "2024-06-10",
-    "duration": "25:55:00",
+    "duration": "25:55",
     "guest": "Florence Dell’Amico",
     "category": "Environnement",
     "description": "Florence Dell’Amico discute des efforts pour soigner et protéger les tortues marines en détresse dans les eaux françaises.",
     "themes": ["Tortues marines", "Protection des tortues", "Conservation marine"],
     "links": {
       "page": "https://csoluble.media/epsode/tortues-marines-menacees-les-soigner-et-les-preserver/",
-      "spotify": "https://open.spotify.com/episode/41K2eXoDybZz9ASVyXV06J?si=KSo-sTHNRwGKQdsefs_3pwCes",
+      "spotify": "https://open.spotify.com/episode/41K2eXoDybZz9ASVyXV06J?si=KSo-sTHNRwGKQdsefs_3pw",
       "apple": "https://podcasts.apple.com/fr/podcast/tortues-marines-menac%C3%A9es-les-soigner-et-les-pr%C3%A9server/id1640003869?i=1000658401013",
-      "deezer": null,
-      "youtube": null,
+      "deezer": "https://link.deezer.com/s/31ARNRNEAwjkFNwYOGBoI",
+      "youtube": "https://www.youtube.com/watch?v=gZp72FxxsmM",
       "transcription": "https://csoluble.media/epsode/transcription-tortues-marines-menacees-les-soigner-et-les-preserver/",
       "summary": null
     }
@@ -705,17 +706,17 @@ export const EPISODE_DATA: Episode[] = [
     "id": "ep74",
     "title": "Joyau naturel - Comment les Calanques se protègent",
     "date": "2024-06-03",
-    "duration": "28:29:00",
+    "duration": "28:29",
     "guest": "Didier Réault",
     "category": "Environnement",
     "description": "Didier Réault discute de la protection du massif des Calanques, un parc national visant à préserver la biodiversité et à gérer la surfréquentation touristique.",
     "themes": ["Parc national", "Calanques", "Biodiversité", "Surfréquentation"],
     "links": {
       "page": "https://csoluble.media/epsode/joyau-naturel-comment-les-calanques-se-protegent/",
-      "spotify": "https://open.spotify.com/episode/2kDzXpNupDuinqjqcDjgAL?si=vASYVWh2R62ZGhE43CFutQTortues",
+      "spotify": "https://open.spotify.com/episode/2kDzXpNupDuinqjqcDjgAL?si=vASYVWh2R62ZGhE43CFutQ",
       "apple": "https://podcasts.apple.com/fr/podcast/joyau-naturel-comment-les-calanques-se-prot%C3%A8gent/id1640003869?i=1000657616110",
-      "deezer": null,
-      "youtube": null,
+      "deezer": "https://link.deezer.com/s/31ARObm0Yg1eQLL6eo2Lv",
+      "youtube": "https://www.youtube.com/watch?v=kpEDc2Xzssc",
       "transcription": "https://csoluble.media/epsode/transcription-joyau-naturel-comment-les-calanques-se-protegent/",
       "summary": null
     }
@@ -724,17 +725,17 @@ export const EPISODE_DATA: Episode[] = [
     "id": "ep73",
     "title": "E-commerce à impact : anti-crise et contre le gaspillage alimentaire, Willy anti-gaspi à la manœuvre",
     "date": "2024-05-27",
-    "duration": "24:10:00",
+    "duration": "24:10",
     "guest": "Clément Mery",
     "category": "Vie quotidienne",
     "description": "Clément Mery discute de Willy anti-gaspi, un site e-commerce dédié à la lutte contre le gaspillage alimentaire.",
     "themes": ["Gaspillage alimentaire", "E-commerce", "Anti-gaspi"],
     "links": {
       "page": "https://csoluble.media/epsode/e-commerce-a-impact-anti-crise-et-contre-le-gaspillage-alimentaire-willy-anti-gaspi-a-la-manoeuvre/",
-      "spotify": "https://open.spotify.com/episode/4Iz3ipxKRUqV5hWOSRDY0r?si=D5ui_nG9T9GzYeKMIJItXAJoyau",
+      "spotify": "https://open.spotify.com/episode/4Iz3ipxKRUqV5hWOSRDY0r?si=D5ui_nG9T9GzYeKMIJItXA",
       "apple": "https://podcasts.apple.com/fr/podcast/e-commerce-%C3%A0-impact-anti-crise-et-contre-le-gaspillage/id1640003869?i=1000656848870",
-      "deezer": null,
-      "youtube": null,
+      "deezer": "https://link.deezer.com/s/31AROwASa67wsZguIJqiB",
+      "youtube": "https://www.youtube.com/watch?v=IFwtj1ps8Sw",
       "transcription": "https://csoluble.media/epsode/transcription-e-commerce-a-impact-anti-crise-et-contre-le-gaspillage-alimentaire-willy-anti-gaspi-a-la-manoeuvre/",
       "summary": null
     }
@@ -750,10 +751,10 @@ export const EPISODE_DATA: Episode[] = [
     "themes": ["Média écologique", "Transition durable", "2050Now"],
     "links": {
       "page": "https://csoluble.media/epsode/2050now-le-media-qui-vise-14-millions-de-francais-la-classe-ecologique/",
-      "spotify": "https://open.spotify.com/episode/6AycD9ScbbZfAJUCLSuRoH?si=cgeDe1ryQNqdKsAU-CVpiQE-commerce",
+      "spotify": "https://open.spotify.com/episode/6AycD9ScbbZfAJUCLSuRoH?si=cgeDe1ryQNqdKsAU-CVpiQ",
       "apple": "https://podcasts.apple.com/fr/podcast/2050now-le-m%C3%A9dia-qui-vise-14-millions-de-fran%C3%A7ais-la/id1640003869?i=1000656095327",
-      "deezer": null,
-      "youtube": null,
+      "deezer": "https://link.deezer.com/s/31AROOcWxS8SYS0Di9mR9",
+      "youtube": "https://www.youtube.com/watch?v=Bp0XO2_RVPw",
       "transcription": "https://csoluble.media/epsode/transcription-2050now-le-media-qui-vise-14-millions-de-francais-la-classe-ecologique/",
       "summary": null
     }
@@ -762,17 +763,17 @@ export const EPISODE_DATA: Episode[] = [
     "id": "ep71",
     "title": "Au fait, ça sert à quoi d'élire un Parlement européen ?",
     "date": "2024-05-13",
-    "duration": "32:21:00",
+    "duration": "32:21",
     "guest": "Audrey Vuetaz",
     "category": "Société",
     "description": "Audrey Vuetaz explique le rôle et le fonctionnement du Parlement européen, ainsi que les enjeux des élections européennes de juin 2024.",
     "themes": ["Parlement européen", "Élections européennes", "Union européenne"],
     "links": {
       "page": "https://csoluble.media/epsode/au-fait-ca-sert-a-quoi-delire-un-parlement-europeen/",
-      "spotify": "https://open.spotify.com/episode/5QiXhiwZ3Y4kZLsjs8Wbp7?si=jfv1nPadSjCeTrA4zRCwUA2050Now",
+      "spotify": "https://open.spotify.com/episode/5QiXhiwZ3Y4kZLsjs8Wbp7?si=jfv1nPadSjCeTrA4zRCwUA",
       "apple": "https://podcasts.apple.com/fr/podcast/au-fait-%C3%A7a-sert-%C3%A0-quoi-d%C3%A9lire-un-parlement-europ%C3%A9en/id1640003869?i=1000655364435",
-      "deezer": null,
-      "youtube": null,
+      "deezer": "https://link.deezer.com/s/31ARPaNfcV6VpBsOM6uTJ",
+      "youtube": "https://www.youtube.com/watch?v=V6qNjX8l9Ts",
       "transcription": "https://csoluble.media/epsode/transcription-au-fait-ca-sert-a-quoi-delire-un-parlement-europeen/",
       "summary": null
     }
@@ -781,17 +782,17 @@ export const EPISODE_DATA: Episode[] = [
     "id": "ep70",
     "title": "Des solutions pour avoir de la répartie écologique",
     "date": "2024-05-06",
-    "duration": "29:56:00",
+    "duration": "29:56",
     "guest": "Margot Jacq",
     "category": "Environnement",
     "description": "Margot Jacq discute de son livre \"Petit manuel de répartie écologique\" qui propose des réponses pour déconstruire les discours climatosceptiques.",
     "themes": ["Répartie écologique", "Climat", "Discours climatosceptiques"],
     "links": {
       "page": "https://csoluble.media/epsode/des-solutions-pour-avoir-de-la-repartie-ecologique/",
-      "spotify": "https://open.spotify.com/episode/4AFFqU39bQnfiEJxDFxTms?si=IEjU88RYQJugyZ89PB92uAAu",
+      "spotify": "https://open.spotify.com/episode/4AFFqU39bQnfiEJxDFxTms?si=IEjU88RYQJugyZ89PB92uA",
       "apple": "https://podcasts.apple.com/fr/podcast/des-solutions-pour-avoir-de-la-r%C3%A9partie-%C3%A9cologique/id1640003869?i=1000654624114",
-      "deezer": null,
-      "youtube": null,
+      "deezer": "https://link.deezer.com/s/31ARPuiMmc8TLWCmEcp8k",
+      "youtube": "https://www.youtube.com/watch?v=O9N8FJi-X3o",
       "transcription": "https://csoluble.media/epsode/transcription-des-solutions-pour-avoir-de-la-repartie-ecologique/",
       "summary": null
     }
@@ -807,10 +808,10 @@ export const EPISODE_DATA: Episode[] = [
     "themes": ["Biodiversité", "IA", "Big Data", "LiDAR"],
     "links": {
       "page": "https://csoluble.media/epsode/ia-big-data-satellite-lidar-quand-les-donnees-numeriques-se-mettent-au-service-de-la-biodiversite/",
-      "spotify": "https://open.spotify.com/episode/7zep9eaWOPNIeKTcr1ZxpK?si=7k3mMmiPSeGUUC_8XwBmggDes",
+      "spotify": "https://open.spotify.com/episode/7zep9eaWOPNIeKTcr1ZxpK?si=7k3mMmiPSeGUUC_8XwBmgg",
       "apple": "https://podcasts.apple.com/fr/podcast/ia-big-data-satellite-lidar-quand-les-donn%C3%A9es-num%C3%A9riques/id1640003869?i=1000653863136",
-      "deezer": null,
-      "youtube": null,
+      "deezer": "https://link.deezer.com/s/31ARPOJ8SR0kfqeqlEcw1",
+      "youtube": "https://www.youtube.com/watch?v=NJumLwmxP4w",
       "transcription": "https://csoluble.media/epsode/transcription-ia-big-data-satellite-lidar-quand-les-donnees-numeriques-se-mettent-au-service-de-la-biodiversite/",
       "summary": null
     }
@@ -819,17 +820,17 @@ export const EPISODE_DATA: Episode[] = [
     "id": "ep68",
     "title": "La Fresque du Climat, l'atelier viral qui crée un déclic en jouant",
     "date": "2024-04-02",
-    "duration": "24:18:00",
+    "duration": "24:18",
     "guest": "Nicolas Froissard",
     "category": "Environnement",
     "description": "Découvrez comment La Fresque du Climat, un atelier ludique et collaboratif, transforme la compréhension des enjeux climatiques en une expérience engageante et éducative.",
     "themes": ["Fresque du Climat", "Sensibilisation climatique", "Atelier collaboratif"],
     "links": {
       "page": "https://csoluble.media/epsode/la-fresque-du-climat-latelier-viral-qui-cree-un-declic-en-jouant/",
-      "spotify": "https://open.spotify.com/episode/6IVYKpYACmESixNca1LeCY?si=9I8Ne1OiSPOQjQS--qOKzAIA",
+      "spotify": "https://open.spotify.com/episode/6IVYKpYACmESixNca1LeCY?si=9I8Ne1OiSPOQjQS--qOKzA",
       "apple": "https://podcasts.apple.com/fr/podcast/la-fresque-du-climat-latelier-viral-qui-cr%C3%A9e-un/id1640003869?i=1000651137634",
-      "deezer": null,
-      "youtube": null,
+      "deezer": "https://link.deezer.com/s/31ARQio6mfCb9DHqmOW2q",
+      "youtube": "https://www.youtube.com/watch?v=5ivRUxrpjIU",
       "transcription": "https://csoluble.media/epsode/transcription-la-fresque-du-climat-latelier-viral-qui-cree-un-declic-en-jouant/",
       "summary": null
     }
@@ -838,17 +839,17 @@ export const EPISODE_DATA: Episode[] = [
     "id": "ep67",
     "title": "[Spécial Podcasthon] Avec Reporters d’Espoirs pour des médias qui donnent envie d’agir",
     "date": "2024-03-25",
-    "duration": "27:32:00",
+    "duration": "27:32",
     "guest": "Gilles Vanderpooten",
     "category": "Société",
     "description": "Gilles Vanderpooten discute du journalisme de solutions et des actions de Reporters d’Espoirs pour promouvoir des histoires positives et inspirantes.",
     "themes": ["Journalisme de solutions", "Reporters d’Espoirs", "Médias positifs"],
     "links": {
       "page": "https://csoluble.media/epsode/special-podcasthon-avec-reporters-despoirs-pour-des-medias-qui-donnent-envie-dagir/",
-      "spotify": "https://open.spotify.com/episode/4cwrN9uqZeMPicPMoOW7Lv?si=9r-KgUYwRj-VJsnU7V_FtALa",
+      "spotify": "https://open.spotify.com/episode/4cwrN9uqZeMPicPMoOW7Lv?si=9r-KgUYwRj-VJsnU7V_FtA",
       "apple": "https://podcasts.apple.com/fr/podcast/sp%C3%A9cial-podcasthon-avec-reporters-despoirs-pour-des/id1640003869?i=1000650316155",
-      "deezer": null,
-      "youtube": null,
+      "deezer": "https://link.deezer.com/s/31ARQAJHayHt5AOMdUK38",
+      "youtube": "https://www.youtube.com/watch?v=5ttGMsMEOUY",
       "transcription": "https://csoluble.media/epsode/transcription-special-podcasthon-avec-reporters-despoirs-pour-des-medias-qui-donnent-envie-dagir/",
       "summary": null
     }
@@ -864,10 +865,10 @@ export const EPISODE_DATA: Episode[] = [
     "themes": ["CDD Tremplin", "Inclusion professionnelle", "Handicap"],
     "links": {
       "page": "https://csoluble.media/epsode/quest-ce-que-le-cdd-tremplin-qui-permet-aux-travailleurs-handicapes-de-rebondir-vers-un-emploi-durable/",
-      "spotify": "https://open.spotify.com/episode/2Wrm7hTRvNrXrWMEF4RsaX?si=NA5LKOKSR-O37HsuNv2mug[Spécial",
+      "spotify": "https://open.spotify.com/episode/2Wrm7hTRvNrXrWMEF4RsaX?si=NA5LKOKSR-O37HsuNv2mug",
       "apple": "https://podcasts.apple.com/fr/podcast/quest-ce-que-le-cdd-tremplin-qui-permet-aux-travailleurs/id1640003869?i=1000649526096",
-      "deezer": null,
-      "youtube": null,
+      "deezer": "https://link.deezer.com/s/31ARQU7V1IyjB1fmVIu6W",
+      "youtube": "https://www.youtube.com/watch?v=_D6LOERLYE0",
       "transcription": "https://csoluble.media/epsode/transcription-quest-ce-que-le-cdd-tremplin-qui-permet-aux-travailleurs-handicapes-de-rebondir-vers-un-emploi-durable/",
       "summary": null
     }
@@ -876,17 +877,17 @@ export const EPISODE_DATA: Episode[] = [
     "id": "ep65",
     "title": "Enfants et adolescents : les protéger des écrans. Oui, mais comment ?",
     "date": "2024-03-11",
-    "duration": "30:45:00",
+    "duration": "30:45",
     "guest": "Sabine Duflo",
     "category": "Vie quotidienne",
     "description": "Sabine Duflo, psychologue, explore les défis liés à l'exposition des enfants aux écrans et propose des stratégies concrètes pour les protéger des effets néfastes.",
     "themes": ["Protection enfants écrans", "Temps d'écran", "Santé numérique"],
     "links": {
       "page": "https://csoluble.media/epsode/enfants-et-adolescents-les-proteger-des-ecrans-oui-mais-comment/",
-      "spotify": "https://open.spotify.com/episode/1F42sEaevfFASL4eCSQqcW?si=D3rWrBKgRWe5yGQMrlCrzQQu’est-ce",
+      "spotify": "https://open.spotify.com/episode/1F42sEaevfFASL4eCSQqcW?si=D3rWrBKgRWe5yGQMrlCrzQ",
       "apple": "https://podcasts.apple.com/fr/podcast/enfants-et-adolescents-les-prot%C3%A9ger-des-%C3%A9crans-oui/id1640003869?i=1000648709519",
-      "deezer": null,
-      "youtube": null,
+      "deezer": "https://link.deezer.com/s/31ARRef50iVpxpEmNzDJK",
+      "youtube": "https://www.youtube.com/watch?v=Bm1a3U1gnDI",
       "transcription": "https://csoluble.media/epsode/transcription-enfants-et-adolescents-les-proteger-des-ecrans-oui-mais-comment/",
       "summary": null
     }
@@ -895,17 +896,17 @@ export const EPISODE_DATA: Episode[] = [
     "id": "ep64",
     "title": "Comment repérer un discours et des contenus complotistes",
     "date": "2024-03-04",
-    "duration": "41:08:00",
+    "duration": "41:08",
     "guest": "Rudy Reichstadt",
     "category": "Société",
     "description": "Avec Rudy Reichstadt (fondateur de Conspiracy Watch), décryptez les mécanismes des théories du complot, apprenez à identifier leurs pièges et renforcez votre esprit critique. Un guide essentiel à l’ère des réseaux sociaux. 🎧",
     "themes": ["Théories du complot", "Conspiracy Watch", "Esprit critique"],
     "links": {
       "page": "https://csoluble.media/epsode/comment-reperer-un-discours-et-des-contenus-complotistes/",
-      "spotify": "https://open.spotify.com/episode/64ePr1myZvxsMacn8H0xc4?si=Yye00yuSRbCLZ7L3M13mlAEnfants",
+      "spotify": "https://open.spotify.com/episode/64ePr1myZvxsMacn8H0xc4?si=Yye00yuSRbCLZ7L3M13mlA",
       "apple": "https://podcasts.apple.com/fr/podcast/comment-rep%C3%A9rer-un-discours-et-des-contenus-complotistes/id1640003869?i=1000647882047",
-      "deezer": null,
-      "youtube": null,
+      "deezer": "https://link.deezer.com/s/31ARRuUF48XIqZuCfQsQi",
+      "youtube": "https://www.youtube.com/watch?v=WuBy7KNYm8o",
       "transcription": "https://csoluble.media/epsode/transcription-comment-reperer-un-discours-et-des-contenus-complotistes/",
       "summary": null
     }
@@ -921,10 +922,10 @@ export const EPISODE_DATA: Episode[] = [
     "themes": ["Podcasthon 2024", "Générosité", "Podcasts caritatifs"],
     "links": {
       "page": "https://csoluble.media/epsode/podcasthon-2024-la-generosite-sexprime-en-coeur-pendant-7-jours-dans-les-podcasts/",
-      "spotify": "https://open.spotify.com/episode/5ub7N4pKYB8XCd8fNTaSwD?si=Aj7DanatRMyf0wqCucxd6gComment",
+      "spotify": "https://open.spotify.com/episode/5ub7N4pKYB8XCd8fNTaSwD?si=Aj7DanatRMyf0wqCucxd6g",
       "apple": "https://podcasts.apple.com/fr/podcast/podcasthon-2024-la-g%C3%A9n%C3%A9rosit%C3%A9-sexprime-en-c%C5%93ur-pendant/id1640003869?i=1000645814546",
-      "deezer": null,
-      "youtube": null,
+      "deezer": "https://link.deezer.com/s/31ARRNclThZDorDaLluEb",
+      "youtube": "https://www.youtube.com/watch?v=YojI3XG3Dis",
       "transcription": "https://csoluble.media/epsode/transcription-podcasthon-2024-la-generosite-sexprime-en-coeur-pendant-7-jours-dans-les-podcasts/",
       "summary": null
     }
@@ -940,10 +941,10 @@ export const EPISODE_DATA: Episode[] = [
     "themes": ["Endométriose", "Éducation thérapeutique", "Soutien patientes"],
     "links": {
       "page": "https://csoluble.media/epsode/endometriose-leducation-therapeutique-pour-mieux-soutenir-les-patientes/",
-      "spotify": "https://open.spotify.com/episode/59QECVcPBjr0dhxIgKFBWl?si=eFgYOUcdTaKXrgep0PQJvwPodcasthon",
+      "spotify": "https://open.spotify.com/episode/59QECVcPBjr0dhxIgKFBWl?si=eFgYOUcdTaKXrgep0PQJvw",
       "apple": "https://podcasts.apple.com/fr/podcast/endom%C3%A9triose-l%C3%A9ducation-th%C3%A9rapeutique-pour-mieux-soutenir/id1640003869?i=1000644159471",
-      "deezer": null,
-      "youtube": null,
+      "deezer": "https://link.deezer.com/s/31ARSj4zdsTxbkMq73mZs",
+      "youtube": "https://www.youtube.com/watch?v=J86imjqHls0",
       "transcription": "https://csoluble.media/epsode/transcription-endometriose-leducation-therapeutique-pour-mieux-soutenir-les-patientes/",
       "summary": null
     }
@@ -952,17 +953,17 @@ export const EPISODE_DATA: Episode[] = [
     "id": "ep61",
     "title": "Précarité : un chèque alimentation durable de 50 euros testé en Seine-Saint-Denis",
     "date": "2024-01-29",
-    "duration": "24:53:00",
+    "duration": "24:53",
     "guest": "Hélène Quéau",
     "category": "Vie quotidienne",
     "description": "Découvrez comment le chèque alimentation durable de 50 euros aide les habitants de Seine-Saint-Denis à accéder à des produits sains et durables, tout en luttant contre la précarité alimentaire.",
     "themes": ["Chèque alimentation", "Précarité alimentaire", "Alimentation durable"],
     "links": {
       "page": "https://csoluble.media/epsode/precarite-un-cheque-alimentation-durable-de-50-euros-teste-en-seine-saint-denis/",
-      "spotify": "https://open.spotify.com/episode/1rKJoXFK4mzQq6jvGSZD4u?si=-tI--PV_SfGLzyjZX4Bd-AEndométriose",
+      "spotify": "https://open.spotify.com/episode/1rKJoXFK4mzQq6jvGSZD4u?si=-tI--PV_SfGLzyjZX4Bd-A",
       "apple": "https://podcasts.apple.com/fr/podcast/pr%C3%A9carit%C3%A9-un-ch%C3%A8que-alimentation-durable-de-50/id1640003869?i=1000643319493",
-      "deezer": null,
-      "youtube": null,
+      "deezer": "https://link.deezer.com/s/31ARSzIYUZGZit5X93Zya",
+      "youtube": "https://www.youtube.com/watch?v=CoqX9lEIaUw",
       "transcription": "https://csoluble.media/epsode/transcription-precarite-un-cheque-alimentation-durable-de-50-euros-teste-en-seine-saint-denis/",
       "summary": null
     }
@@ -971,17 +972,17 @@ export const EPISODE_DATA: Episode[] = [
     "id": "ep60",
     "title": "De moins en moins blanche, la montagne peut-elle devenir plus verte ?",
     "date": "2024-01-22",
-    "duration": "28:46:00",
+    "duration": "28:46",
     "guest": "Valérie Paumier",
     "category": "Environnement",
     "description": "Découvrez comment les stations de montagne peuvent s'adapter aux défis climatiques et écologiques pour devenir plus durables. Valérie Paumier, fondatrice de Résilience Montagne, partage ses solutions pour transformer les stations de ski en destinations vertes.",
     "themes": ["Montagne durable", "Résilience Montagne", "Stations vertes"],
     "links": {
       "page": "https://csoluble.media/epsode/de-moins-en-moins-blanche-la-montagne-peut-elle-devenir-plus-verte/",
-      "spotify": "https://open.spotify.com/episode/6h9XdEmJI4gox66vV9RbpC?si=NBflrv82Qu-4oXIqhHvzBwPrécarité",
+      "spotify": "https://open.spotify.com/episode/6h9XdEmJI4gox66vV9RbpC?si=NBflrv82Qu-4oXIqhHvzBw",
       "apple": "https://podcasts.apple.com/fr/podcast/de-moins-en-moins-blanche-la-montagne-peut-elle/id1640003869?i=1000642437471",
-      "deezer": null,
-      "youtube": null,
+      "deezer": "https://link.deezer.com/s/31ARTaDCyILQQ4u0hPCD9",
+      "youtube": "https://www.youtube.com/watch?v=JZ_pGWDU7No",
       "transcription": "https://csoluble.media/epsode/transcription-de-moins-en-moins-blanche-la-montagne-peut-elle-devenir-plus-verte/",
       "summary": null
     }
@@ -997,10 +998,10 @@ export const EPISODE_DATA: Episode[] = [
     "themes": ["AMEP", "Électricité renouvelable", "Partage d'énergie"],
     "links": {
       "page": "https://csoluble.media/epsode/amep-cest-quoi-le-don-delectricite-renouvelable-entre-voisins/",
-      "spotify": "https://open.spotify.com/episode/6MxuA7fqomh5XOLOUY7UDC?si=d6u3FbCHRD6uC0pvGDQ-bwDe",
+      "spotify": "https://open.spotify.com/episode/6MxuA7fqomh5XOLOUY7UDC?si=d6u3FbCHRD6uC0pvGDQ-bw",
       "apple": "https://podcasts.apple.com/fr/podcast/amep-cest-quoi-le-don-d%C3%A9lectricit%C3%A9-renouvelable-entre/id1640003869?i=1000641657539",
-      "deezer": null,
-      "youtube": null,
+      "deezer": "https://link.deezer.com/s/31ARTsMxjEM0pb3BXt1bb",
+      "youtube": "https://www.youtube.com/watch?v=z7jTM75vybE",
       "transcription": "https://csoluble.media/epsode/transcription-amep-cest-quoi-le-don-delectricite-renouvelable-entre-voisins/",
       "summary": null
     }
@@ -1009,17 +1010,17 @@ export const EPISODE_DATA: Episode[] = [
     "id": "ep58",
     "title": "Des solutions pour régénérer le cycle de l’eau avec Charlène Descollonges",
     "date": "2024-01-08",
-    "duration": "26:04:00",
+    "duration": "26:04",
     "guest": "Charlène Descollonges",
     "category": "Environnement",
     "description": "Découvrez comment Charlène Descollonges propose des solutions pour régénérer le cycle de l'eau, essentiel à notre survie, en agissant localement sur les paysages et en ralentissant le ruissellement de l'eau.",
     "themes": ["Cycle de l'eau", "Régénération", "Hydrologie"],
     "links": {
       "page": "https://csoluble.media/epsode/des-solutions-pour-regenerer-le-cycle-de-leau-avec-charlene-descollonges/",
-      "spotify": "https://open.spotify.com/episode/4f8vxDBjc2Nk91mDBSiuUE?si=Xq38yskKQ0a3h5RU6L5-fgAMEP",
+      "spotify": "https://open.spotify.com/episode/4f8vxDBjc2Nk91mDBSiuUE?si=Xq38yskKQ0a3h5RU6L5-fg",
       "apple": "https://podcasts.apple.com/fr/podcast/des-solutions-pour-r%C3%A9g%C3%A9n%C3%A9rer-le-cycle-de-leau-avec/id1640003869?i=1000640854468",
-      "deezer": null,
-      "youtube": null,
+      "deezer": "https://link.deezer.com/s/31ARU9I2tykSh1UM2G2Ty",
+      "youtube": "https://www.youtube.com/watch?v=OarVXTYMY9Y",
       "transcription": "https://csoluble.media/epsode/transcription-des-solutions-pour-regenerer-le-cycle-de-leau-avec-charlene-descollonges/",
       "summary": null
     }
@@ -1035,10 +1036,10 @@ export const EPISODE_DATA: Episode[] = [
     "themes": ["Carte médiatique", "Podcasts français", "Paysage médiatique"],
     "links": {
       "page": "https://csoluble.media/epsode/les-podcasts-a-suivre-sur-la-nouvelle-carte-tres-subjective-du-paysage-mediatique-francais/",
-      "spotify": "https://open.spotify.com/episode/5HpyM2w0XA1ysZ0rCvdmV1?si=nQXEm2-1TL2Q6uPBGYbclQDes",
+      "spotify": "https://open.spotify.com/episode/5HpyM2w0XA1ysZ0rCvdmV1?si=nQXEm2-1TL2Q6uPBGYbclQ",
       "apple": "https://podcasts.apple.com/fr/podcast/les-podcasts-%C3%A0-suivre-sur-la-nouvelle-carte-tr%C3%A8s-subjective/id1640003869?i=1000640390155",
-      "deezer": null,
-      "youtube": null,
+      "deezer": "https://link.deezer.com/s/31ARUs8pdmD3QEujXMv3D",
+      "youtube": "https://www.youtube.com/watch?v=80DowLpEArs",
       "transcription": "https://csoluble.media/epsode/transcription-les-podcasts-a-suivre-sur-la-nouvelle-carte-tres-subjective-du-paysage-mediatique-francais/",
       "summary": null
     }
@@ -1054,10 +1055,10 @@ export const EPISODE_DATA: Episode[] = [
     "themes": ["Podcast personnel", "Enrichissement", "Expériences"],
     "links": {
       "page": "https://csoluble.media/epsode/comment-solubles-ma-rendu-riche-episode-solo/",
-      "spotify": "https://open.spotify.com/episode/7nZUG2kerJB3LG9grCkdYCLes",
+      "spotify": "https://open.spotify.com/episode/7nZUG2kerJB3LG9grCkdYC",
       "apple": "https://podcasts.apple.com/fr/podcast/soluble-s-m-a-rendu-riche-episode-solo/id1640003869?i=1000639739284",
-      "deezer": null,
-      "youtube": null,
+      "deezer": "https://link.deezer.com/s/31ARUJlws9D4qY2jR8a4M",
+      "youtube": "https://www.youtube.com/watch?v=pqz5RDb1gS0",
       "transcription": "https://csoluble.media/epsode/transcription-comment-solubles-ma-rendu-riche-episode-solo/",
       "summary": null
     }
@@ -1073,10 +1074,10 @@ export const EPISODE_DATA: Episode[] = [
     "themes": ["Journalisme de solutions", "Nice-Matin", "Abonnés numériques"],
     "links": {
       "page": "https://csoluble.media/epsode/des-reponses-et-des-solutions-pour-les-abonnes-des-medias-du-groupe-nice-matin/",
-      "spotify": "https://open.spotify.com/episode/5Vm3yWLaZF7M6RxhyhUmTl?si=4Z7VkYXTSSWAR9oyKTc2GwComment",
+      "spotify": "https://open.spotify.com/episode/5Vm3yWLaZF7M6RxhyhUmTl?si=4Z7VkYXTSSWAR9oyKTc2Gw",
       "apple": "https://podcasts.apple.com/fr/podcast/des-r%C3%A9ponses-et-des-solutions-pour-les-abonn%C3%A9s-des/id1640003869?i=1000639164505",
-      "deezer": null,
-      "youtube": null,
+      "deezer": "https://link.deezer.com/s/31ARV4LoBl31LQmYcSstc",
+      "youtube": "https://www.youtube.com/watch?v=_bhPsGv9PRI",
       "transcription": "https://csoluble.media/epsode/transcription-des-reponses-et-des-solutions-pour-les-abonnes-des-medias-du-groupe-nice-matin/",
       "summary": null
     }
@@ -1085,17 +1086,17 @@ export const EPISODE_DATA: Episode[] = [
     "id": "ep54",
     "title": "Ouest-France, sa boussole pour informer sur l’écologie",
     "date": "2023-12-18",
-    "duration": "37:12:00",
+    "duration": "37:12",
     "guest": "Édouard Reis Carona",
     "category": "Environnement",
     "description": "Découvrez comment Ouest-France utilise sa charte éditoriale pour informer sur les enjeux écologiques et climatiques, en alignant ses journalistes sur le consensus scientifique.",
     "themes": ["Charte éditoriale", "Écologie", "Journalisme"],
     "links": {
       "page": "https://csoluble.media/epsode/ouest-france-sa-boussole-pour-informer-sur-lecologie/",
-      "spotify": "https://open.spotify.com/episode/55eUD1PLrC53oG5InzNymb?si=SdhYaeucTfmWO6W_nE9pKADes",
+      "spotify": "https://open.spotify.com/episode/55eUD1PLrC53oG5InzNymb?si=SdhYaeucTfmWO6W_nE9pKA",
       "apple": "https://podcasts.apple.com/fr/podcast/ouest-france-sa-boussole-pour-informer-sur-l%C3%A9cologie/id1640003869?i=1000638892073",
-      "deezer": null,
-      "youtube": null,
+      "deezer": "https://link.deezer.com/s/31ARViipmEwnrhwbmxnOD",
+      "youtube": "https://www.youtube.com/watch?v=Bl2eYPUBVUE",
       "transcription": "https://csoluble.media/epsode/transcription-ouest-france-sa-boussole-pour-informer-sur-lecologie/",
       "summary": null
     }
@@ -1104,17 +1105,17 @@ export const EPISODE_DATA: Episode[] = [
     "id": "ep53",
     "title": "Comment TF1 et LCI luttent contre les fake news",
     "date": "2023-12-11",
-    "duration": "29:17:00",
+    "duration": "29:17",
     "guest": "Samira El Gadir",
     "category": "Société",
     "description": "Découvrez comment TF1 et LCI combattent la désinformation avec une équipe dédiée à la vérification des faits, face à la prolifération de contenus trompeurs sur les réseaux sociaux.",
     "themes": ["Fake news", "Vérification des faits", "Désinformation"],
     "links": {
       "page": "https://csoluble.media/epsode/comment-tf1-et-lci-luttent-contre-les-fake-news/",
-      "spotify": "https://open.spotify.com/episode/5sJVHK51108qdjrUjmmCAg?si=cbs-apukTR6V-0gs9nCGawOuest-France",
+      "spotify": "https://open.spotify.com/episode/5sJVHK51108qdjrUjmmCAg?si=cbs-apukTR6V-0gs9nCGaw",
       "apple": "https://podcasts.apple.com/fr/podcast/comment-tf1-et-lci-luttent-contre-les-fake-news/id1640003869?i=1000638134124",
-      "deezer": null,
-      "youtube": null,
+      "deezer": "https://link.deezer.com/s/31ARVAd085m6r8hX7JH7L",
+      "youtube": "https://www.youtube.com/watch?v=DZRvF_dfhH8",
       "transcription": "https://csoluble.media/epsode/transcription-comment-tf1-et-lci-luttent-contre-les-fake-news/",
       "summary": null
     }
@@ -1123,17 +1124,17 @@ export const EPISODE_DATA: Episode[] = [
     "id": "ep52",
     "title": "Devenir famille d’accueil pour futur chien guide",
     "date": "2023-12-03",
-    "duration": "28:47:00",
+    "duration": "28:47",
     "guest": "Estelle Boullu",
     "category": "Société",
     "description": "Découvrez comment les chiens guides sont formés et comment devenir famille d'accueil pour ces futurs compagnons indispensables aux personnes aveugles ou malvoyantes.",
     "themes": ["Chien guide", "Famille d'accueil", "Solidarité"],
     "links": {
       "page": "https://csoluble.media/epsode/devenir-famille-daccueil-pour-futur-chien-guide/",
-      "spotify": "https://open.spotify.com/episode/6nMnULYcL0OoPW3MPt0Kqj?si=ZwMbMg_XT6KzYMcrYphN_gComment",
+      "spotify": "https://open.spotify.com/episode/6nMnULYcL0OoPW3MPt0Kqj?si=ZwMbMg_XT6KzYMcrYphN_g",
       "apple": "https://podcasts.apple.com/fr/podcast/devenir-famille-daccueil-pour-futur-chien-guide/id1640003869?i=1000637379757",
-      "deezer": null,
-      "youtube": null,
+      "deezer": "https://link.deezer.com/s/31ARVPcFswzAkczN6bg8p",
+      "youtube": "https://www.youtube.com/watch?v=ApJk8rLs_mg",
       "transcription": "https://csoluble.media/epsode/transcription-devenir-famille-daccueil-pour-futur-chien-guide/",
       "summary": null
     }
@@ -1142,17 +1143,17 @@ export const EPISODE_DATA: Episode[] = [
     "id": "ep51",
     "title": "La Maison des femmes Marseille Provence - Un cocon pour se réparer et rebondir après les violences",
     "date": "2023-11-27",
-    "duration": "28:47:00",
+    "duration": "28:47",
     "guest": "Dr Sophie Tardieu",
     "category": "Société",
     "description": "Découvrez comment la Maison des femmes Marseille Provence offre un soutien pluridisciplinaire aux femmes victimes de violences, en leur fournissant un lieu d’accueil sécurisé et bienveillant.",
     "themes": ["Maison des femmes", "Violences conjugales", "Soutien pluridisciplinaire", "Sophie Tardieu"],
     "links": {
       "page": "https://csoluble.media/epsode/la-maison-des-femmes-marseille-provence-un-cocon-pour-se-reparer-et-rebondir-apres-les-violences/",
-      "spotify": "https://open.spotify.com/episode/6li145dQP1kT6xaBSiGfKQ?si=cY6rPBR8QhKxfU2tzUCXKADevenir",
+      "spotify": "https://open.spotify.com/episode/6li145dQP1kT6xaBSiGfKQ?si=cY6rPBR8QhKxfU2tzUCXKA",
       "apple": "https://podcasts.apple.com/fr/podcast/maison-des-femmes-marseille-provence-un-cocon-pour/id1640003869?i=1000632227372",
-      "deezer": null,
-      "youtube": null,
+      "deezer": "https://link.deezer.com/s/31ARXghH9Dv7KcgKwrieM",
+      "youtube": "https://www.youtube.com/watch?v=N_0Rdt9Hp9Q",
       "transcription": "https://csoluble.media/epsode/transcription-la-maison-des-femmes-marseille-provence-un-cocon-pour-se-reparer-et-rebondir-apres-les-violences/",
       "summary": null
     }
@@ -1161,17 +1162,17 @@ export const EPISODE_DATA: Episode[] = [
     "id": "ep50",
     "title": "La PrEP, c’est quoi ce traitement gratuit qui protège du sida ?",
     "date": "2023-11-27",
-    "duration": "26:41:00",
+    "duration": "26:41",
     "guest": "Dr Radia Djebbar",
     "category": "Société",
     "description": "Découvrez comment la PrEP, un traitement préventif gratuit, aide à protéger contre le VIH et réduit les risques de contamination, avec le Dr Radia Djebbar.",
     "themes": ["PrEP", "VIH", "Traitement préventif"],
     "links": {
       "page": "https://csoluble.media/epsode/la-prep-cest-quoi-ce-traitement-gratuit-qui-protege-du-sida/",
-      "spotify": "https://open.spotify.com/episode/1Y1VkwYhEljrSoEfsy0dCU?si=T9TEN-efTd6vhFC7lZw9HwLa",
+      "spotify": "https://open.spotify.com/episode/1Y1VkwYhEljrSoEfsy0dCU?si=T9TEN-efTd6vhFC7lZw9Hw",
       "apple": "https://podcasts.apple.com/fr/podcast/la-prep-cest-quoi-ce-traitement-gratuit-qui-prot%C3%A8ge-du-sida/id1640003869?i=1000636599014",
-      "deezer": null,
-      "youtube": null,
+      "deezer": "https://link.deezer.com/s/31ARW5ymuyH3fcVEs8xTt",
+      "youtube": "https://www.youtube.com/watch?v=yVdJmV_Fjhg",
       "transcription": "https://csoluble.media/epsode/transcription-la-prep-cest-quoi-ce-traitement-gratuit-qui-protege-du-sida/",
       "summary": null
     }
@@ -1187,10 +1188,10 @@ export const EPISODE_DATA: Episode[] = [
     "themes": ["Banques Alimentaires", "Précarité alimentaire", "Grande collecte"],
     "links": {
       "page": "https://csoluble.media/epsode/comment-aider-les-gilets-orange-des-banques-alimentaires/",
-      "spotify": "https://open.spotify.com/episode/3VXjZxZSUPWC2A9oBRgq65?si=o5SAflwFSvKjqHaS-xTtLgLa",
+      "spotify": "https://open.spotify.com/episode/3VXjZxZSUPWC2A9oBRgq65?si=o5SAflwFSvKjqHaS-xTtLg",
       "apple": "https://podcasts.apple.com/fr/podcast/comment-aider-les-gilets-orange-des-banques-alimentaires/id1640003869?i=1000635377525",
-      "deezer": null,
-      "youtube": null,
+      "deezer": "https://link.deezer.com/s/31ARWmgLYy1HcptG3qO1f",
+      "youtube": "https://www.youtube.com/watch?v=GHek6ynjHxQ",
       "transcription": "https://csoluble.media/epsode/transcription-comment-aider-les-gilets-orange-des-banques-alimentaires/",
       "summary": null
     }
@@ -1206,10 +1207,10 @@ export const EPISODE_DATA: Episode[] = [
     "themes": ["Born in PPM", "CO2", "Sensibilisation"],
     "links": {
       "page": "https://csoluble.media/epsode/born-in-ppm-quest-ce-que-ce-projet-photo-qui-sensibilise-sur-la-hausse-du-co2-dans-latmosphere/",
-      "spotify": "https://open.spotify.com/episode/4qJmEJ3JOD6fl8B3x0shjB?si=U7SgH6itR5-B0B87awimaAComment",
+      "spotify": "https://open.spotify.com/episode/4qJmEJ3JOD6fl8B3x0shjB?si=U7SgH6itR5-B0B87awimaA",
       "apple": "https://podcasts.apple.com/fr/podcast/born-in-ppm-quest-ce-que-ce-projet-photo-qui-sensibilise/id1640003869?i=1000634578986",
-      "deezer": null,
-      "youtube": null,
+      "deezer": "https://link.deezer.com/s/31ARWBW3QNrQLq4X8VNt2",
+      "youtube": "https://www.youtube.com/watch?v=LGdqxdD6dng",
       "transcription": "https://csoluble.media/epsode/transcription-born-in-ppm-quest-ce-que-ce-projet-photo-qui-sensibilise-sur-la-hausse-du-co2-dans-latmosphere/",
       "summary": null
     }
@@ -1218,17 +1219,17 @@ export const EPISODE_DATA: Episode[] = [
     "id": "ep47",
     "title": "GLACIERS : Les protéger et conserver la vie qui arrive déjà (avec la fonte…)",
     "date": "2023-11-06",
-    "duration": "34:21:00",
+    "duration": "34:21",
     "guest": "Jean-Baptiste Bosson",
     "category": "Environnement",
     "description": "Découvrez comment les glaciers jouent un rôle crucial dans l'équilibre de la planète et comment les protéger face à la fonte accélérée par le réchauffement climatique.",
     "themes": ["Glaciers", "Réchauffement climatique", "Protection"],
     "links": {
       "page": "https://csoluble.media/epsode/glaciers-les-proteger-et-conserver-la-vie-qui-arrive-deja-avec-la-fonte/",
-      "spotify": "https://open.spotify.com/episode/4zQaFVqqlr2zH7OClkSWhd?si=gAIP8vWkTIOS2G1yBTEDOQBorn",
+      "spotify": "https://open.spotify.com/episode/4zQaFVqqlr2zH7OClkSWhd?si=gAIP8vWkTIOS2G1yBTEDOQ",
       "apple": "https://podcasts.apple.com/fr/podcast/glaciers-les-prot%C3%A9ger-et-conserver-la-vie-qui-arrive/id1640003869?i=1000633797213",
-      "deezer": null,
-      "youtube": null,
+      "deezer": "https://link.deezer.com/s/31ARWUl48D76c347u296v",
+      "youtube": "https://www.youtube.com/watch?v=_i1a-0mP96c",
       "transcription": "https://csoluble.media/epsode/transcription-glaciers-les-proteger-et-conserver-la-vie-qui-arrive-deja-avec-la-fonte/",
       "summary": null
     }
@@ -1237,19 +1238,19 @@ export const EPISODE_DATA: Episode[] = [
     "id": "ep46",
     "title": "Un abri qui sauve des vies face aux violences conjugales et intrafamiliales",
     "date": "2023-10-16",
-    "duration": "26:44:00",
+    "duration": "26:44",
     "guest": "Charlyne Péculier",
     "category": "Société",
     "description": "Découvrez comment les abris citoyens peuvent jouer un rôle crucial dans la protection des victimes de violences conjugales et intrafamiliales, en offrant un soutien sécurisé et confidentiel.",
     "themes": ["Abri", "Violences conjugales", "Soutien victimes"],
     "links": {
       "page": "https://csoluble.media/epsode/un-abri-qui-sauve-des-vies-face-aux-violences-conjugales-et-intrafamiliales/",
-      "spotify": "https://open.spotify.com/episode/3JJhcBiCZ3HNWhrCGdFD8F?si=OC4476WrSn-TMSvwHvXUKQGLACIERS",
+      "spotify": "https://open.spotify.com/episode/3JJhcBiCZ3HNWhrCGdFD8F?si=OC4476WrSn-TMSvwHvXUKQ",
       "apple": "https://podcasts.apple.com/fr/podcast/un-abri-qui-sauve-des-vies-face-aux-violences/id1640003869?i=1000631418614",
-      "deezer": null,
-      "youtube": null,
+      "deezer": "https://link.deezer.com/s/31ARXCL4xXZfsMU0U1CLP",
+      "youtube": "https://www.youtube.com/watch?v=oBTTLVUCBBU",
       "transcription": "https://csoluble.media/epsode/transcription-un-abri-qui-sauve-des-vies-face-aux-violences-conjugales-et-intrafamiliales/",
-      "summary": null
+      "summary": "https://csoluble.media/epsode/comment-lassociation-un-abri-qui-sauve-des-vies-aide-t-elle-les-personnes-victimes-de-violences-conjugales-et-intrafamiliales/"
     }
   },
   {
@@ -1263,10 +1264,10 @@ export const EPISODE_DATA: Episode[] = [
     "themes": ["Application anti-tabac", "OMS", "ludification", "addiction"],
     "links": {
       "page": "https://csoluble.media/epsode/la-premiere-appli-pour-arreter-de-fumer-validee-par-loms-est-francaise/",
-      "spotify": "https://open.spotify.com/episode/5tpEUK4NULfTxYfRRsCW8V?si=fo2df9HXTRKXgSBeJM87MwUn",
+      "spotify": "https://open.spotify.com/episode/5tpEUK4NULfTxYfRRsCW8V?si=fo2df9HXTRKXgSBeJM87Mw",
       "apple": "https://podcasts.apple.com/fr/podcast/la-premi%C3%A8re-appli-pour-arr%C3%AAter-de-fumer-valid%C3%A9e-par/id1640003869?i=1000630640542",
-      "deezer": null,
-      "youtube": null,
+      "deezer": "https://link.deezer.com/s/31ARXVkTRlaqDzkwuFTq4",
+      "youtube": "https://www.youtube.com/watch?v=Vs2H4ORf2tE",
       "transcription": "https://csoluble.media/epsode/transcription-la-premiere-appli-pour-arreter-de-fumer-validee-par-loms-est-francaise/",
       "summary": null
     }
@@ -1275,17 +1276,17 @@ export const EPISODE_DATA: Episode[] = [
     "id": "ep44",
     "title": "Comment soutenir les aidants qui travaillent ?",
     "date": "2023-10-02",
-    "duration": "24:30:00",
+    "duration": "24:30",
     "guest": "Dr Hélène Rossinot",
     "category": "Société",
     "description": "Découvrez comment les aidants, qui soutiennent un proche malade ou en situation de handicap, peuvent (et doivent) être soutenus dans leur vie professionnelle et personnelle.",
     "themes": ["Aidants", "Soutien", "Vie professionnelle"],
     "links": {
       "page": "https://csoluble.media/epsode/comment-soutenir-les-aidants-qui-travaillent/",
-      "spotify": "https://open.spotify.com/episode/7IuB0OFC5GmDWkgV6F2gjT?si=VD0nuwgDSZqF0CjmXjHYIwLa",
+      "spotify": "https://open.spotify.com/episode/7IuB0OFC5GmDWkgV6F2gjT?si=VD0nuwgDSZqF0CjmXjHYIw",
       "apple": "https://podcasts.apple.com/fr/podcast/comment-soutenir-les-aidants-qui-travaillent/id1640003869?i=1000629848699",
-      "deezer": null,
-      "youtube": null,
+      "deezer": "https://link.deezer.com/s/31ARYb1KIdOLrwU3DPnC9",
+      "youtube": "https://www.youtube.com/watch?v=oL2lF-T-odE",
       "transcription": "https://csoluble.media/epsode/transcription-comment-soutenir-les-aidants-qui-travaillent/",
       "summary": null
     }
@@ -1301,10 +1302,10 @@ export const EPISODE_DATA: Episode[] = [
     "themes": ["Précarité menstruelle", "distributeurs gratuits", "protections hygiéniques", "inégalité économique"],
     "links": {
       "page": "https://csoluble.media/epsode/ces-distributeurs-sattaquent-a-la-precarite-menstruelle/",
-      "spotify": "https://open.spotify.com/episode/06fWND6Sii55pxlvLXd7sj?si=QdyP8oD0TVukYBFWZWv8pAComment",
+      "spotify": "https://open.spotify.com/episode/06fWND6Sii55pxlvLXd7sj?si=QdyP8oD0TVukYBFWZWv8pA",
       "apple": "https://podcasts.apple.com/fr/podcast/ces-distributeurs-sattaquent-%C3%A0-la-pr%C3%A9carit%C3%A9-menstruelle/id1640003869?i=1000628202150",
-      "deezer": null,
-      "youtube": null,
+      "deezer": "https://link.deezer.com/s/31ARYXPlapxpg4nlX80qd",
+      "youtube": "https://www.youtube.com/watch?v=T1DBm5dbvCY",
       "transcription": "https://csoluble.media/epsode/transcription-ces-distributeurs-sattaquent-a-la-precarite-menstruelle/",
       "summary": null
     }
@@ -1320,10 +1321,10 @@ export const EPISODE_DATA: Episode[] = [
     "themes": ["Sécurité sociale alimentation", "justice alimentaire", "alimentation saine"],
     "links": {
       "page": "https://csoluble.media/epsode/une-secu-de-lalimentation-ca-ressemblerait-a-quoi-au-juste/",
-      "spotify": "https://open.spotify.com/episode/5KQhlir0lJEQfYXYCOC6tX?si=-Am-0xPCQzW43Fi-b9GdKwCes",
+      "spotify": "https://open.spotify.com/episode/5KQhlir0lJEQfYXYCOC6tX?si=-Am-0xPCQzW43Fi-b9GdKw",
       "apple": "https://podcasts.apple.com/fr/podcast/une-s%C3%A9cu-de-lalimentation-%C3%A7a-ressemblerait-%C3%A0-quoi-au-juste/id1640003869?i=1000627412525",
-      "deezer": null,
-      "youtube": null,
+      "deezer": "https://link.deezer.com/s/31ARZdWjpvvkC4hWUakNa",
+      "youtube": "https://www.youtube.com/watch?v=bHDe29xKrnk",
       "transcription": "https://csoluble.media/epsode/transcription-une-secu-de-lalimentation-ca-ressemblerait-a-quoi-au-juste/",
       "summary": null
     }
@@ -1332,7 +1333,7 @@ export const EPISODE_DATA: Episode[] = [
     "id": "ep41",
     "title": "Qu’est-ce que le ruissellement, la newsletter du podcast Soluble(s) ?",
     "date": "2023-09-06",
-    "duration": "1 min",
+    "duration": "01:00",
     "guest": "Simon Icard en solo",
     "category": "Environnement, Société",
     "description": "Découvrez \"Le ruissellement\", la newsletter mensuelle du podcast Soluble(s), qui prolonge les discussions autour des solutions pour le climat, la société et la vie quotidienne.",
@@ -1341,8 +1342,8 @@ export const EPISODE_DATA: Episode[] = [
       "page": "https://csoluble.media/epsode/quest-ce-que-le-ruissellement-la-newsletter-du-podcast-solubles/",
       "spotify": "https://open.spotify.com/episode/5KQhlir0lJEQfYXYCOC6tX?si=-Am-0xPCQzW43Fi-b9GdKw",
       "apple": "https://podcasts.apple.com/fr/podcast/qu-est-ce-que-le-ruissellement-la-newsletter-du-podcast/id1640003869?i=1000627116665",
-      "deezer": null,
-      "youtube": null,
+      "deezer": "https://link.deezer.com/s/31ARZw04exCDEuT8ahxf0",
+      "youtube": "https://www.youtube.com/watch?v=oPvvLuXeLpQ",
       "transcription": "https://csoluble.media/epsode/transcription-quest-ce-que-le-ruissellement-la-newsletter-du-podcast-solubles/",
       "summary": null
     }
@@ -1358,10 +1359,10 @@ export const EPISODE_DATA: Episode[] = [
     "themes": ["Radio positive", "journalisme de solutions", "bien-être", "air zen"],
     "links": {
       "page": "https://csoluble.media/epsode/airzen-la-radio-nationale-qui-diffuse-100-de-bonnes-ondes/",
-      "spotify": "https://open.spotify.com/episode/4cYlagl3FF5ucd4Ab2dsi9?si=17VjdBY-SJ-YXURRBHlWzgQu’est-ce",
+      "spotify": "https://open.spotify.com/episode/4cYlagl3FF5ucd4Ab2dsi9?si=17VjdBY-SJ-YXURRBHlWzg",
       "apple": "https://podcasts.apple.com/fr/podcast/airzen-la-radio-nationale-qui-diffuse-100-de-bonnes-ondes/id1640003869?i=1000625882719",
-      "deezer": null,
-      "youtube": null,
+      "deezer": "https://link.deezer.com/s/31ARZMUsXwztwfVJGdrfg",
+      "youtube": "https://www.youtube.com/watch?v=DOaYKct4EHE",
       "transcription": "https://csoluble.media/epsode/transcription-airzen-la-radio-nationale-qui-diffuse-100-de-bonnes-ondes/",
       "summary": null
     }
@@ -1377,10 +1378,10 @@ export const EPISODE_DATA: Episode[] = [
     "themes": ["Média écologie", "réchauffement climatique", "newsletter écologique", "Vert"],
     "links": {
       "page": "https://csoluble.media/epsode/vert-un-media-cool-pour-prendre-au-serieux-le-rechauffement-climatique/",
-      "spotify": "https://open.spotify.com/episode/0WxdrgZc5hMAoSngRG1Abp?si=efqNiCOtRf-TcR5k3okpjgAirZen",
+      "spotify": "https://open.spotify.com/episode/0WxdrgZc5hMAoSngRG1Abp?si=efqNiCOtRf-TcR5k3okpjg",
       "apple": "https://podcasts.apple.com/fr/podcast/vert-un-m%C3%A9dia-cool-pour-prendre-au-s%C3%A9rieux-le/id1640003869?i=1000625079771",
-      "deezer": null,
-      "youtube": null,
+      "deezer": "https://link.deezer.com/s/31AS00hJk38Ad1lSxbsz1",
+      "youtube": "https://www.youtube.com/watch?v=LN0yJZpc0Gk",
       "transcription": "https://csoluble.media/epsode/transcription-vert-un-media-cool-pour-prendre-au-serieux-le-rechauffement-climatique/",
       "summary": null
     }
@@ -1396,10 +1397,10 @@ export const EPISODE_DATA: Episode[] = [
     "themes": ["Podcast enfants", "biodiversité", "reportage animalier", "wild"],
     "links": {
       "page": "https://csoluble.media/epsode/wild-le-podcast-de-reportage-animalier-pour-les-petites-oreilles/",
-      "spotify": "https://open.spotify.com/episode/3TtUSQMDcUAaNGdDmKPcFs?si=TlByf5wmSFq4rxiu03ksAwVert",
+      "spotify": "https://open.spotify.com/episode/3TtUSQMDcUAaNGdDmKPcFs?si=TlByf5wmSFq4rxiu03ksAw",
       "apple": "https://podcasts.apple.com/fr/podcast/wild-le-podcast-de-reportage-animalier-pour-les/id1640003869?i=1000623992280",
-      "deezer": null,
-      "youtube": null,
+      "deezer": "https://link.deezer.com/s/31AS0hJmSqZpsIImq0C8M",
+      "youtube": "https://www.youtube.com/watch?v=bmr6cw1UUHE",
       "transcription": "https://csoluble.media/epsode/transcription-wild-le-podcast-de-reportage-animalier-pour-les-petites-oreilles/",
       "summary": null
     }
@@ -1415,9 +1416,9 @@ export const EPISODE_DATA: Episode[] = [
     "themes": ["Journalisme de solutions", "changement écologique", "entrepreneuriat social"],
     "links": {
       "page": "https://csoluble.media/epsode/impact-positif-lci-donne-de-la-voix-aux-solutions-avec-sylvia-amicone/",
-      "spotify": "https://open.spotify.com/episode/5grcgWjvDqzqosI83Y9MSB?si=SH4ELOuxRLSU0bkAJNkndQWild",
+      "spotify": "https://open.spotify.com/episode/5grcgWjvDqzqosI83Y9MSB?si=SH4ELOuxRLSU0bkAJNkndQ",
       "apple": "https://podcasts.apple.com/fr/podcast/impact-positif-lci-donne-de-la-voix-aux-solutions-avec/id1640003869?i=1000623629388",
-      "deezer": null,
+      "deezer": "https://link.deezer.com/s/31AS0wYrov8WpFachqfDu",
       "youtube": null,
       "transcription": "https://csoluble.media/epsode/transcription-impact-positif-lci-donne-de-la-voix-aux-solutions-avec-sylvia-amicone/",
       "summary": null
@@ -1434,10 +1435,10 @@ export const EPISODE_DATA: Episode[] = [
     "themes": ["Podcast climat", "solutions écologiques", "journalisme constructif"],
     "links": {
       "page": "https://csoluble.media/epsode/chaleur-humaine-le-podcast-du-monde-qui-nous-rafraichit-les-idees-avec-nabil-wakim/",
-      "spotify": "https://open.spotify.com/episode/21ceYnWq3xxu9WYO5VPhsr?si=sh_kTCwqQBq5BK3kIDIULAImpact",
+      "spotify": "https://open.spotify.com/episode/21ceYnWq3xxu9WYO5VPhsr?si=sh_kTCwqQBq5BK3kIDIULA",
       "apple": "https://podcasts.apple.com/fr/podcast/chaleur-humaine-le-podcast-du-monde-qui-nous-rafra%C3%AEchit/id1640003869?i=1000622874985",
-      "deezer": null,
-      "youtube": null,
+      "deezer": "https://link.deezer.com/s/31AS0TU5JQcHFTTJKyWi8",
+      "youtube": "https://www.youtube.com/watch?v=Q2y916SgqIU",
       "transcription": "https://csoluble.media/epsode/transcription-chaleur-humaine-le-podcast-du-monde-qui-nous-rafraichit-les-idees-avec-nabil-wakim/",
       "summary": null
     }
@@ -1453,10 +1454,10 @@ export const EPISODE_DATA: Episode[] = [
     "themes": ["Podcast transition écologique", "solutions climatiques", "AFP"],
     "links": {
       "page": "https://csoluble.media/epsode/sur-la-terre-le-podcast-qui-explore-les-solutions-aux-quatre-coins-du-monde-par-lafp/",
-      "spotify": "https://open.spotify.com/episode/3mxNidFMS3SSr4vhuuNE41?si=sXxn3LmxS0KeMOqlX2k10AChaleur",
+      "spotify": "https://open.spotify.com/episode/3mxNidFMS3SSr4vhuuNE41?si=sXxn3LmxS0KeMOqlX2k10A",
       "apple": "https://podcasts.apple.com/fr/podcast/sur-la-terre-le-podcast-qui-explore-les-solutions-aux/id1640003869?i=1000622348927",
       "deezer": null,
-      "youtube": null,
+      "youtube": "https://www.youtube.com/watch?v=Ps2llymM5Bo",
       "transcription": "https://csoluble.media/epsode/transcription-sur-la-terre-le-podcast-qui-explore-les-solutions-aux-quatre-coins-du-monde-par-lafp/",
       "summary": null
     }
@@ -1472,10 +1473,10 @@ export const EPISODE_DATA: Episode[] = [
     "themes": ["Fatigue informationnelle", "kit de survie", "médias", "démocratie"],
     "links": {
       "page": "https://csoluble.media/epsode/surinformee-ce-kit-de-survie-pourrait-vous-interesser-avec-anne-sophie-novel/",
-      "spotify": "https://open.spotify.com/episode/30nstHFqlHIHGowdt7i9dA?si=jUewHXKjQcO_9xV5-rw3wQSur",
+      "spotify": "https://open.spotify.com/episode/30nstHFqlHIHGowdt7i9dA?si=jUewHXKjQcO_9xV5-rw3wQ",
       "apple": "https://podcasts.apple.com/fr/podcast/surinform%C3%A9-e-ce-kit-de-survie-pourrait-vous/id1640003869?i=1000622091577",
-      "deezer": null,
-      "youtube": null,
+      "deezer": "https://link.deezer.com/s/31AS1cmTGbWWOGUcBUO4o",
+      "youtube": "https://www.youtube.com/watch?v=J8DSi-AvFCE",
       "transcription": "https://csoluble.media/epsode/transcription-surinformee-ce-kit-de-survie-pourrait-vous-interesser-avec-anne-sophie-novel/",
       "summary": null
     }
@@ -1484,17 +1485,17 @@ export const EPISODE_DATA: Episode[] = [
     "id": "ep33",
     "title": "Comment (bien) regarder les étoiles ? Avec Eric Lagadec",
     "date": "2023-07-20",
-    "duration": "25:10:00",
+    "duration": "25:10",
     "guest": "Eric Lagadec",
     "category": "Vie quotidienne",
     "description": "Découvrez comment observer les étoiles à l'œil nu avec l'astrophysicien Eric Lagadec, qui partage ses conseils et son expertise pour profiter du ciel nocturne.",
     "themes": ["Observation des étoiles", "astrophysique", "pollution lumineuse"],
     "links": {
       "page": "https://csoluble.media/epsode/comment-bien-regarder-les-etoiles-avec-eric-lagadec/",
-      "spotify": "https://open.spotify.com/episode/32dG7o5NHIFHm7yO4tIAtt?si=a07dd71bf34243bdSurinformé.e",
+      "spotify": "https://open.spotify.com/episode/32dG7o5NHIFHm7yO4tIAtt?si=a07dd71bf34243bd",
       "apple": "https://podcasts.apple.com/fr/podcast/comment-bien-regarder-les-%C3%A9toiles-avec-eric-lagadec/id1640003869?i=1000621706288",
-      "deezer": null,
-      "youtube": null,
+      "deezer": "https://link.deezer.com/s/31AS1sHIrbXEhLkEVyyqm",
+      "youtube": "https://www.youtube.com/watch?v=6dPVdP2cK9E",
       "transcription": "https://csoluble.media/epsode/transcription-comment-bien-regarder-les-etoiles-avec-eric-lagadec/",
       "summary": null
     }
@@ -1510,10 +1511,10 @@ export const EPISODE_DATA: Episode[] = [
     "themes": ["Oasis Solidaires", "canicule", "personnes âgées", "solidarité"],
     "links": {
       "page": "https://csoluble.media/epsode/canicule-lappel-a-ouvrir-des-oasis-solidaires-pour-offrir-de-la-fraicheur-aux-personnes-agees/",
-      "spotify": "https://open.spotify.com/episode/6cYSxgb0vUCrRlH2ejNZto?si=60SmSS56QR6YZqLfvxB4QQComment",
+      "spotify": "https://open.spotify.com/episode/6cYSxgb0vUCrRlH2ejNZto?si=60SmSS56QR6YZqLfvxB4QQ",
       "apple": "https://podcasts.apple.com/fr/podcast/canicule-lappel-%C3%A0-ouvrir-des-oasis-solidaires-pour/id1640003869?i=1000621344153",
-      "deezer": null,
-      "youtube": null,
+      "deezer": "https://link.deezer.com/s/31AS1MNTI7MgCyOcLlfVv",
+      "youtube": "https://www.youtube.com/watch?v=YpYlibR8CqA",
       "transcription": "https://csoluble.media/epsode/transcription-canicule-lappel-a-ouvrir-des-oasis-solidaires-pour-offrir-de-la-fraicheur-aux-personnes-agees/",
       "summary": null
     }
@@ -1529,10 +1530,10 @@ export const EPISODE_DATA: Episode[] = [
     "themes": ["Surtourisme", "démarketing", "régulation touristique"],
     "links": {
       "page": "https://csoluble.media/epsode/surtourisme-jauges-demarketing-comment-y-remedier/",
-      "spotify": "https://open.spotify.com/episode/3ilS0u1VcBKof6KoQN8A9n?si=zCzxyi5zRXejwS19e0ECGACanicule",
+      "spotify": "https://open.spotify.com/episode/3ilS0u1VcBKof6KoQN8A9n?si=zCzxyi5zRXejwS19e0ECGA",
       "apple": "https://podcasts.apple.com/us/podcast/surtourisme-jauges-d%C3%A9marketing-comment-y-rem%C3%A9dier/id1640003869?i=1000620425502",
-      "deezer": null,
-      "youtube": null,
+      "deezer": "https://link.deezer.com/s/31AS25LBSrhb0T0hg4dLD",
+      "youtube": "https://www.youtube.com/watch?v=TwGuY9kyiUk",
       "transcription": "https://csoluble.media/epsode/transcription-surtourisme-jauges-demarketing-comment-y-remedier/",
       "summary": null
     }
@@ -1548,10 +1549,10 @@ export const EPISODE_DATA: Episode[] = [
     "themes": ["Réseau social altruiste", "contenus positifs", "altruisme"],
     "links": {
       "page": "https://csoluble.media/epsode/les-altruistes-ont-leur-reseau-social-il-sappelle-altruwe/",
-      "spotify": "https://open.spotify.com/episode/6Fl5iCzj06aeqy0kj4LSff?si=JQcErZxPRW6XBgiLNHwX8ASurtourisme",
+      "spotify": "https://open.spotify.com/episode/6Fl5iCzj06aeqy0kj4LSff?si=JQcErZxPRW6XBgiLNHwX8A",
       "apple": "https://podcasts.apple.com/fr/podcast/les-altruistes-ont-leur-r%C3%A9seau-social-il-sappelle-altruwe/id1640003869?i=1000619082513",
-      "deezer": null,
-      "youtube": null,
+      "deezer": "https://link.deezer.com/s/31AS2oTm2V2mPYiHTgxo6",
+      "youtube": "https://www.youtube.com/watch?v=jNMJBOsWSpE",
       "transcription": "https://csoluble.media/epsode/transcription-les-altruistes-ont-leur-reseau-social-il-sappelle-altruwe/",
       "summary": null
     }
@@ -1567,10 +1568,10 @@ export const EPISODE_DATA: Episode[] = [
     "themes": ["Supermarché coopératif", "participation citoyenne", "commerce local"],
     "links": {
       "page": "https://csoluble.media/epsode/ce-supermarche-appartient-a-ses-clients/",
-      "spotify": "https://open.spotify.com/episode/2pGct7VTQNnklYbWxYrJsI?si=J0Aq4YFkS22soVIUo4akDwLes",
+      "spotify": "https://open.spotify.com/episode/2pGct7VTQNnklYbWxYrJsI?si=J0Aq4YFkS22soVIUo4akDw",
       "apple": "https://podcasts.apple.com/fr/podcast/ce-supermarch%C3%A9-appartient-%C3%A0-ses-clients/id1640003869?i=1000618302195",
-      "deezer": null,
-      "youtube": null,
+      "deezer": "https://link.deezer.com/s/31AS2EG9sAjRYWGtiSHJZ",
+      "youtube": "https://www.youtube.com/watch?v=ofKyoZ3pT3s",
       "transcription": "https://csoluble.media/epsode/transcription-ce-supermarche-appartient-a-ses-clients/",
       "summary": null
     }
@@ -1579,17 +1580,17 @@ export const EPISODE_DATA: Episode[] = [
     "id": "ep28",
     "title": "Les Oasis - Habiter un écolieu collectif : c’est comment ?",
     "date": "2023-06-19",
-    "duration": "28:51:00",
+    "duration": "28:51",
     "guest": "Mathieu Labonne",
     "category": "Société",
     "description": "Découvrez le concept des écolieux collectifs, où des individus partagent des espaces et services pour réduire leur empreinte carbone et vivre de manière plus durable.",
     "themes": ["Écolieux collectifs", "empreinte carbone", "vie durable"],
     "links": {
       "page": "https://csoluble.media/epsode/les-oasis-habiter-un-ecolieu-collectif-cest-comment/",
-      "spotify": "https://open.spotify.com/episode/0yPdto8ZL7u5Y3BdJXOOhI?si=AjSWQsLMRWS2AMjPNuH3BACe",
+      "spotify": "https://open.spotify.com/episode/0yPdto8ZL7u5Y3BdJXOOhI?si=AjSWQsLMRWS2AMjPNuH3BA",
       "apple": "https://podcasts.apple.com/fr/podcast/les-oasis-habiter-un-%C3%A9colieu-collectif-c-est-comment/id1640003869?i=1000617497975",
-      "deezer": null,
-      "youtube": null,
+      "deezer": "https://link.deezer.com/s/31AS2TIa3zUu5uodIMk1K",
+      "youtube": "https://www.youtube.com/watch?v=FusamtxnoQE",
       "transcription": "https://csoluble.media/epsode/transcription-les-oasis-habiter-un-ecolieu-collectif-cest-comment/",
       "summary": null
     }
@@ -1605,10 +1606,10 @@ export const EPISODE_DATA: Episode[] = [
     "themes": ["Solutions climatiques", "média local", "urgence climatique"],
     "links": {
       "page": "https://csoluble.media/epsode/maintenant-le-media-des-solutions-climat-a-la-une-en-provence/",
-      "spotify": "https://open.spotify.com/episode/1BHkSQvBmGBDkaAMh8pQec?si=S4sbUMGPR8GQot72pujknALes",
+      "spotify": "https://open.spotify.com/episode/1BHkSQvBmGBDkaAMh8pQec?si=S4sbUMGPR8GQot72pujknA",
       "apple": "https://podcasts.apple.com/fr/podcast/maintenant-le-media-des-solutions-climat-%C3%A0-la-une-en/id1640003869?i=1000616614368",
-      "deezer": null,
-      "youtube": null,
+      "deezer": "https://link.deezer.com/s/31AS3d9BiugDVhQdf2utY",
+      "youtube": "https://www.youtube.com/watch?v=ob_rvOMST6A",
       "transcription": "https://csoluble.media/epsode/transcription-maintenant-le-media-des-solutions-climat-a-la-une-en-provence/",
       "summary": null
     }
@@ -1624,10 +1625,10 @@ export const EPISODE_DATA: Episode[] = [
     "themes": ["Légumerie conserverie", "productions locales", "insertion professionnelle"],
     "links": {
       "page": "https://csoluble.media/epsode/les-petites-louches-la-legumerie-conserverie-solidaire-qui-regale-et-sauve-des-productions-en-normandie/",
-      "spotify": "https://open.spotify.com/episode/7mYDoyf0NqMJSbLEbWLoBg?si=aD4Hh69dSP2qcv-gyZBkzAMaintenant",
+      "spotify": "https://open.spotify.com/episode/7mYDoyf0NqMJSbLEbWLoBg?si=aD4Hh69dSP2qcv-gyZBkzA",
       "apple": "https://podcasts.apple.com/fr/podcast/les-petites-louches-la-l%C3%A9gumerie-conserverie-solidaire/id1640003869?i=1000616095079",
-      "deezer": null,
-      "youtube": null,
+      "deezer": "https://link.deezer.com/s/31AS3w9s3sKn8gJZDTFPd",
+      "youtube": "https://www.youtube.com/watch?v=3BkMRkaAS-A",
       "transcription": "https://csoluble.media/epsode/transcription-les-petites-louches-la-legumerie-conserverie-solidaire-qui-regale-et-sauve-des-productions-en-normandie/",
       "summary": null
     }
@@ -1643,10 +1644,10 @@ export const EPISODE_DATA: Episode[] = [
     "themes": ["Désert médical", "médecins solidaires", "accès aux soins", "santé rurale"],
     "links": {
       "page": "https://csoluble.media/epsode/des-rotations-hebdomadaires-de-medecins-solidaires-pour-une-presence-permanente-dans-les-deserts-medicaux/",
-      "spotify": "https://open.spotify.com/episode/3O7KtG38yYQeW680LVxcXf?si=qnq41mfzQUGf0QtdyhyVAwLes",
+      "spotify": "https://open.spotify.com/episode/3O7KtG38yYQeW680LVxcXf?si=qnq41mfzQUGf0QtdyhyVAw",
       "apple": "https://podcasts.apple.com/fr/podcast/des-rotations-hebdomadaires-de-m%C3%A9decins-solidaires/id1640003869?i=1000615232159",
-      "deezer": null,
-      "youtube": null,
+      "deezer": "https://link.deezer.com/s/31AS3M7EyJmLrcARfd1zB",
+      "youtube": "https://www.youtube.com/watch?v=35equg_Bq_E",
       "transcription": "https://csoluble.media/epsode/transcription-des-rotations-hebdomadaires-de-medecins-solidaires-pour-une-presence-permanente-dans-les-deserts-medicaux/",
       "summary": null
     }
@@ -1662,10 +1663,10 @@ export const EPISODE_DATA: Episode[] = [
     "themes": ["Logements étudiants", "Campus Vert", "logements ruraux", "diversification revenus agriculteurs"],
     "links": {
       "page": "https://csoluble.media/epsode/les-logements-etudiants-moins-chers-et-a-la-ferme-campus-vert/",
-      "spotify": "https://open.spotify.com/episode/0IxMVdrVwu3SNeqdc52mBe?si=JJ890MdFTn6uHu1_BqdT2Aepisode_id_25_Des",
+      "spotify": "https://open.spotify.com/episode/0IxMVdrVwu3SNeqdc52mBe?si=JJ890MdFTn6uHu1_BqdT2A",
       "apple": "https://podcasts.apple.com/fr/podcast/les-logements-%C3%A9tudiants-moins-chers-et-%C3%A0-la-ferme-campus/id1640003869?i=1000614414096",
-      "deezer": null,
-      "youtube": null,
+      "deezer": "https://link.deezer.com/s/31AS44UDAVSHPMK6mXtso",
+      "youtube": "https://www.youtube.com/watch?v=W_ei7GBM2dA",
       "transcription": "https://csoluble.media/epsode/transcription-les-logements-etudiants-moins-chers-et-a-la-ferme-campus-vert/",
       "summary": null
     }
@@ -1681,10 +1682,10 @@ export const EPISODE_DATA: Episode[] = [
     "themes": ["The Sorority", "violences sexuelles", "entraide", "application mobile", "communauté solidaire", "sécurité", "soutien victimes"],
     "links": {
       "page": "https://csoluble.media/epsode/the-sorority-lappli-dentraide-pour-se-proteger-contre-les-violences-sexuelles/",
-      "spotify": "https://open.spotify.com/episode/4jYMjwXLYqvAtxDK0YM8mr?si=7IuGgDPCTh6al7M6PJl4cw&nd=1&dlsi=4047054602f0454depisode_id_24_Les",
+      "spotify": "https://open.spotify.com/episode/4jYMjwXLYqvAtxDK0YM8mr?si=7IuGgDPCTh6al7M6PJl4cw",
       "apple": "https://podcasts.apple.com/fr/podcast/the-sorority-lappli-dentraide-pour-se-prot%C3%A9ger-contre/id1640003869?i=1000613633758",
-      "deezer": null,
-      "youtube": null,
+      "deezer": "https://link.deezer.com/s/31AS4tq3WMkkQFADA8Fao",
+      "youtube": "https://www.youtube.com/watch?v=ntJhnEDWk20",
       "transcription": "https://csoluble.media/epsode/transcription-the-sorority-lappli-dentraide-pour-se-proteger-contre-les-violences-sexuelles/",
       "summary": null
     }
@@ -1700,10 +1701,10 @@ export const EPISODE_DATA: Episode[] = [
     "themes": ["Bistrot itinérant", "Alsace", "produits locaux", "restauration ambulante", "camion vintage", "tartes flambées", "planchettes apéritives", "bistrot de villages", "reconversion professionnelle", "commerce de proximité", "convivialité"],
     "links": {
       "page": "https://csoluble.media/epsode/le-bistrot-qui-se-deplace-dans-les-villages/",
-      "spotify": "https://open.spotify.com/episode/6Ux5uaHwoOQofcj7s5GG5F?si=qlXENHHqSDiIHchRuj6aaAepisode_id_23_The",
+      "spotify": "https://open.spotify.com/episode/6Ux5uaHwoOQofcj7s5GG5F?si=qlXENHHqSDiIHchRuj6aaA",
       "apple": "https://podcasts.apple.com/fr/podcast/le-bistrot-qui-se-d%C3%A9place-dans-les-villages/id1640003869?i=1000612725242",
-      "deezer": null,
-      "youtube": null,
+      "deezer": "https://link.deezer.com/s/31AS4MWhhDYDV3tH2SxbV",
+      "youtube": "https://www.youtube.com/watch?v=od59_qobZ4M",
       "transcription": "https://csoluble.media/epsode/transcription-le-bistrot-qui-se-deplace-dans-les-villages/",
       "summary": null
     }
@@ -1719,10 +1720,10 @@ export const EPISODE_DATA: Episode[] = [
     "themes": ["Mangroves", "protection des mangroves", "biodiversité", "réchauffement climatique", "déforestation", "artificialisation des sols", "pollution", "Martinique", "Nature & Développement"],
     "links": {
       "page": "https://csoluble.media/epsode/comment-proteger-les-mangroves/",
-      "spotify": "https://open.spotify.com/episode/5tzvxno5z4WD6Wd34mhALE?si=g6aBLJU9QR-uupz1wLarUQLe",
+      "spotify": "https://open.spotify.com/episode/5tzvxno5z4WD6Wd34mhALE?si=g6aBLJU9QR-uupz1wLarUQ",
       "apple": "https://podcasts.apple.com/fr/podcast/comment-prot%C3%A9ger-les-mangroves/id1640003869?i=1000609748665",
-      "deezer": null,
-      "youtube": null,
+      "deezer": "https://link.deezer.com/s/31AS52T7lEyX5JU3pPoan",
+      "youtube": "https://www.youtube.com/watch?v=0kITyH3yJ9Y",
       "transcription": "https://csoluble.media/epsode/transcription-comment-proteger-les-mangroves/",
       "summary": null
     }
@@ -1738,10 +1739,10 @@ export const EPISODE_DATA: Episode[] = [
     "themes": ["Vélobus", "transport scolaire", "mobilité douce", "écologie", "bois", "assistance électrique", "transport collaboratif"],
     "links": {
       "page": "https://csoluble.media/epsode/le-velobus-ecolo-et-collaboratif-pour-se-rendre-a-lecole/",
-      "spotify": "https://open.spotify.com/episode/3obyT7Hplv3uz2Tz16BKyf?si=KdSw4fkuSVGa69ulMl7Y8AComment",
+      "spotify": "https://open.spotify.com/episode/3obyT7Hplv3uz2Tz16BKyf?si=KdSw4fkuSVGa69ulMl7Y8A",
       "apple": "https://podcasts.apple.com/fr/podcast/le-v%C3%A9lobus-%C3%A9colo-et-collaboratif-pour-se-rendre-%C3%A0-l%C3%A9cole/id1640003869?i=1000608720787",
-      "deezer": null,
-      "youtube": null,
+      "deezer": "https://link.deezer.com/s/31AS5hbpaIvArXOtnUVgc",
+      "youtube": "https://www.youtube.com/watch?v=Q9bWXpSxvos",
       "transcription": "https://csoluble.media/epsode/transcription-le-velobus-ecolo-et-collaboratif-pour-se-rendre-a-lecole/",
       "summary": null
     }
@@ -1757,10 +1758,10 @@ export const EPISODE_DATA: Episode[] = [
     "themes": ["Empreinte carbone", "gaz à effet de serre", "bilan carbone", "réchauffement climatique", "MyCO2", "Carbone 4", "réduction des émissions"],
     "links": {
       "page": "https://csoluble.media/epsode/calculer-son-empreinte-carbone-individuelle-pour-agir-des-demain/",
-      "spotify": "https://open.spotify.com/episode/3a7uVo7DZR84MEe5WAvG1T?si=NyfmDMMZRSCwY4HmEA6gdALe",
+      "spotify": "https://open.spotify.com/episode/3a7uVo7DZR84MEe5WAvG1T?si=NyfmDMMZRSCwY4HmEA6gdA",
       "apple": "https://podcasts.apple.com/fr/podcast/calculer-son-empreinte-carbone-individuelle-pour-agir/id1640003869?i=1000607642243",
-      "deezer": null,
-      "youtube": null,
+      "deezer": "https://link.deezer.com/s/31AS5zaM33qi5fKPmXImu",
+      "youtube": "https://www.youtube.com/watch?v=kBBL7_pgOME",
       "transcription": "https://csoluble.media/epsode/transcription-calculer-son-empreinte-carbone-individuelle-pour-agir-des-demain/",
       "summary": null
     }
@@ -1776,10 +1777,10 @@ export const EPISODE_DATA: Episode[] = [
     "themes": ["Compostage de proximité", "réduction des déchets", "biodéchets", "transition écologique", "gestion des déchets", "compost", "recyclage", "composteur de quartier", "compostage citoyen", "solutions écologiques"],
     "links": {
       "page": "https://csoluble.media/epsode/la-solution-du-compostage-de-proximite/",
-      "spotify": "https://open.spotify.com/episode/50ZdNlfENrQy10yJS4RWyq?si=zKqXJuRwRVGyPtQNMQOlpgCalculer",
+      "spotify": "https://open.spotify.com/episode/50ZdNlfENrQy10yJS4RWyq?si=zKqXJuRwRVGyPtQNMQOlpg",
       "apple": "https://podcasts.apple.com/fr/podcast/la-solution-du-compostage-de-proximit%C3%A9/id1640003869?i=1000606540146",
-      "deezer": null,
-      "youtube": null,
+      "deezer": "https://link.deezer.com/s/31AS5O46qBZzFIxGAAPXv",
+      "youtube": "https://www.youtube.com/watch?v=w1hBxAgsFO4",
       "transcription": "https://csoluble.media/epsode/transcription-la-solution-du-compostage-de-proximite/",
       "summary": null
     }
@@ -1795,10 +1796,10 @@ export const EPISODE_DATA: Episode[] = [
     "themes": ["Transition écologique", "insertion professionnelle", "éducation", "métiers verts"],
     "links": {
       "page": "https://csoluble.media/epsode/etre-le-reseau-decoles-des-metiers-de-la-transition-ecologique/",
-      "spotify": "https://open.spotify.com/episode/63s3Xu33yA2ocpypPK4WGn?si=p2e_YkWRSuCNgpJQFeZHQgLa",
+      "spotify": "https://open.spotify.com/episode/63s3Xu33yA2ocpypPK4WGn?si=p2e_YkWRSuCNgpJQFeZHQg",
       "apple": "https://podcasts.apple.com/fr/podcast/etre-le-r%C3%A9seau-d%C3%A9coles-des-m%C3%A9tiers-de-la-transition/id1640003869?i=1000605496961",
-      "deezer": null,
-      "youtube": null,
+      "deezer": "https://link.deezer.com/s/31AS62tpycjTXkWR5MCeH",
+      "youtube": "https://www.youtube.com/watch?v=patbOd95mmI",
       "transcription": "https://csoluble.media/epsode/transcription-etre-le-reseau-decoles-des-metiers-de-la-transition-ecologique/",
       "summary": null
     }
@@ -1814,10 +1815,10 @@ export const EPISODE_DATA: Episode[] = [
     "themes": ["Voiture électrique", "mobilité", "transports", "adaptation au changement climatique", "bilan carbone", "CO2"],
     "links": {
       "page": "https://csoluble.media/epsode/la-voiture-electrique-est-elle-vraiment-ecolo/",
-      "spotify": "https://open.spotify.com/episode/6xMv9VmrN32MLN8KcDKEQH?si=OKCscdvZSS6b6IpZc5DfQgÊtre",
+      "spotify": "https://open.spotify.com/episode/6xMv9VmrN32MLN8KcDKEQH?si=OKCscdvZSS6b6IpZc5DfQg",
       "apple": "https://podcasts.apple.com/fr/podcast/la-voiture-%C3%A9lectrique-est-elle-vraiment-%C3%A9colo/id1640003869?i=1000604440237",
-      "deezer": null,
-      "youtube": null,
+      "deezer": "https://link.deezer.com/s/31AS6kVD8zzhcfYAgr95h",
+      "youtube": "https://www.youtube.com/watch?v=Z-HRefmkJDw",
       "transcription": "https://csoluble.media/epsode/transcription-la-voiture-electrique-est-elle-vraiment-ecolo/",
       "summary": null
     }
@@ -1833,10 +1834,10 @@ export const EPISODE_DATA: Episode[] = [
     "themes": ["Papillons", "biodiversité", "réchauffement climatique", "protection de la nature"],
     "links": {
       "page": "https://csoluble.media/epsode/comment-proteger-les-papillons/",
-      "spotify": "https://open.spotify.com/episode/6sD2ADOe3QbWW3KwThC7Tq?si=T-QdXLtuTGWQkr4Zm4OQcgLa",
+      "spotify": "https://open.spotify.com/episode/6sD2ADOe3QbWW3KwThC7Tq?si=T-QdXLtuTGWQkr4Zm4OQcg",
       "apple": "https://podcasts.apple.com/fr/podcast/soluble-s/id1640003869",
-      "deezer": null,
-      "youtube": null,
+      "deezer": "https://link.deezer.com/s/31AS6BChHIDQKMw95Wm1F",
+      "youtube": "https://www.youtube.com/watch?v=bLfjJ9zV4UA",
       "transcription": "https://csoluble.media/epsode/transcription-comment-proteger-les-papillons/",
       "summary": null
     }
@@ -1852,10 +1853,10 @@ export const EPISODE_DATA: Episode[] = [
     "themes": ["Désert médical", "santé", "solidarité", "soins", "MarSOINS"],
     "links": {
       "page": "https://csoluble.media/epsode/le-marsoins-ce-camion-de-sante-qui-se-deplace-vers-les-citoyens/",
-      "spotify": "https://open.spotify.com/episode/3sXQKQhEbJa5ci6t7atrSd?si=x4Oks7iMQ2KnXUMHYqSQUwComment",
+      "spotify": "https://open.spotify.com/episode/3sXQKQhEbJa5ci6t7atrSd?si=x4Oks7iMQ2KnXUMHYqSQUw",
       "apple": "https://podcasts.apple.com/fr/podcast/le-marsoins-ce-camion-de-sant%C3%A9-qui-se-d%C3%A9place-vers/id1640003869?i=1000602414849",
-      "deezer": null,
-      "youtube": null,
+      "deezer": "https://link.deezer.com/s/31AS6QzOqL4YlklsKwW47",
+      "youtube": "https://www.youtube.com/watch?v=YZ1KkyCHVEI",
       "transcription": "https://csoluble.media/epsode/transcription-le-marsoins-ce-camion-de-sante-qui-se-deplace-vers-les-citoyens/",
       "summary": null
     }
@@ -1871,10 +1872,10 @@ export const EPISODE_DATA: Episode[] = [
     "themes": ["Olive", "viticulture", "changement climatique", "diversification agricole"],
     "links": {
       "page": "https://csoluble.media/epsode/en-gironde-la-culture-de-lolive-pour-sadapter-au-changement-climatique/",
-      "spotify": "https://open.spotify.com/episode/1HIJZngo5m3ASrCusRltAL?si=wi9T2dXXQdiPAnDPFTvrnQLe",
+      "spotify": "https://open.spotify.com/episode/1HIJZngo5m3ASrCusRltAL?si=wi9T2dXXQdiPAnDPFTvrnQ",
       "apple": "https://podcasts.apple.com/fr/podcast/en-gironde-la-culture-de-lolive-pour-se-diversifier/id1640003869?i=1000601209762",
       "deezer": null,
-      "youtube": null,
+      "youtube": "https://www.youtube.com/watch?v=HJ3pUEVez2g",
       "transcription": "https://csoluble.media/epsode/transcription-en-gironde-la-culture-de-lolive-pour-sadapter-au-changement-climatique/",
       "summary": null
     }
@@ -1890,10 +1891,10 @@ export const EPISODE_DATA: Episode[] = [
     "themes": ["Restaurant", "solaire", "Marseille", "Le Présage", "four solaire", "écologie", "solution locale"],
     "links": {
       "page": "https://csoluble.media/epsode/a-marseille-le-presage-cuisine-a-la-chaleur-solaire/",
-      "spotify": "https://open.spotify.com/episode/3GzcoLTbkvrgNwlfz4RDpS?si=qZ6UD0_vQNOekQjJn-dSbQEn",
+      "spotify": "https://open.spotify.com/episode/3GzcoLTbkvrgNwlfz4RDpS?si=qZ6UD0_vQNOekQjJn-dSbQ",
       "apple": "https://podcasts.apple.com/fr/podcast/%C3%A0-marseille-le-pr%C3%A9sage-cuisine-%C3%A0-la-chaleur-solaire/id1640003869?i=1000598772017",
-      "deezer": null,
-      "youtube": null,
+      "deezer": "https://link.deezer.com/s/31AS74CZjb2G3IgiNrBNj",
+      "youtube": "https://www.youtube.com/watch?v=ipk1_BzKXcc",
       "transcription": "https://csoluble.media/epsode/transcription-a-marseille-le-presage-cuisine-a-la-chaleur-solaire/",
       "summary": null
     }
@@ -1909,10 +1910,10 @@ export const EPISODE_DATA: Episode[] = [
     "themes": ["Numérique", "Emmaüs Connect", "illectronisme", "fracture numérique", "réemploi", "économie circulaire", "solidarité"],
     "links": {
       "page": "https://csoluble.media/epsode/la-collecte-tech-en-lutte-contre-la-precarite-numerique/",
-      "spotify": "https://open.spotify.com/episode/32HsaWJMuqKDVuU3nbcWCt?si=T8l8Dgc0QM6rL8L1H38i2wÀ",
+      "spotify": "https://open.spotify.com/episode/32HsaWJMuqKDVuU3nbcWCt?si=T8l8Dgc0QM6rL8L1H38i2w",
       "apple": "https://podcasts.apple.com/fr/podcast/lacollecte-tech-en-lutte-contre-la-pr%C3%A9carit%C3%A9-num%C3%A9rique/id1640003869?i=1000597653440",
-      "deezer": null,
-      "youtube": null,
+      "deezer": "https://link.deezer.com/s/31AS8m8KJZqdfuHJWoMUU",
+      "youtube": "https://www.youtube.com/watch?v=FZNQ7dw-o7g",
       "transcription": "https://csoluble.media/epsode/transcription-la-collecte-tech-en-lutte-contre-la-precarite-numerique/",
       "summary": null
     }
@@ -1928,10 +1929,10 @@ export const EPISODE_DATA: Episode[] = [
     "themes": ["Consigne verre", "recyclage", "environnement", "filière régionale"],
     "links": {
       "page": "https://csoluble.media/epsode/reverredire-remet-la-consigne-au-gout-du-jour/",
-      "spotify": "https://open.spotify.com/episode/0Bp55no7d807aisBJLFT2o?si=EHgcUI58SNqqBPuYJwBtCQLa",
+      "spotify": "https://open.spotify.com/episode/0Bp55no7d807aisBJLFT2o?si=EHgcUI58SNqqBPuYJwBtCQ",
       "apple": "https://podcasts.apple.com/fr/podcast/reverredire-remet-la-consigne-au-go%C3%BBt-du-jour/id1640003869?i=1000596668336",
-      "deezer": null,
-      "youtube": null,
+      "deezer": "https://link.deezer.com/s/31AS7QXqBkdnDBqKFBC7T",
+      "youtube": "https://www.youtube.com/watch?v=VGCjhWT9_70",
       "transcription": "https://csoluble.media/epsode/transcription-reverredire-remet-la-consigne-au-gout-du-jour/",
       "summary": null
     }
@@ -1947,10 +1948,10 @@ export const EPISODE_DATA: Episode[] = [
     "themes": ["Stage de 3e", "réseau", "éducation", "égalité des chances"],
     "links": {
       "page": "https://csoluble.media/epsode/viensvoirmontaf-le-reseau-pour-trouver-son-stage-de-3e-sans-reseau/",
-      "spotify": "https://open.spotify.com/episode/5XPDf22ucqijqFnjuvKzhV?si=DxffHNcAQsuIe6h2K36AGwReverredire",
+      "spotify": "https://open.spotify.com/episode/5XPDf22ucqijqFnjuvKzhV?si=DxffHNcAQsuIe6h2K36AGw",
       "apple": "https://podcasts.apple.com/fr/podcast/viensvoirmontaf-le-r%C3%A9seau-pour-trouver-son-stage-de/id1640003869?i=1000595362302",
-      "deezer": null,
-      "youtube": null,
+      "deezer": "https://link.deezer.com/s/31AS8UWXGpsBKANw5iMsI",
+      "youtube": "https://www.youtube.com/watch?v=PuKANkaB3yo",
       "transcription": "https://csoluble.media/epsode/transcription-viensvoirmontaf-le-reseau-pour-trouver-son-stage-de-3e-sans-reseau/",
       "summary": null
     }
@@ -1966,10 +1967,10 @@ export const EPISODE_DATA: Episode[] = [
     "themes": ["Électricité", "consommation", "carbone", "application", "Adapt"],
     "links": {
       "page": "https://csoluble.media/epsode/adapt-lappli-meteo-de-lelectricite-pour-moins-polluer/",
-      "spotify": "https://open.spotify.com/episode/3WKT5rk3r2sHwKTKQye9TQ?si=fwyOhTNRR0GRScrjn7qoCwViensVoirMonTaf",
+      "spotify": "https://open.spotify.com/episode/3WKT5rk3r2sHwKTKQye9TQ?si=fwyOhTNRR0GRScrjn7qoCw",
       "apple": "https://podcasts.apple.com/fr/podcast/soluble-s/id1640003869?i=1000593882460",
-      "deezer": null,
-      "youtube": null,
+      "deezer": "https://link.deezer.com/s/31AS9dzeayQx0SdDLBdKI",
+      "youtube": "https://www.youtube.com/watch?v=5VplGv9Nmxk",
       "transcription": "https://csoluble.media/epsode/transcription-adapt-lappli-meteo-de-lelectricite-pour-moins-polluer/",
       "summary": null
     }
@@ -1978,17 +1979,17 @@ export const EPISODE_DATA: Episode[] = [
     "id": "ep7",
     "title": "Quand l’huile de friture usagée se transforme en carburant",
     "date": "2023-01-11",
-    "duration": "30:00:00",
+    "duration": "30:00",
     "guest": "Grégory Gendre",
     "category": "Environnement",
     "description": "Grégory Gendre explique comment transformer l'huile de friture usagée en carburant, réduisant ainsi les déchets et les émissions de carbone.",
     "themes": ["Huile de friture", "Charente-Maritime", "réemploi", "carburant", "écologie", "Oléron"],
     "links": {
       "page": "https://csoluble.media/epsode/quand-lhuile-de-friture-usagee-se-transforme-en-carburant/",
-      "spotify": "https://open.spotify.com/episode/6cWruoe277nAzi1HUUYGot?si=cUPMQriPSfSF-MxO2poxFgAdapt",
+      "spotify": "https://open.spotify.com/episode/6cWruoe277nAzi1HUUYGot?si=cUPMQriPSfSF-MxO2poxFg",
       "apple": "https://podcasts.apple.com/fr/podcast/lhuile-de-friture-pour-carburant-gr%C3%A9gory-gendre/id1640003869?i=1000585621298",
-      "deezer": null,
-      "youtube": null,
+      "youtube": "https://www.youtube.com/watch?v=mkOEcIEpL7Q",
+      "deezer": "https://link.deezer.com/s/31ASaenKzqkaTuoViXam2",
       "transcription": "https://csoluble.media/epsode/transcription-quand-lhuile-de-friture-usagee-se-transforme-en-carburant/",
       "summary": null
     }
@@ -2004,10 +2005,10 @@ export const EPISODE_DATA: Episode[] = [
     "themes": ["Mod’emplois", "entrepreneuriat", "ESS", "projets à impact", "développement durable", "impact positif", "changer de métier", "emploi", "entreprise"],
     "links": {
       "page": "https://csoluble.media/epsode/modemplois-la-plateforme-pour-sinspirer-et-entreprendre-utile/",
-      "spotify": "https://open.spotify.com/episode/0osICee9COjAu8T6RFC19W?si=BE_CX_yYQAGx476Dwn_e_QQuand",
+      "spotify": "https://open.spotify.com/episode/0osICee9COjAu8T6RFC19W?si=BE_CX_yYQAGx476Dwn_e_Q",
       "apple": "https://podcasts.apple.com/fr/podcast/modemplois-la-plateforme-pour-sinspirer-et-entreprendre/id1640003869?i=1000592552686",
-      "deezer": null,
-      "youtube": null,
+      "deezer": "https://link.deezer.com/s/31AS9uErKS7ij6uIzpHKJ",
+      "youtube": "https://www.youtube.com/watch?v=3MpgaqhUrDc",
       "transcription": "https://csoluble.media/epsode/transcription-modemplois-la-plateforme-pour-sinspirer-et-entreprendre-utile/",
       "summary": null
     }
@@ -2023,10 +2024,10 @@ export const EPISODE_DATA: Episode[] = [
     "themes": ["Pain local", "circuit-court", "boulangerie", "agriculture locale"],
     "links": {
       "page": "https://csoluble.media/epsode/le-pain-ultra-local-de-combaillaux-34/",
-      "spotify": "https://open.spotify.com/episode/1lYauhD7eGBxlhJyKr0fqT?si=DaFy4OPwRUy-pLTWlMnaywMod’emplois",
+      "spotify": "https://open.spotify.com/episode/1lYauhD7eGBxlhJyKr0fqT?si=DaFy4OPwRUy-pLTWlMnayw",
       "apple": "https://podcasts.apple.com/fr/podcast/le-pain-ultra-local-de-combaillaux-34/id1640003869?i=1000588255502",
-      "deezer": null,
-      "youtube": null,
+      "deezer": "https://link.deezer.com/s/31AS9NrUSjCMxQr02wBZa",
+      "youtube": "https://www.youtube.com/watch?v=IW2yY78MgUc",
       "transcription": "https://csoluble.media/epsode/transcription-le-pain-ultra-local-de-combaillaux-34/",
       "summary": null
     }
@@ -2042,10 +2043,10 @@ export const EPISODE_DATA: Episode[] = [
     "themes": ["Sensibilisation propreté", "TikTok", "éboueur", "civisme"],
     "links": {
       "page": "https://csoluble.media/epsode/ludovic-franceschet-eboueur-et-star-de-la-sensibilisation-sur-tiktok/",
-      "spotify": "https://open.spotify.com/episode/5vdIVy3gqmaZPjbWJ9Pj4i?si=08l2Q9vPSHetahB1iKuIbQLe",
+      "spotify": "https://open.spotify.com/episode/5vdIVy3gqmaZPjbWJ9Pj4i?si=08l2Q9vPSHetahB1iKuIbQ",
       "apple": "https://podcasts.apple.com/fr/podcast/soluble-s/id1640003869?i=1000582482227",
-      "deezer": null,
-      "youtube": null,
+      "deezer": "https://link.deezer.com/s/31ASaBAEvVT8mOW0urPTI",
+      "youtube": "https://www.youtube.com/watch?v=BJ8R45u2VP4",
       "transcription": "https://csoluble.media/epsode/transcription-ludovic-franceschet-eboueur-et-star-de-la-sensibilisation-sur-tiktok/",
       "summary": null
     }
@@ -2061,10 +2062,10 @@ export const EPISODE_DATA: Episode[] = [
     "themes": ["Chronotrains", "carte interactive", "train", "voyage", "Europe"],
     "links": {
       "page": "https://csoluble.media/epsode/chronotrains-la-carte-de-leurope-a-portee-de-train/",
-      "spotify": "https://open.spotify.com/episode/6ea8udijkZAtbOOLZubHJH?si=GSh7_TaPTXWYNaqHJGvxLQLudovic",
+      "spotify": "https://open.spotify.com/episode/6ea8udijkZAtbOOLZubHJH?si=GSh7_TaPTXWYNaqHJGvxLQ",
       "apple": "https://podcasts.apple.com/fr/podcast/soluble-s/id1640003869?i=1000580986222",
-      "deezer": null,
-      "youtube": null,
+      "deezer": "https://link.deezer.com/s/31ASaQM1d2tpZpPjEGQ8E",
+      "youtube": "https://www.youtube.com/watch?v=n0Q_fkLA3q8",
       "transcription": "https://csoluble.media/epsode/transcription-chronotrains-la-carte-de-leurope-a-portee-de-train/",
       "summary": null
     }
@@ -2080,10 +2081,10 @@ export const EPISODE_DATA: Episode[] = [
     "themes": ["AGORAé", "épiceries sociales", "étudiants", "précarité", "solidarité"],
     "links": {
       "page": "https://csoluble.media/epsode/paul-mayaux-des-epiceries-sociales-et-solidaires-pour-etudiants/",
-      "spotify": "https://open.spotify.com/episode/07vhDO6gugPe0SGvh3YVjX?si=YdxkwSVaTjqdLUwLi4CI8gChronotrains",
+      "spotify": "https://open.spotify.com/episode/07vhDO6gugPe0SGvh3YVjX?si=YdxkwSVaTjqdLUwLi4CI8g",
       "apple": "https://podcasts.apple.com/fr/podcast/soluble-s/id1640003869?i=1000579528733",
-      "deezer": null,
-      "youtube": null,
+      "deezer": "https://link.deezer.com/s/31ASb7k04OUohqeIP40lk",
+      "youtube": "https://www.youtube.com/watch?v=0UYg7vLZAxs",
       "transcription": "https://csoluble.media/epsode/transcription-paul-mayaux-des-epiceries-sociales-et-solidaires-pour-etudiants/",
       "summary": null
     }
@@ -2098,16 +2099,30 @@ export const EPISODE_DATA: Episode[] = [
     "description": "Béatrice Robrolle-Mary discute des solutions pour protéger les abeilles, en mettant l'accent sur les bonnes pratiques de jardinage, de consommation, et la sensibilisation.",
     "themes": ["Abeilles", "protection", "pollinisateurs", "pesticides", "agroécologie"],
     "links": {
-      "page": "https://csoluble.media/epsode/beatrice-robrolle-mary-comment-proteger-les-abeilles/",
-      "spotify": "https://open.spotify.com/episode/70xecF9PrM5yCCu3hMFKZl",
-      "apple": "https://podcasts.apple.com/us/podcast/b%C3%A9atrice-robrolle-mary-comment-prot%C3%A9ger-les-abeilles/id1640003869?i=1000578405631",
-      "deezer": null,
-      "youtube": null,
-      "transcription": "https://csoluble.media/epsode/transcription-beatrice-robrolle-mary-comment-proteger-les-abeilles/",
-      "summary": null
+        "page": "https://csoluble.media/epsode/beatrice-robrolle-mary-comment-proteger-les-abeilles/",
+        "spotify": "https://open.spotify.com/episode/70xecF9PrM5yCCu3hMFKZl",
+        "apple": "https://podcasts.apple.com/us/podcast/b%C3%A9atrice-robrolle-mary-comment-prot%C3%A9ger-les-abeilles/id1640003869?i=1000578405631",
+        "deezer": "https://link.deezer.com/s/31ASblrKZPfxDs2OWJytq",
+        "youtube": "https://www.youtube.com/watch?v=2Dv0two4K7Y",
+        "transcription": "https://csoluble.media/epsode/transcription-beatrice-robrolle-mary-comment-proteger-les-abeilles/",
+        "summary": null
     }
   }
 ];
+
+export const GENERAL_PLATFORM_LINKS = {
+    spotify: "https://open.spotify.com/show/11CYdR9d0vEWmaD5DHZsaH",
+    apple: "https://podcasts.apple.com/fr/podcast/soluble-s-actu-ecologie-societe-solutions/id1640003869",
+    youtube: "https://www.youtube.com/@podcastsoluble.s",
+    deezer: "https://www.deezer.com/fr/show/4512867",
+    page: "https://csoluble.media",
+    podcastaddict: "https://podcastaddict.com/podcast/solubles-actu-ecologie-societe-solutions/4349936",
+    youtubemusic: "https://music.youtube.com/playlist?list=PLEeihXD_0avWLPuenYMHXrkCYnRa3upM8",
+    amazonmusic: "https://music.amazon.com/podcasts/1c164872-8e78-4569-a3b1-1163a808afe0/soluble-s-actu-ecologie-soci%C3%A9t%C3%A9-solutions",
+    pocketcasts: "https://pocketcasts.com/podcast/solubles-actu-ecologie-soci%C3%A9t%C3%A9-solutions/c5682b90-0f3b-013b-0585-0acc26574db2"
+};
+
+const episodesText = EPISODE_DATA.map(e => `- ID: ${e.id}, Date: ${e.date}, Titre: "${e.title}", Invité: ${e.guest}, Catégorie: ${e.category}, Thèmes: ${e.themes.join(', ')}, Description: ${e.description}`).join('\n');
 
 export const FAQ_DATA: FAQ[] = [
   {
@@ -2144,19 +2159,6 @@ export const FAQ_DATA: FAQ[] = [
   }
 ];
 
-export const GENERAL_PLATFORM_LINKS = {
-    spotify: "https://open.spotify.com/show/11CYdR9d0vEWmaD5DHZsaH",
-    apple: "https://podcasts.apple.com/fr/podcast/soluble-s-actu-ecologie-societe-solutions/id1640003869",
-    youtube: "https://www.youtube.com/@podcastsoluble.s",
-    deezer: "https://www.deezer.com/fr/show/4512867",
-    page: "https://csoluble.media",
-    podcastaddict: "https://podcastaddict.com/podcast/solubles-actu-ecologie-societe-solutions/4349936",
-    youtubemusic: "https://music.youtube.com/playlist?list=PLEeihXD_0avWLPuenYMHXrkCYnRa3upM8",
-    amazonmusic: "https://music.amazon.com/podcasts/1c164872-8e78-4569-a3b1-1163a808afe0/soluble-s-actu-ecologie-soci%C3%A9t%C3%A9-solutions",
-    pocketcasts: "https://pocketcasts.com/podcast/solubles-actu-ecologie-soci%C3%A9t%C3%A9-solutions/c5682b90-0f3b-013b-0585-0acc26574db2"
-};
-
-const episodesText = EPISODE_DATA.map(e => `- ID: ${e.id}, Date: ${e.date}, Titre: "${e.title}", Invité: ${e.guest}, Catégorie: ${e.category}, Thèmes: ${e.themes.join(', ')}, Description: ${e.description}`).join('\n');
 const faqText = FAQ_DATA.map(f => `Q: ${f.question}\nA: ${f.answer}`).join('\n\n');
 const appleLink = GENERAL_PLATFORM_LINKS.apple;
 const spotifyLink = GENERAL_PLATFORM_LINKS.spotify;
@@ -2188,8 +2190,8 @@ Pour chaque question de l'utilisateur, tu dois suivre cet ordre STRICT :
     - **Si tu trouves 5 épisodes ou plus :**
       - **NE LISTE PAS TOUT.** C'est trop long et submerge l'utilisateur.
       - Commence par annoncer le nombre total d'épisodes trouvés. (Ex: "Super ! J'ai trouvé 24 épisodes sur l'environnement.")
-      - Présente **UNIQUEMENT** l'épisode le plus récent de cette liste en utilisant le formatage \`:::episode ID:[ID_DE_L_EPISODE] :::\`.
-      - Termine TOUJOURS en posant une question ouverte pour guider l'utilisateur. (Ex: "Celui-ci t'intéresse, ou préfères-tu que je t'en montre d'autres ?", "Tu peux aussi me donner un mot-clé plus précis pour affiner la recherche !").
+      - Présente **UNIQUEMENT les 3 épisodes les plus récents** de cette liste en utilisant le formatage \`:::episode ID:[ID_DE_L_EPISODE] :::\` pour chaque.
+      - Termine TOUJOURS en posant une question ouverte pour guider l'utilisateur. (Ex: "L'un de ceux-ci t'intéresse, ou préfères-tu que je t'en montre d'autres ?", "Tu peux aussi me donner un mot-clé plus précis pour affiner la recherche !").
 
 2.  **FORMATAGE STRICT POUR LES DEMANDES D'ÉPISODE SURPRISE / SPÉCIFIQUE :**
     Lorsque la demande de l'utilisateur pointe SANS AMBIGUÏTÉ vers un et un seul épisode (par ex. "l'épisode de la semaine dernière", "l'épisode ep44", "un épisode surprise"), ta réponse DOIT être UNIQUEMENT le bloc \`:::episode ID:[ID_DE_L_EPISODE] :::\`. Ne rajoute aucun texte conversationnel.
