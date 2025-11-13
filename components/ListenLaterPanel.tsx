@@ -32,6 +32,13 @@ const getIconForPlatform = (platform: string) => {
 export const ListenLaterPanel: React.FC<ListenLaterPanelProps> = ({ isOpen, onClose, episodes, onRemove }) => {
   const [isCopied, setIsCopied] = useState(false);
 
+  // This wrapper function prevents the click event from bubbling up to the parent page,
+  // which could cause unintended behavior like closing the entire iframe in WordPress.
+  const handleClose = (e: React.MouseEvent<HTMLElement>) => {
+    e.stopPropagation();
+    onClose();
+  };
+
   const getShareableTextForCopy = () => {
     const introText = "Voici ma sélection du podcast Soluble(s) à écouter plus tard :\n\n";
 
@@ -104,7 +111,7 @@ Créateur du podcast Soluble(s)
     <>
       <div 
         className={`fixed inset-0 bg-black/60 z-40 transition-opacity ${isOpen ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}
-        onClick={onClose}
+        onClick={handleClose}
         aria-hidden="true"
       ></div>
       <aside 
@@ -114,11 +121,11 @@ Créateur du podcast Soluble(s)
         aria-labelledby="listen-later-title"
       >
         <div className="flex flex-col h-full">
-          <button onClick={onClose} className="absolute top-3 right-3 p-2 rounded-full hover:bg-slate-700 z-10" aria-label="Fermer le panneau">
-            <CloseIcon />
-          </button>
-          <header className="p-4 border-b border-slate-700">
+          <header className="flex items-center justify-between p-4 border-b border-slate-700">
             <h2 id="listen-later-title" className="text-xl font-bold">Écouter plus tard</h2>
+            <button onClick={handleClose} className="p-2 rounded-full hover:bg-slate-700" aria-label="Fermer le panneau">
+              <CloseIcon />
+            </button>
           </header>
           
           <div className="flex-1 overflow-y-auto p-4">
