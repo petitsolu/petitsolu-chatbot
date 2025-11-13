@@ -1,40 +1,64 @@
+
 import React, { useState, useEffect, useRef, useCallback } from 'react';
 import { v4 as uuidv4 } from 'uuid';
 import { ChatMessage } from './components/ChatMessage';
 import { ChatInput } from './components/ChatInput';
 import { ListenLaterPanel } from './components/ListenLaterPanel';
-import { NewChatIcon, ListenLaterIcon, GuestsIcon, NewsletterIcon, LinkedInIcon, LogoIcon, MenuIcon } from './components/icons';
+import { NewChatIcon, ListenLaterIcon, GuestsIcon, NewsletterIcon, LinkedInIcon, LogoIcon, MenuIcon, LinkIcon } from './components/icons';
 import { useListenLater } from './hooks/useListenLater';
-import { getResponse, startNewConversation } from './services/geminiService';
+import { getResponse, startNewConversation as resetGeminiSession } from './services/geminiService';
 import { trackEvent } from './services/analyticsService';
 import { Message, Role } from './types';
 import { FAQ_DATA } from './constants';
 
+const CHAT_STORAGE_KEY = 'petitSolu_chatHistory';
+
 const App: React.FC = () => {
-  const [messages, setMessages] = useState<Message[]>([]);
-  const [isLoading, setIsLoading] = useState(false);
-  const [isListenLaterOpen, setIsListenLaterOpen] = useState(false);
-  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
-  const chatContainerRef = useRef<HTMLDivElement>(null);
-  const hasSentFirstMessage = useRef(false);
-
-  const { savedEpisodes, addEpisode, removeEpisode, isSaved } = useListenLater();
-
-  useEffect(() => {
-    setMessages([
+  const [messages, setMessages] = useState<Message[]>(() => {
+    try {
+      const storedMessages = window.localStorage.getItem(CHAT_STORAGE_KEY);
+      if (storedMessages) {
+        return JSON.parse(storedMessages);
+      }
+    } catch (error) {
+      console.error("Failed to load chat history from localStorage", error);
+    }
+    return [
       {
         id: uuidv4(),
         role: Role.ASSISTANT,
         content: "Bonjour ! Je suis PetitSolu, l'assistant IA du podcast Soluble(s). Comment puis-je vous aider aujourd'hui ? Vous pouvez me demander des infos sur un épisode, un invité, ou même me demander une recommandation surprise !",
         suggestions: ['🌍 Environnement', '🤝 Société', '🏡 Vie quotidienne', '🎁 Épisode surprise'],
       },
-    ]);
-    startNewConversation();
-  }, []);
+    ];
+  });
+
+  const [isLoading, setIsLoading] = useState(false);
+  const [isListenLaterOpen, setIsListenLaterOpen] = useState(false);
+  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+  const chatContainerRef = useRef<HTMLDivElement>(null);
+  const hasSentFirstMessage = useRef(messages.length > 1);
+
+  const { savedEpisodes, addEpisode, removeEpisode, isSaved } = useListenLater();
 
   useEffect(() => {
+    try {
+      window.localStorage.setItem(CHAT_STORAGE_KEY, JSON.stringify(messages));
+    } catch (error) {
+      console.error("Failed to save chat history to localStorage", error);
+    }
     if (chatContainerRef.current) {
-      chatContainerRef.current.scrollTop = chatContainerRef.current.scrollHeight;
+        const lastMessageElement = chatContainerRef.current.lastElementChild as HTMLElement;
+        if (lastMessageElement) {
+            const lastMessage = messages[messages.length - 1];
+            // If the last message is from the assistant and is NOT loading, scroll to its top.
+            if (lastMessage?.role === Role.ASSISTANT && !lastMessage.isLoading && lastMessage.content) {
+                lastMessageElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            } else {
+                // For user messages and loading indicators, scroll to the bottom of the chat.
+                lastMessageElement.scrollIntoView({ behavior: 'smooth', block: 'end' });
+            }
+        }
     }
   }, [messages]);
 
@@ -45,7 +69,7 @@ const App: React.FC = () => {
   }
 
   const handleSendMessage = useCallback(async (input: string, source: 'input' | 'suggestion' = 'input') => {
-    if (!input.trim()) return;
+    if (!input.trim() || isLoading) return;
 
     if (!hasSentFirstMessage.current) {
       trackEvent('start_chat');
@@ -56,26 +80,23 @@ const App: React.FC = () => {
       trackEvent('click_suggestion', { suggestion_text: input });
     }
 
-    // Remove suggestions from previous messages to keep UI clean
-    setMessages(prev => prev.map(m => ({ ...m, suggestions: undefined })));
-
     const userMessage: Message = { id: uuidv4(), role: Role.USER, content: input };
-    setMessages(prev => [...prev, userMessage]);
-    setIsLoading(true);
+    const historyForApi = [...messages.map(m => ({ ...m, suggestions: undefined })), userMessage];
 
     const loadingMessageId = uuidv4();
     const loadingMessage: Message = { id: loadingMessageId, role: Role.ASSISTANT, content: '', isLoading: true };
-    setMessages(prev => [...prev, loadingMessage]);
+    setMessages([...historyForApi, loadingMessage]);
+    setIsLoading(true);
 
     try {
-      const responseContent = await getResponse(input);
+      const responseContent = await getResponse(input, historyForApi);
       const assistantMessage: Message = { id: loadingMessageId, role: Role.ASSISTANT, content: responseContent, isLoading: false };
       setMessages(prev => prev.map(msg => msg.id === loadingMessageId ? assistantMessage : msg));
     } catch (error) {
-      const errorMessage: Message = { 
-        id: loadingMessageId, 
-        role: Role.ASSISTANT, 
-        content: error instanceof Error ? error.message : "Une erreur inconnue est survenue.", 
+      const errorMessage: Message = {
+        id: loadingMessageId,
+        role: Role.ASSISTANT,
+        content: error instanceof Error ? error.message : "Une erreur inconnue est survenue.",
         isError: true,
         isLoading: false,
       };
@@ -83,20 +104,26 @@ const App: React.FC = () => {
     } finally {
       setIsLoading(false);
     }
-  }, []);
+  }, [messages, isLoading]);
 
   const handleNewChat = () => {
     trackEvent('new_chat');
     hasSentFirstMessage.current = false;
-    startNewConversation();
-    setMessages([
+    resetGeminiSession();
+    const initialMessages = [
       {
         id: uuidv4(),
         role: Role.ASSISTANT,
-        content: "Nouvelle conversation ! Que souhaitez-vous explorer ?",
+        content: "Conversation réinitialisée ! Je suis prêt pour de nouvelles questions. Comment puis-je vous aider à explorer le podcast Soluble(s) ?",
         suggestions: ['🌍 Environnement', '🤝 Société', '🏡 Vie quotidienne', '🎁 Épisode surprise'],
       },
-    ]);
+    ];
+    setMessages(initialMessages);
+    try {
+      window.localStorage.setItem(CHAT_STORAGE_KEY, JSON.stringify(initialMessages));
+    } catch (error) {
+       console.error("Failed to clear chat history in localStorage", error);
+    }
     closeSidebar();
   };
   
@@ -121,7 +148,6 @@ const App: React.FC = () => {
 
   return (
     <div className="bg-slate-900 text-white h-dvh flex font-sans">
-      {/* Sidebar Overlay */}
       {isSidebarOpen && (
         <div 
           className="md:hidden fixed inset-0 bg-black/60 z-30 transition-opacity"
@@ -129,8 +155,6 @@ const App: React.FC = () => {
           aria-hidden="true"
         ></div>
       )}
-
-      {/* Sidebar */}
       <aside className={`
         fixed top-0 left-0 h-full w-64 bg-slate-950 p-4 flex flex-col gap-4 border-r border-slate-800 z-40
         transform transition-transform
@@ -178,9 +202,13 @@ const App: React.FC = () => {
                 <GuestsIcon />
                 <span className="text-sm">Les Solvers</span>
             </a>
-            <a href="https://www.linkedin.com/build-relation/newsletter-follow?entityUrn=7104012692293574656" onClick={() => handleSidebarLinkClick('Newsletter')} target="_blank" rel="noopener noreferrer" className="w-full flex items-center gap-3 p-2 rounded-md hover:bg-slate-800 transition-colors">
-                <NewsletterIcon />
-                <span className="text-sm">Newsletter</span>
+            <a href="https://csoluble.media/explorer-episodes-solubles-podcast/" onClick={() => handleSidebarLinkClick('Explorer sans IA')} target="_blank" rel="noopener noreferrer" className="w-full flex items-center gap-3 p-2 rounded-md hover:bg-slate-800 transition-colors">
+                <LinkIcon />
+                <span className="text-sm">Explorer sans IA</span>
+            </a>
+            <a href="https://csoluble.media/link-tree/" onClick={() => handleSidebarLinkClick('Link Tree')} target="_blank" rel="noopener noreferrer" className="w-full flex items-center gap-3 p-2 rounded-md hover:bg-slate-800 transition-colors">
+                <LinkIcon />
+                <span className="text-sm">Link Tree</span>
             </a>
              <a href="https://www.linkedin.com/in/simon-icard-47766821/" onClick={() => handleSidebarLinkClick('LinkedIn')} target="_blank" rel="noopener noreferrer" className="w-full flex items-center gap-3 p-2 rounded-md hover:bg-slate-800 transition-colors">
                 <LinkedInIcon />
@@ -189,10 +217,8 @@ const App: React.FC = () => {
         </div>
       </aside>
       
-      {/* Main Content Area */}
       <div className="flex-1 flex flex-col min-h-0">
-        {/* Mobile Header */}
-        <header className="md:hidden flex items-center justify-start p-4 bg-slate-900 border-b border-slate-800 flex-shrink-0">
+        <header className="md:hidden flex items-center justify-between p-4 bg-slate-900 border-b border-slate-800 flex-shrink-0">
           <button onClick={() => setIsSidebarOpen(true)} className="p-2 mr-2 -ml-2 text-white" aria-label="Ouvrir le menu">
             <MenuIcon />
           </button>
@@ -200,9 +226,9 @@ const App: React.FC = () => {
               <LogoIcon className="w-6 h-6 text-teal-400" />
               <h1 className="text-lg font-bold">Petit Solu</h1>
           </div>
+          <div className="w-10"></div>
         </header>
 
-        {/* Main Chat Area */}
         <main className="flex-1 flex flex-col min-h-0">
           <div ref={chatContainerRef} className="flex-1 overflow-y-auto p-6 space-y-6">
             {messages.map((message) => (
@@ -230,7 +256,7 @@ const App: React.FC = () => {
         </main>
       </div>
 
-      <ListenLaterPanel 
+      <ListenLaterPanel
         isOpen={isListenLaterOpen}
         onClose={() => setIsListenLaterOpen(false)}
         episodes={savedEpisodes}
