@@ -33,8 +33,9 @@ export const ListenLaterPanel: React.FC<ListenLaterPanelProps> = ({ isOpen, onCl
   const [isCopied, setIsCopied] = useState(false);
 
   // This wrapper function prevents the click event from bubbling up to the parent page,
-  // which could cause unintended behavior like closing the entire iframe in WordPress.
+  // and also prevents the browser's default action, ensuring only our code runs.
   const handleClose = (e: React.MouseEvent<HTMLElement>) => {
+    e.preventDefault();
     e.stopPropagation();
     onClose();
   };
