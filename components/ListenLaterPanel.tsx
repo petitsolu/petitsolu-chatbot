@@ -114,11 +114,11 @@ Créateur du podcast Soluble(s)
         aria-labelledby="listen-later-title"
       >
         <div className="flex flex-col h-full">
-          <header className="p-4 border-b border-slate-700 flex justify-between items-center">
+          <button onClick={onClose} className="absolute top-3 right-3 p-2 rounded-full hover:bg-slate-700 z-10" aria-label="Fermer le panneau">
+            <CloseIcon />
+          </button>
+          <header className="p-4 border-b border-slate-700">
             <h2 id="listen-later-title" className="text-xl font-bold">Écouter plus tard</h2>
-            <button onClick={onClose} className="p-2 rounded-full hover:bg-slate-700" aria-label="Fermer le panneau">
-              <CloseIcon />
-            </button>
           </header>
           
           <div className="flex-1 overflow-y-auto p-4">
