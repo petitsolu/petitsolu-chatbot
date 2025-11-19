@@ -53,7 +53,7 @@ export const EPISODE_DATA: Episode[] = [
       "deezer": "https://link.deezer.com/s/31AQMopbZ2aLtpomVsN50",
       "youtube": "https://www.youtube.com/watch?v=RxlFruK6RU4",
       "transcription": "https://csoluble.media/epsode/transcription-conseiller-mobilite-lallie-meconnu-qui-redonne-le-pouvoir-de-bouger-avec-sebastien-bailleul-wimoov/",
-      "summary": null
+      "summary": "https://csoluble.media/epsode/conseiller-mobilite-comment-sortir-de-la-galere-des-deplacements-en-france/"
     }
   },
   {
@@ -72,7 +72,7 @@ export const EPISODE_DATA: Episode[] = [
       "deezer": "https://link.deezer.com/s/31A9PU8xh8N2NBJmF60hR",
       "youtube": "https://www.youtube.com/watch?v=cmaLVR2PV8Y",
       "transcription": "https://csoluble.media/epsode/transcription-faut-quon-parle-cette-alliance-de-medias-qui-mise-sur-le-dialogue-pour-secourir-la-democratie-avec-beatrice-bouniol-la-croix/",
-      "summary": null
+      "summary": "https://csoluble.media/epsode/cest-quoi-faut-quon-parle-lalliance-des-medias-qui-reunit-des-citoyens-pour-dialoguer-en-face-a-face-meme-quand-tout-les-oppose/"
     }
   },
   {
@@ -91,7 +91,7 @@ export const EPISODE_DATA: Episode[] = [
       "deezer": "https://link.deezer.com/s/31ARyqlYmC7kzEtHY855V",
       "youtube": "https://www.youtube.com/watch?v=QEr3qJSHSXI",
       "transcription": "https://csoluble.media/epsode/transcription-cocaine-france-addiction-comment-en-sortir-solubles-naira-meliava/",
-      "summary": null
+      "summary": "https://csoluble.media/epsode/consommation-de-cocaine-en-france-causes-dangers-et-solutions-tout-comprendre-avec-la-psychologue-naira-meliava-oppelia/"
     }
   },
   {
@@ -110,7 +110,7 @@ export const EPISODE_DATA: Episode[] = [
       "deezer": "https://link.deezer.com/s/31ARySd1Ol5YFlwLj9O6v",
       "youtube": "https://www.youtube.com/watch?v=flVV7J7VsXg",
       "transcription": "https://csoluble.media/epsode/transcription-meteo-climat-solutions-paul-marquis/",
-      "summary": null
+      "summary": "https://csoluble.media/epsode/meteo-climat-10-questions-pour-mieux-se-proteger-et-sinformer/"
     }
   },
   {
@@ -129,7 +129,7 @@ export const EPISODE_DATA: Episode[] = [
       "deezer": "https://link.deezer.com/s/31ARzdlse2woWYwdzrOLQ",
       "youtube": "https://www.youtube.com/watch?v=_wyhqOz4OP4",
       "transcription": "https://csoluble.media/epsode/transcription-comment-soutenir-9-millions-de-proches-aidants-en-france/",
-      "summary": null
+      "summary": "https://csoluble.media/epsode/pourquoi-soutenir-les-aidants-devient-une-urgence-sociale/"
     }
   },
   {
@@ -142,13 +142,13 @@ export const EPISODE_DATA: Episode[] = [
     "description": "Laurent Boyet, capitaine de police et fondateur de l’association Les Papillons, détaille le dispositif des boîtes aux lettres Papillons installé dans plus de 600 écoles et structures périscolaires en France. Ces boîtes permettent aux enfants victimes de violences de briser le silence par l’écriture, favorisant la prise en charge rapide et adaptée. L’épisode aborde le harcèlement scolaire, les violences physiques et sexuelles, le fonctionnement du relais psychologique, les procédures d’alerte, le témoignage personnel du fondateur, et l’accompagnement à la Maison Papillons.",
     "themes": ["enfance", "violences", "harcèlement scolaire", "boîtes Papillons", "Laurent Boyet", "écriture", "signalement", "école", "associatif", "protection", "France", "Maison Papillons", "justice", "accompagnement"],
     "links": {
-      "page": "https://csoluble.media/epsode/comment-les-boites-aux-lettres-papillons-liberent-la-parole-des-enfants-victimes-de-violences/",
+      "page": "https://csoluble.media/epsode/comment-les-boites-aux-lettres-papillons-liberent-la-parole-des-enfants-victimes-de-violences-/",
       "spotify": "https://open.spotify.com/episode/0iYcJLNkLeWEsHM23yGEwj?si=DqXV31KdTw2oCSA3LsgJNQ",
       "apple": "https://podcasts.apple.com/fr/podcast/comment-les-bo%C3%AEtes-aux-lettres-papillons-lib%C3%A8rent-la/id1640003869?i=1000725457493",
       "deezer": "https://link.deezer.com/s/31ARzwfWxIyATnuqhawuA",
       "youtube": "https://www.youtube.com/watch?v=W7ILTbAB-b8",
-      "transcription": "https://csoluble.media/epsode/transcription-comment-les-boites-aux-lettres-papillons-liberent-la-parole-des-enfants-victimes-de-violences/",
-      "summary": null
+      "transcription": "https://csoluble.media/epsode/transcription-comment-les-boites-aux-lettres-papillons-liberent-la-parole-des-enfants-victimes-de-violences-/",
+      "summary": "https://csoluble.media/epsode/boites-aux-lettres-papillons-10-questions-pour-tout-comprendre-sur-le-dispositif-qui-libere-la-parole-des-enfants/"
     }
   },
   {
@@ -167,7 +167,7 @@ export const EPISODE_DATA: Episode[] = [
       "deezer": "https://link.deezer.com/s/31ARzQHbswTAOaauLTCfc",
       "youtube": "https://www.youtube.com/watch?v=47tKMQXWs2o",
       "transcription": "https://csoluble.media/epsode/transcription-climat-s-adapter-a-plus-4-degres-en-france-mode-demploi-avec-goneri-le-cozannet/",
-      "summary": null
+      "summary": "https://csoluble.media/epsode/climat-comment-la-france-peut-elle-sadapter-a-4-c/"
     }
   },
   {
@@ -186,7 +186,7 @@ export const EPISODE_DATA: Episode[] = [
       "deezer": "https://link.deezer.com/s/31ARAbzIMXzbPYoYL3iRx",
       "youtube": "https://www.youtube.com/watch?v=jBq3PBFyO7Y",
       "transcription": "https://csoluble.media/epsode/transcription-sante-mentale-ce-que-peut-vraiment-la-psychiatrie-avec-dr-david-masson/",
-      "summary": null
+      "summary": "https://csoluble.media/epsode/que-peut-vraiment-la-psychiatrie-moderne-pour-notre-sante-mentale/"
     }
   },
   {
@@ -205,7 +205,7 @@ export const EPISODE_DATA: Episode[] = [
       "deezer": "https://link.deezer.com/s/31ARAvOi0kjoVeOhFZ99W",
       "youtube": "https://www.youtube.com/watch?v=HC0sEO0fQmQ",
       "transcription": "https://csoluble.media/epsode/transcription-marcelle-media-7-ans-de-journalisme-de-solutions-depuis-marseille-avec-nathania-cahen/",
-      "summary": null
+      "summary": "https://csoluble.media/epsode/comment-marcelle-informe-sur-les-solutions-sans-edulcorer-la-realite/"
     }
   },
   {
@@ -224,7 +224,7 @@ export const EPISODE_DATA: Episode[] = [
       "deezer": "https://link.deezer.com/s/31ARANXTys0UAseSMSKte",
       "youtube": "https://www.youtube.com/watch?v=-fTVONCb1bI",
       "transcription": "https://csoluble.media/epsode/transcription-climax-le-media-qui-documente-la-revolution-culturelle-ecologique-avec-millie-servant/",
-      "summary": null
+      "summary": "https://csoluble.media/epsode/comment-climax-rend-il-lecologie-cool-grace-a-son-style-pop-et-sarcastique/"
     }
   },
   {
@@ -243,7 +243,7 @@ export const EPISODE_DATA: Episode[] = [
       "deezer": "https://link.deezer.com/s/31ARB7ZcIM1NQFHZFzKfS",
       "youtube": "https://www.youtube.com/watch?v=bs0_3egpXp0",
       "transcription": "https://csoluble.media/epsode/transcription-ia-rester-humain-face-a-la-machine-mission-impossible-avec-maxime-derian/",
-      "summary": null
+      "summary": "https://csoluble.media/epsode/comment-preserver-notre-humanite-face-a-lintelligence-artificielle/"
     }
   },
   {
@@ -262,7 +262,7 @@ export const EPISODE_DATA: Episode[] = [
       "deezer": "https://link.deezer.com/s/31ARBrthhLQEWKnP2PbZw",
       "youtube": "https://www.youtube.com/watch?v=CL4n_WmNHyw",
       "transcription": "https://csoluble.media/epsode/transcription-climat-biodiversite-les-entreprises-peuvent-elles-vraiment-faire-partie-de-la-solution/",
-      "summary": null
+      "summary": "https://csoluble.media/epsode/les-entreprises-peuvent-elles-vraiment-regenerer-la-planete-10-questions-reponses-avec-fabrice-bonnifet/"
     }
   },
   {
@@ -281,7 +281,7 @@ export const EPISODE_DATA: Episode[] = [
       "deezer": "https://link.deezer.com/s/31ARCz1HhzFjSL1Rt2MXK",
       "youtube": "https://www.youtube.com/watch?v=5SQ_VaqaG2E",
       "transcription": "https://csoluble.media/epsode/transcription-ia-et-numerique-peut-on-innover-sans-aggraver-le-changement-climatique/",
-      "summary": null
+      "summary": "https://csoluble.media/epsode/numerique-et-climat-10-reponses-de-tristan-nitot-pour-un-futur-plus-sobre/"
     }
   },
   {
@@ -300,7 +300,7 @@ export const EPISODE_DATA: Episode[] = [
       "deezer": "https://link.deezer.com/s/31ARBLjFCiEjff1wtufls",
       "youtube": "https://www.youtube.com/watch?v=0NnjPvs75sA",
       "transcription": "https://csoluble.media/epsode/transcription-30-000-citoyens-shifters-pour-decarboner-la-france-face-a-lurgence-climatique/",
-      "summary": null
+      "summary": "https://csoluble.media/epsode/decarbonation-la-mobilisation-des-30-000-shifters-acteurs-de-la-transition-en-france/"
     }
   },
   {
@@ -319,7 +319,7 @@ export const EPISODE_DATA: Episode[] = [
       "deezer": "https://link.deezer.com/s/31ARDcgNKBTwSPDpwGs5c",
       "youtube": "https://www.youtube.com/watch?v=NvDZmpBX-JI",
       "transcription": "https://csoluble.media/epsode/transcription-canicules-inondations-tempetes-feux-de-forets-comment-sy-preparer-avec-la-croix-rouge/",
-      "summary": null
+      "summary": "https://csoluble.media/epsode/comment-se-preparer-aux-catastrophes-climatiques-en-france/"
     }
   },
   {
@@ -338,7 +338,7 @@ export const EPISODE_DATA: Episode[] = [
       "deezer": "https://link.deezer.com/s/31ARDvWbnhkrzT9BLXXOa",
       "youtube": "https://www.youtube.com/watch?v=1NfKIz7J8jA",
       "transcription": "https://csoluble.media/epsode/transcription-memo-de-vie-coffre-fort-numerique-pour-aider-les-victimes-de-violences-repetees/",
-      "summary": null
+      "summary": "https://csoluble.media/epsode/memo-de-vie-tout-savoir-sur-la-plateforme-qui-aide-les-victimes-de-violences-repetees/"
     }
   },
   {
@@ -357,7 +357,7 @@ export const EPISODE_DATA: Episode[] = [
       "deezer": "https://link.deezer.com/s/31ARDONyhJCq7YnQcWw3v",
       "youtube": "https://www.youtube.com/watch?v=Odtln9R_2A4",
       "transcription": "https://csoluble.media/epsode/transcription-endotest-un-test-salivaire-pour-reduire-l-errance-diagnostique-de-l-endometriose/",
-      "summary": null
+      "summary": "https://csoluble.media/epsode/endotest-la-fin-dune-longue-attente-pour-les-femmes-atteintes-d-endometriose/"
     }
   },
   {
@@ -376,7 +376,7 @@ export const EPISODE_DATA: Episode[] = [
       "deezer": "https://link.deezer.com/s/31AREcqhYJFXEF0dvZXXt",
       "youtube": "https://www.youtube.com/watch?v=DM1otbypej0",
       "transcription": "https://csoluble.media/epsode/transcription-aimer-et-proteger-les-chauves-souris-avec-manon-berehouc/",
-      "summary": null
+      "summary": "https://csoluble.media/epsode/les-chauves-souris-sont-elles-nos-alliees-secretes-les-reponses-de-manon-berehouc/"
     }
   },
   {
@@ -395,7 +395,7 @@ export const EPISODE_DATA: Episode[] = [
       "deezer": "https://link.deezer.com/s/31AREx0N5A2FYI0lYLq7i",
       "youtube": "https://www.youtube.com/watch?v=f2EA3Ik2Rcs",
       "transcription": "https://csoluble.media/epsode/transcription-vera-l-ia-francaise-qui-combat-les-fake-news-en-3-secondes-chrono/",
-      "summary": null
+      "summary": "https://csoluble.media/epsode/comment-vera-ia-stoppe-les-fake-news/"
     }
   },
   {
@@ -414,7 +414,7 @@ export const EPISODE_DATA: Episode[] = [
       "deezer": "https://link.deezer.com/s/31ARENiuqV4E4wUEaWWEa",
       "youtube": "https://www.youtube.com/watch?v=zrvJlAcuuN8",
       "transcription": "https://csoluble.media/epsode/transcription-relancer-le-velo-carbone-made-in-france-le-defi-de-nilman-bicycle/",
-      "summary": null
+      "summary": "https://csoluble.media/epsode/nilman-bicycle-le-pari-du-carbone-made-in-france/"
     }
   },
   {
@@ -433,7 +433,7 @@ export const EPISODE_DATA: Episode[] = [
       "deezer": "https://link.deezer.com/s/31ARF8arkCi9MqxWHBv4M",
       "youtube": "https://www.youtube.com/watch?v=svzDEghbCkk",
       "transcription": "https://csoluble.media/epsode/transcription-les-navettes-autonomes-la-cle-pour-une-mobilite-periurbaine-plus-verte/",
-      "summary": null
+      "summary": "https://csoluble.media/epsode/tout-savoir-sur-les-navettes-electriques-et-autonomes-de-suburvan/"
     }
   },
   {
@@ -452,7 +452,7 @@ export const EPISODE_DATA: Episode[] = [
       "deezer": "https://link.deezer.com/s/31ARFqBSKKlLM2jR2pe5i",
       "youtube": "https://www.youtube.com/watch?v=Qb1XnsmnCYY",
       "transcription": "https://csoluble.media/epsode/transcription-peut-on-rendre-le-bio-accessible-sans-sacrifier-les-agriculteurs/",
-      "summary": null
+      "summary": "https://csoluble.media/epsode/beyond-green-rendre-le-bio-accessible-sans-sacrifier-les-agriculteurs/"
     }
   },
   {
@@ -471,7 +471,7 @@ export const EPISODE_DATA: Episode[] = [
       "deezer": "https://link.deezer.com/s/31ARFNnMz1TWcLMvyjZJo",
       "youtube": "https://www.youtube.com/watch?v=9u45EwKfXqg",
       "transcription": "https://csoluble.media/epsode/transcription-studiava-le-tinder-de-lorientation-post-bac-qui-utilise-lia-pour-aider-les-lyceens/",
-      "summary": null
+      "summary": "https://csoluble.media/epsode/studiava-le-guide-intelligent-de-lorientation-post-bac/"
     }
   },
   {
@@ -490,7 +490,7 @@ export const EPISODE_DATA: Episode[] = [
       "deezer": "https://link.deezer.com/s/31ARGj6JMjuh0a0mO9pf5",
       "youtube": "https://www.youtube.com/watch?v=sm9UhMgtWu4",
       "transcription": "https://csoluble.media/epsode/transcription-qi-bo-de-beaux-vetements-adaptes-aux-soins-a-porter-malgre-la-chimiotherapie/",
-      "summary": null
+      "summary": "https://csoluble.media/epsode/comment-les-vetements-de-qi-bo-transforment-ils-le-confort-des-patients-en-chimiotherapie/"
     }
   },
   {
@@ -509,7 +509,7 @@ export const EPISODE_DATA: Episode[] = [
       "deezer": "https://link.deezer.com/s/31ARJeCqjzDgNDda0tMfZ",
       "youtube": "https://www.youtube.com/watch?v=0Cak9PqPvjQ",
       "transcription": "https://csoluble.media/epsode/transcription-newstruck-videos-ateliers-lumieres-sur-linfo-engage-les-jeunes-contre-la-desinformation/",
-      "summary": null
+      "summary": "https://csoluble.media/epsode/comment-lumieres-sur-linfo-aide-les-jeunes-a-discerner-le-vrai-du-faux/"
     }
   },
   {
@@ -528,7 +528,7 @@ export const EPISODE_DATA: Episode[] = [
       "deezer": "https://link.deezer.com/s/31ARJAp0FzwImPcVNLeOz",
       "youtube": "https://www.youtube.com/watch?v=SWbPBxN64VU",
       "transcription": "https://csoluble.media/epsode/transcription-les-poules-dornement-et-de-races-anciennes-ne-sont-pas-avares-en-solutions/",
-      "summary": null
+      "summary": "https://csoluble.media/epsode/comment-les-poules-peuvent-elles-contribuer-a-un-mode-de-vie-plus-ecologique/"
     }
   },
   {
@@ -547,7 +547,7 @@ export const EPISODE_DATA: Episode[] = [
       "deezer": "https://link.deezer.com/s/31ARJR1trMCVU2aBpIzgV",
       "youtube": "https://www.youtube.com/watch?v=gDRlnu47nVY",
       "transcription": "https://csoluble.media/epsode/transcription-ladoption-des-coraux-une-solution-pour-preserver-les-ecosystemes-marins/",
-      "summary": null
+      "summary": "https://csoluble.media/epsode/comment-les-entreprises-peuvent-elles-sinvestir-pour-proteger-les-coraux/"
     }
   },
   {
@@ -566,7 +566,7 @@ export const EPISODE_DATA: Episode[] = [
       "deezer": "https://link.deezer.com/s/31ARK87XqsUDKBoDrB3Fr",
       "youtube": "https://www.youtube.com/watch?v=HgSkvZvRCfU",
       "transcription": "https://csoluble.media/epsode/transcription-la-soumission-chimique-un-phenomene-criminel-a-combattre/",
-      "summary": null
+      "summary": "https://csoluble.media/epsode/quels-sont-les-dangers-de-la-soumission-chimique-et-comment-les-prevenir/"
     }
   },
   {
@@ -585,7 +585,7 @@ export const EPISODE_DATA: Episode[] = [
       "deezer": "https://link.deezer.com/s/31ARKtxxCqKh9tbnxd99o",
       "youtube": "https://www.youtube.com/watch?v=TEbXeK3v_o8",
       "transcription": "https://csoluble.media/epsode/transcription-un-revenu-minimum-pour-les-etudiants-de-petit-quevilly/",
-      "summary": null
+      "summary": "https://csoluble.media/epsode/le-petit-quevilly-propose-t-il-un-revenu-minimum-etudiant/"
     }
   },
   {
@@ -604,7 +604,7 @@ export const EPISODE_DATA: Episode[] = [
       "deezer": "https://link.deezer.com/s/31ARKON5mjYsWfCFGkCFQ",
       "youtube": "https://www.youtube.com/watch?v=ph6C5eLKybA",
       "transcription": "https://csoluble.media/epsode/transcription-derriere-les-chiffres-du-harcelement-scolaire-comprendre-et-agir/",
-      "summary": null
+      "summary": "https://csoluble.media/epsode/10-questions-sur-le-harcelement-scolaire-un-resume-de-lepisode-de-solubles-avec-marie-quartier/"
     }
   },
   {
@@ -623,7 +623,7 @@ export const EPISODE_DATA: Episode[] = [
       "deezer": "https://link.deezer.com/s/31ARLocJ6nuPi7nRuWMNq",
       "youtube": "https://www.youtube.com/watch?v=f8c9cB5EmMg",
       "transcription": "https://csoluble.media/epsode/transcription-le-design-climatique-une-solution-pour-rafraichir-nos-villes-et-nos-logements/",
-      "summary": null
+      "summary": "https://csoluble.media/epsode/comment-adapter-les-villes-et-les-logements-aux-temperatures-elevees-dues-au-rechauffement-climatique/"
     }
   },
   {
@@ -642,7 +642,7 @@ export const EPISODE_DATA: Episode[] = [
       "deezer": "https://link.deezer.com/s/31ARMSyjOZhkpRFegDoDI",
       "youtube": "https://www.youtube.com/watch?v=Z1-fiqMtbes",
       "transcription": "https://csoluble.media/epsode/transcription-basilic-un-podcast-engage-pour-rendre-la-vie-ecolo-accessible-et-desirable/",
-      "summary": null
+      "summary": "https://csoluble.media/epsode/comment-jeane-clesse-creatrice-du-podcast-basilic-promeut-lecologie-a-travers-ses-initiatives-positives/"
     }
   },
   {
@@ -661,7 +661,7 @@ export const EPISODE_DATA: Episode[] = [
       "deezer": "https://link.deezer.com/s/31ARNdnxirPlFOStQZ5h3",
       "youtube": "https://www.youtube.com/watch?v=yStXwaVmlL8",
       "transcription": "https://csoluble.media/epsode/transcription-les-bonnes-idees-sont-dans-lesprit-dinitiative-sur-france-inter/",
-      "summary": null
+      "summary": "https://csoluble.media/epsode/comment-cecile-bidault-journaliste-a-france-inter-met-en-lumiere-les-initiatives-positives-en-france/"
     }
   },
   {
@@ -680,7 +680,7 @@ export const EPISODE_DATA: Episode[] = [
       "deezer": "https://link.deezer.com/s/31ARNxHXqsyyF03SCHQmg",
       "youtube": "https://www.youtube.com/watch?v=ejQbNu7EUSE",
       "transcription": "https://csoluble.media/epsode/transcription-ces-filets-interceptent-in-extremis-nos-dechets-qui-polluent-gravement-les-oceans/",
-      "summary": null
+      "summary": "https://csoluble.media/epsode/comment-intercepter-les-dechets-avant-quils-ne-se-retrouvent-dans-les-oceans/"
     }
   },
   {
@@ -699,7 +699,7 @@ export const EPISODE_DATA: Episode[] = [
       "deezer": "https://link.deezer.com/s/31ARNRNEAwjkFNwYOGBoI",
       "youtube": "https://www.youtube.com/watch?v=gZp72FxxsmM",
       "transcription": "https://csoluble.media/epsode/transcription-tortues-marines-menacees-les-soigner-et-les-preserver/",
-      "summary": null
+      "summary": "https://csoluble.media/epsode/pourquoi-les-tortues-marines-sont-elles-des-indicateurs-de-la-sante-des-oceans/"
     }
   },
   {
@@ -718,7 +718,7 @@ export const EPISODE_DATA: Episode[] = [
       "deezer": "https://link.deezer.com/s/31ARObm0Yg1eQLL6eo2Lv",
       "youtube": "https://www.youtube.com/watch?v=kpEDc2Xzssc",
       "transcription": "https://csoluble.media/epsode/transcription-joyau-naturel-comment-les-calanques-se-protegent/",
-      "summary": null
+      "summary": "https://csoluble.media/epsode/comment-le-parc-national-des-calanques-protege-t-il-sa-biodiversite-et-gere-t-il-la-surfrequentation-touristique/"
     }
   },
   {
@@ -737,7 +737,7 @@ export const EPISODE_DATA: Episode[] = [
       "deezer": "https://link.deezer.com/s/31AROwASa67wsZguIJqiB",
       "youtube": "https://www.youtube.com/watch?v=IFwtj1ps8Sw",
       "transcription": "https://csoluble.media/epsode/transcription-e-commerce-a-impact-anti-crise-et-contre-le-gaspillage-alimentaire-willy-anti-gaspi-a-la-manoeuvre/",
-      "summary": null
+      "summary": "https://csoluble.media/epsode/pourquoi-le-gaspillage-alimentaire-est-il-un-probleme-majeur-en-france/"
     }
   },
   {
@@ -756,7 +756,7 @@ export const EPISODE_DATA: Episode[] = [
       "deezer": "https://link.deezer.com/s/31AROOcWxS8SYS0Di9mR9",
       "youtube": "https://www.youtube.com/watch?v=Bp0XO2_RVPw",
       "transcription": "https://csoluble.media/epsode/transcription-2050now-le-media-qui-vise-14-millions-de-francais-la-classe-ecologique/",
-      "summary": null
+      "summary": "https://csoluble.media/epsode/quest-ce-que-2050now-et-quel-est-son-modele-original/"
     }
   },
   {
@@ -775,7 +775,7 @@ export const EPISODE_DATA: Episode[] = [
       "deezer": "https://link.deezer.com/s/31ARPaNfcV6VpBsOM6uTJ",
       "youtube": "https://www.youtube.com/watch?v=V6qNjX8l9Ts",
       "transcription": "https://csoluble.media/epsode/transcription-au-fait-ca-sert-a-quoi-delire-un-parlement-europeen/",
-      "summary": null
+      "summary": "https://csoluble.media/epsode/quel-est-le-role-du-parlement-europeen-et-pourquoi-est-il-important-de-voter/"
     }
   },
   {
@@ -794,7 +794,7 @@ export const EPISODE_DATA: Episode[] = [
       "deezer": "https://link.deezer.com/s/31ARPuiMmc8TLWCmEcp8k",
       "youtube": "https://www.youtube.com/watch?v=O9N8FJi-X3o",
       "transcription": "https://csoluble.media/epsode/transcription-des-solutions-pour-avoir-de-la-repartie-ecologique/",
-      "summary": null
+      "summary": "https://csoluble.media/epsode/comment-margot-jacq-propose-de-repondre-aux-discours-anti-ecologiques/"
     }
   },
   {
@@ -813,7 +813,7 @@ export const EPISODE_DATA: Episode[] = [
       "deezer": "https://link.deezer.com/s/31ARPOJ8SR0kfqeqlEcw1",
       "youtube": "https://www.youtube.com/watch?v=NJumLwmxP4w",
       "transcription": "https://csoluble.media/epsode/transcription-ia-big-data-satellite-lidar-quand-les-donnees-numeriques-se-mettent-au-service-de-la-biodiversite/",
-      "summary": null
+      "summary": "https://csoluble.media/epsode/comment-les-donnees-numeriques-peuvent-elles-aider-a-proteger-lenvironnement/"
     }
   },
   {
@@ -832,7 +832,7 @@ export const EPISODE_DATA: Episode[] = [
       "deezer": "https://link.deezer.com/s/31ARQio6mfCb9DHqmOW2q",
       "youtube": "https://www.youtube.com/watch?v=5ivRUxrpjIU",
       "transcription": "https://csoluble.media/epsode/transcription-la-fresque-du-climat-latelier-viral-qui-cree-un-declic-en-jouant/",
-      "summary": null
+      "summary": "https://csoluble.media/epsode/comment-la-fresque-du-climat-utilise-t-elle-le-jeu-pour-sensibiliser-au-rechauffement-climatique/"
     }
   },
   {
@@ -851,7 +851,7 @@ export const EPISODE_DATA: Episode[] = [
       "deezer": "https://link.deezer.com/s/31ARQAJHayHt5AOMdUK38",
       "youtube": "https://www.youtube.com/watch?v=5ttGMsMEOUY",
       "transcription": "https://csoluble.media/epsode/transcription-special-podcasthon-avec-reporters-despoirs-pour-des-medias-qui-donnent-envie-dagir/",
-      "summary": null
+      "summary": "https://csoluble.media/epsode/quest-ce-que-le-journalisme-de-solutions-et-pourquoi-est-il-important-pour-les-medias-d-espoir/"
     }
   },
   {
@@ -870,7 +870,7 @@ export const EPISODE_DATA: Episode[] = [
       "deezer": "https://link.deezer.com/s/31ARQU7V1IyjB1fmVIu6W",
       "youtube": "https://www.youtube.com/watch?v=_D6LOERLYE0",
       "transcription": "https://csoluble.media/epsode/transcription-quest-ce-que-le-cdd-tremplin-qui-permet-aux-travailleurs-handicapes-de-rebondir-vers-un-emploi-durable/",
-      "summary": null
+      "summary": "https://csoluble.media/epsode/comment-les-entreprises-adaptees-et-le-cdd-tremplin-favorisent-elles-linclusion-des-personnes-handicapees/"
     }
   },
   {
@@ -889,7 +889,7 @@ export const EPISODE_DATA: Episode[] = [
       "deezer": "https://link.deezer.com/s/31ARRef50iVpxpEmNzDJK",
       "youtube": "https://www.youtube.com/watch?v=Bm1a3U1gnDI",
       "transcription": "https://csoluble.media/epsode/transcription-enfants-et-adolescents-les-proteger-des-ecrans-oui-mais-comment/",
-      "summary": null
+      "summary": "https://csoluble.media/epsode/comment-proteger-nos-enfants-des-dangers-des-ecrans-10-questions-a-sabine-duflo/"
     }
   },
   {
@@ -908,7 +908,7 @@ export const EPISODE_DATA: Episode[] = [
       "deezer": "https://link.deezer.com/s/31ARRuUF48XIqZuCfQsQi",
       "youtube": "https://www.youtube.com/watch?v=WuBy7KNYm8o",
       "transcription": "https://csoluble.media/epsode/transcription-comment-reperer-un-discours-et-des-contenus-complotistes/",
-      "summary": null
+      "summary": "https://csoluble.media/epsode/comment-lutter-contre-les-theories-complotistes-10-questions-a-rudy-reichstadt/"
     }
   },
   {
@@ -927,7 +927,7 @@ export const EPISODE_DATA: Episode[] = [
       "deezer": "https://link.deezer.com/s/31ARRNclThZDorDaLluEb",
       "youtube": "https://www.youtube.com/watch?v=YojI3XG3Dis",
       "transcription": "https://csoluble.media/epsode/transcription-podcasthon-2024-la-generosite-sexprime-en-coeur-pendant-7-jours-dans-les-podcasts/",
-      "summary": null
+      "summary": "https://csoluble.media/epsode/pourquoi-les-podcasteurs-se-mobilisent-ils-pour-le-podcasthon/"
     }
   },
   {
@@ -965,7 +965,7 @@ export const EPISODE_DATA: Episode[] = [
       "deezer": "https://link.deezer.com/s/31ARSzIYUZGZit5X93Zya",
       "youtube": "https://www.youtube.com/watch?v=CoqX9lEIaUw",
       "transcription": "https://csoluble.media/epsode/transcription-precarite-un-cheque-alimentation-durable-de-50-euros-teste-en-seine-saint-denis/",
-      "summary": null
+      "summary": "https://csoluble.media/epsode/comment-le-cheque-alimentation-durable-combat-il-la-precarite-alimentaire-en-seine-saint-denis/"
     }
   },
   {
@@ -984,7 +984,7 @@ export const EPISODE_DATA: Episode[] = [
       "deezer": "https://link.deezer.com/s/31ARTaDCyILQQ4u0hPCD9",
       "youtube": "https://www.youtube.com/watch?v=JZ_pGWDU7No",
       "transcription": "https://csoluble.media/epsode/transcription-de-moins-en-moins-blanche-la-montagne-peut-elle-devenir-plus-verte/",
-      "summary": null
+      "summary": "https://csoluble.media/epsode/comment-le-tourisme-de-montagne-peut-il-devenir-plus-durable/"
     }
   },
   {
@@ -1003,7 +1003,7 @@ export const EPISODE_DATA: Episode[] = [
       "deezer": "https://link.deezer.com/s/31ARTsMxjEM0pb3BXt1bb",
       "youtube": "https://www.youtube.com/watch?v=z7jTM75vybE",
       "transcription": "https://csoluble.media/epsode/transcription-amep-cest-quoi-le-don-delectricite-renouvelable-entre-voisins/",
-      "summary": null
+      "summary": "https://csoluble.media/epsode/comment-lamep-promeut-elle-la-solidarite-energetique/"
     }
   },
   {
@@ -1022,7 +1022,7 @@ export const EPISODE_DATA: Episode[] = [
       "deezer": "https://link.deezer.com/s/31ARU9I2tykSh1UM2G2Ty",
       "youtube": "https://www.youtube.com/watch?v=OarVXTYMY9Y",
       "transcription": "https://csoluble.media/epsode/transcription-des-solutions-pour-regenerer-le-cycle-de-leau-avec-charlene-descollonges/",
-      "summary": null
+      "summary": "https://csoluble.media/epsode/comment-preserver-leau-et-limiter-les-catastrophes-hydriques/"
     }
   },
   {
@@ -1041,7 +1041,7 @@ export const EPISODE_DATA: Episode[] = [
       "deezer": "https://link.deezer.com/s/31ARUs8pdmD3QEujXMv3D",
       "youtube": "https://www.youtube.com/watch?v=80DowLpEArs",
       "transcription": "https://csoluble.media/epsode/transcription-les-podcasts-a-suivre-sur-la-nouvelle-carte-tres-subjective-du-paysage-mediatique-francais/",
-      "summary": null
+      "summary": "https://csoluble.media/epsode/quest-ce-que-la-carte-tres-subjective-du-paysage-mediatique-francais/"
     }
   },
   {
@@ -1079,7 +1079,7 @@ export const EPISODE_DATA: Episode[] = [
       "deezer": "https://link.deezer.com/s/31ARV4LoBl31LQmYcSstc",
       "youtube": "https://www.youtube.com/watch?v=_bhPsGv9PRI",
       "transcription": "https://csoluble.media/epsode/transcription-des-reponses-et-des-solutions-pour-les-abonnes-des-medias-du-groupe-nice-matin/",
-      "summary": null
+      "summary": "https://csoluble.media/epsode/comment-nice-matin-integre-t-il-le-journalisme-de-solutions-dans-son-offre-editoriale/"
     }
   },
   {
@@ -1098,7 +1098,7 @@ export const EPISODE_DATA: Episode[] = [
       "deezer": "https://link.deezer.com/s/31ARViipmEwnrhwbmxnOD",
       "youtube": "https://www.youtube.com/watch?v=Bl2eYPUBVUE",
       "transcription": "https://csoluble.media/epsode/transcription-ouest-france-sa-boussole-pour-informer-sur-lecologie/",
-      "summary": null
+      "summary": "https://csoluble.media/epsode/quel-est-le-premier-quotidien-de-france-et-comment-aborde-t-il-les-defis-climatiques-et-la-biodiversite/"
     }
   },
   {
@@ -1117,7 +1117,7 @@ export const EPISODE_DATA: Episode[] = [
       "deezer": "https://link.deezer.com/s/31ARVAd085m6r8hX7JH7L",
       "youtube": "https://www.youtube.com/watch?v=DZRvF_dfhH8",
       "transcription": "https://csoluble.media/epsode/transcription-comment-tf1-et-lci-luttent-contre-les-fake-news/",
-      "summary": null
+      "summary": "https://csoluble.media/epsode/comment-tf1-lutte-contre-la-desinformation-10-questions-a-samira-el-gadir/"
     }
   },
   {
@@ -1136,7 +1136,7 @@ export const EPISODE_DATA: Episode[] = [
       "deezer": "https://link.deezer.com/s/31ARVPcFswzAkczN6bg8p",
       "youtube": "https://www.youtube.com/watch?v=ApJk8rLs_mg",
       "transcription": "https://csoluble.media/epsode/transcription-devenir-famille-daccueil-pour-futur-chien-guide/",
-      "summary": null
+      "summary": "https://csoluble.media/epsode/comment-devenir-famille-daccueil-pour-un-chien-guide/"
     }
   },
   {
@@ -1155,7 +1155,7 @@ export const EPISODE_DATA: Episode[] = [
       "deezer": "https://link.deezer.com/s/31ARXghH9Dv7KcgKwrieM",
       "youtube": "https://www.youtube.com/watch?v=N_0Rdt9Hp9Q",
       "transcription": "https://csoluble.media/epsode/transcription-la-maison-des-femmes-marseille-provence-un-cocon-pour-se-reparer-et-rebondir-apres-les-violences/",
-      "summary": null
+      "summary": "https://csoluble.media/epsode/comment-la-maison-des-femmes-marseille-provence-aide-t-elle-les-femmes-victimes-de-violences-sexuelles-et-conjugales/"
     }
   },
   {
@@ -1174,7 +1174,7 @@ export const EPISODE_DATA: Episode[] = [
       "deezer": "https://link.deezer.com/s/31ARW5ymuyH3fcVEs8xTt",
       "youtube": "https://www.youtube.com/watch?v=yVdJmV_Fjhg",
       "transcription": "https://csoluble.media/epsode/transcription-la-prep-cest-quoi-ce-traitement-gratuit-qui-protege-du-sida/",
-      "summary": null
+      "summary": "https://csoluble.media/epsode/quest-ce-que-la-prep-et-qui-est-concerne-par-ce-traitement-preventif-contre-le-vih/"
     }
   },
   {
@@ -1193,7 +1193,7 @@ export const EPISODE_DATA: Episode[] = [
       "deezer": "https://link.deezer.com/s/31ARWmgLYy1HcptG3qO1f",
       "youtube": "https://www.youtube.com/watch?v=GHek6ynjHxQ",
       "transcription": "https://csoluble.media/epsode/transcription-comment-aider-les-gilets-orange-des-banques-alimentaires/",
-      "summary": null
+      "summary": "https://csoluble.media/epsode/comment-les-banques-alimentaires-luttent-elles-contre-la-precarite-en-france/"
     }
   },
   {
@@ -1212,7 +1212,7 @@ export const EPISODE_DATA: Episode[] = [
       "deezer": "https://link.deezer.com/s/31ARWBW3QNrQLq4X8VNt2",
       "youtube": "https://www.youtube.com/watch?v=LGdqxdD6dng",
       "transcription": "https://csoluble.media/epsode/transcription-born-in-ppm-quest-ce-que-ce-projet-photo-qui-sensibilise-sur-la-hausse-du-co2-dans-latmosphere/",
-      "summary": null
+      "summary": "https://csoluble.media/epsode/quest-ce-que-le-projet-born-in-ppm-de-mary-lou-mauricio/"
     }
   },
   {
@@ -1231,7 +1231,7 @@ export const EPISODE_DATA: Episode[] = [
       "deezer": "https://link.deezer.com/s/31ARWUl48D76c347u296v",
       "youtube": "https://www.youtube.com/watch?v=_i1a-0mP96c",
       "transcription": "https://csoluble.media/epsode/transcription-glaciers-les-proteger-et-conserver-la-vie-qui-arrive-deja-avec-la-fonte/",
-      "summary": null
+      "summary": "https://csoluble.media/epsode/comment-proteger-les-glaciers-et-la-nature-face-au-rechauffement-climatique/"
     }
   },
   {
@@ -1269,7 +1269,7 @@ export const EPISODE_DATA: Episode[] = [
       "deezer": "https://link.deezer.com/s/31ARXVkTRlaqDzkwuFTq4",
       "youtube": "https://www.youtube.com/watch?v=Vs2H4ORf2tE",
       "transcription": "https://csoluble.media/epsode/transcription-la-premiere-appli-pour-arreter-de-fumer-validee-par-loms-est-francaise/",
-      "summary": null
+      "summary": "https://csoluble.media/epsode/comment-lapplication-kwit-aide-t-elle-les-fumeurs-a-arreter-de-fumer/"
     }
   },
   {
@@ -1288,7 +1288,7 @@ export const EPISODE_DATA: Episode[] = [
       "deezer": "https://link.deezer.com/s/31ARYb1KIdOLrwU3DPnC9",
       "youtube": "https://www.youtube.com/watch?v=oL2lF-T-odE",
       "transcription": "https://csoluble.media/epsode/transcription-comment-soutenir-les-aidants-qui-travaillent/",
-      "summary": null
+      "summary": "https://csoluble.media/epsode/comment-les-entreprises-peuvent-elles-mieux-soutenir-les-aidants-salaries/"
     }
   },
   {
@@ -1307,7 +1307,7 @@ export const EPISODE_DATA: Episode[] = [
       "deezer": "https://link.deezer.com/s/31ARYXPlapxpg4nlX80qd",
       "youtube": "https://www.youtube.com/watch?v=T1DBm5dbvCY",
       "transcription": "https://csoluble.media/epsode/transcription-ces-distributeurs-sattaquent-a-la-precarite-menstruelle/",
-      "summary": null
+      "summary": "https://csoluble.media/epsode/comment-gaelle-le-noane-lutte-contre-la-precarite-menstruelle/"
     }
   },
   {
@@ -1326,7 +1326,7 @@ export const EPISODE_DATA: Episode[] = [
       "deezer": "https://link.deezer.com/s/31ARZdWjpvvkC4hWUakNa",
       "youtube": "https://www.youtube.com/watch?v=bHDe29xKrnk",
       "transcription": "https://csoluble.media/epsode/transcription-une-secu-de-lalimentation-ca-ressemblerait-a-quoi-au-juste/",
-      "summary": null
+      "summary": "https://csoluble.media/epsode/comment-la-securite-sociale-de-lalimentation-pourrait-elle-transformer-lacces-a-une-alimentation-saine/"
     }
   },
   {
@@ -1364,7 +1364,7 @@ export const EPISODE_DATA: Episode[] = [
       "deezer": "https://link.deezer.com/s/31ARZMUsXwztwfVJGdrfg",
       "youtube": "https://www.youtube.com/watch?v=DOaYKct4EHE",
       "transcription": "https://csoluble.media/epsode/transcription-airzen-la-radio-nationale-qui-diffuse-100-de-bonnes-ondes/",
-      "summary": null
+      "summary": "https://csoluble.media/epsode/comment-airzen-radio-se-positionne-t-elle-dans-le-paysage-mediatique-francais/"
     }
   },
   {
@@ -1383,7 +1383,7 @@ export const EPISODE_DATA: Episode[] = [
       "deezer": "https://link.deezer.com/s/31AS00hJk38Ad1lSxbsz1",
       "youtube": "https://www.youtube.com/watch?v=LN0yJZpc0Gk",
       "transcription": "https://csoluble.media/epsode/transcription-vert-un-media-cool-pour-prendre-au-serieux-le-rechauffement-climatique/",
-      "summary": null
+      "summary": "https://csoluble.media/epsode/quest-ce-que-le-media-vert-et-comment-fonctionne-t-il/"
     }
   },
   {
@@ -1402,7 +1402,7 @@ export const EPISODE_DATA: Episode[] = [
       "deezer": "https://link.deezer.com/s/31AS0hJmSqZpsIImq0C8M",
       "youtube": "https://www.youtube.com/watch?v=bmr6cw1UUHE",
       "transcription": "https://csoluble.media/epsode/transcription-wild-le-podcast-de-reportage-animalier-pour-les-petites-oreilles/",
-      "summary": null
+      "summary": "https://csoluble.media/epsode/pourquoi-ambre-gaudet-a-t-elle-cree-le-podcast-wild/"
     }
   },
   {
@@ -1421,7 +1421,7 @@ export const EPISODE_DATA: Episode[] = [
       "deezer": "https://link.deezer.com/s/31AS0wYrov8WpFachqfDu",
       "youtube": null,
       "transcription": "https://csoluble.media/epsode/transcription-impact-positif-lci-donne-de-la-voix-aux-solutions-avec-sylvia-amicone/",
-      "summary": null
+      "summary": "https://csoluble.media/epsode/comment-sylvia-amicone-amplifie-t-elle-les-voix-positives-dans-les-medias/"
     }
   },
   {
@@ -1440,7 +1440,7 @@ export const EPISODE_DATA: Episode[] = [
       "deezer": "https://link.deezer.com/s/31AS0TU5JQcHFTTJKyWi8",
       "youtube": "https://www.youtube.com/watch?v=Q2y916SgqIU",
       "transcription": "https://csoluble.media/epsode/transcription-chaleur-humaine-le-podcast-du-monde-qui-nous-rafraichit-les-idees-avec-nabil-wakim/",
-      "summary": null
+      "summary": "https://csoluble.media/epsode/comment-le-podcast-chaleur-humaine-de-nabil-wakim-aborde-t-il-les-defis-climatiques/"
     }
   },
   {
@@ -1459,7 +1459,7 @@ export const EPISODE_DATA: Episode[] = [
       "deezer": null,
       "youtube": "https://www.youtube.com/watch?v=Ps2llymM5Bo",
       "transcription": "https://csoluble.media/epsode/transcription-sur-la-terre-le-podcast-qui-explore-les-solutions-aux-quatre-coins-du-monde-par-lafp/",
-      "summary": null
+      "summary": "https://csoluble.media/epsode/quest-ce-que-le-podcast-sur-la-terre-de-lagence-france-presse/"
     }
   },
   {
@@ -1478,7 +1478,7 @@ export const EPISODE_DATA: Episode[] = [
       "deezer": "https://link.deezer.com/s/31AS1cmTGbWWOGUcBUO4o",
       "youtube": "https://www.youtube.com/watch?v=J8DSi-AvFCE",
       "transcription": "https://csoluble.media/epsode/transcription-surinformee-ce-kit-de-survie-pourrait-vous-interesser-avec-anne-sophie-novel/",
-      "summary": null
+      "summary": "https://csoluble.media/epsode/quest-ce-que-la-carte-tres-subjective-du-paysage-mediatique-francais/"
     }
   },
   {
@@ -1497,7 +1497,7 @@ export const EPISODE_DATA: Episode[] = [
       "deezer": "https://link.deezer.com/s/31AS1sHIrbXEhLkEVyyqm",
       "youtube": "https://www.youtube.com/watch?v=6dPVdP2cK9E",
       "transcription": "https://csoluble.media/epsode/transcription-comment-bien-regarder-les-etoiles-avec-eric-lagadec/",
-      "summary": null
+      "summary": "https://csoluble.media/epsode/comment-bien-observer-le-ciel-etoile-10-questions-reponses-avec-eric-lagadec/"
     }
   },
   {
@@ -1516,7 +1516,7 @@ export const EPISODE_DATA: Episode[] = [
       "deezer": "https://link.deezer.com/s/31AS1MNTI7MgCyOcLlfVv",
       "youtube": "https://www.youtube.com/watch?v=YpYlibR8CqA",
       "transcription": "https://csoluble.media/epsode/transcription-canicule-lappel-a-ouvrir-des-oasis-solidaires-pour-offrir-de-la-fraicheur-aux-personnes-agees/",
-      "summary": null
+      "summary": "https://csoluble.media/epsode/quels-sont-les-risques-pour-les-personnes-agees-pendant-lete/"
     }
   },
   {
@@ -1535,7 +1535,7 @@ export const EPISODE_DATA: Episode[] = [
       "deezer": "https://link.deezer.com/s/31AS25LBSrhb0T0hg4dLD",
       "youtube": "https://www.youtube.com/watch?v=TwGuY9kyiUk",
       "transcription": "https://csoluble.media/epsode/transcription-surtourisme-jauges-demarketing-comment-y-remedier/",
-      "summary": null
+      "summary": "https://csoluble.media/epsode/comment-le-tourisme-de-masse-affecte-t-il-les-destinations-touristiques/"
     }
   },
   {
@@ -1554,7 +1554,7 @@ export const EPISODE_DATA: Episode[] = [
       "deezer": "https://link.deezer.com/s/31AS2oTm2V2mPYiHTgxo6",
       "youtube": "https://www.youtube.com/watch?v=jNMJBOsWSpE",
       "transcription": "https://csoluble.media/epsode/transcription-les-altruistes-ont-leur-reseau-social-il-sappelle-altruwe/",
-      "summary": null
+      "summary": "https://csoluble.media/epsode/comment-altruwe-promeut-il-laltruisme-et-les-initiatives-positives/"
     }
   },
   {
@@ -1573,7 +1573,7 @@ export const EPISODE_DATA: Episode[] = [
       "deezer": "https://link.deezer.com/s/31AS2EG9sAjRYWGtiSHJZ",
       "youtube": "https://www.youtube.com/watch?v=ofKyoZ3pT3s",
       "transcription": "https://csoluble.media/epsode/transcription-ce-supermarche-appartient-a-ses-clients/",
-      "summary": null
+      "summary": "https://csoluble.media/epsode/quest-ce-que-superquinquin-le-supermarche-cooperatif-de-lille/"
     }
   },
   {
@@ -1592,7 +1592,7 @@ export const EPISODE_DATA: Episode[] = [
       "deezer": "https://link.deezer.com/s/31AS2TIa3zUu5uodIMk1K",
       "youtube": "https://www.youtube.com/watch?v=FusamtxnoQE",
       "transcription": "https://csoluble.media/epsode/transcription-les-oasis-habiter-un-ecolieu-collectif-cest-comment/",
-      "summary": null
+      "summary": "https://csoluble.media/epsode/comment-les-ecolieux-peuvent-ils-transformer-notre-mode-de-vie/"
     }
   },
   {
@@ -1611,7 +1611,7 @@ export const EPISODE_DATA: Episode[] = [
       "deezer": "https://link.deezer.com/s/31AS3d9BiugDVhQdf2utY",
       "youtube": "https://www.youtube.com/watch?v=ob_rvOMST6A",
       "transcription": "https://csoluble.media/epsode/transcription-maintenant-le-media-des-solutions-climat-a-la-une-en-provence/",
-      "summary": null
+      "summary": "https://csoluble.media/epsode/quelles-sont-les-solutions-locales-proposees-par-le-media-maintenant-a-marseille/"
     }
   },
   {
@@ -1649,7 +1649,7 @@ export const EPISODE_DATA: Episode[] = [
       "deezer": "https://link.deezer.com/s/31AS3M7EyJmLrcARfd1zB",
       "youtube": "https://www.youtube.com/watch?v=35equg_Bq_E",
       "transcription": "https://csoluble.media/epsode/transcription-des-rotations-hebdomadaires-de-medecins-solidaires-pour-une-presence-permanente-dans-les-deserts-medicaux/",
-      "summary": null
+      "summary": "https://csoluble.media/epsode/comment-les-medecins-solidaires-luttent-ils-contre-les-deserts-medicaux/"
     }
   },
   {
@@ -1668,7 +1668,7 @@ export const EPISODE_DATA: Episode[] = [
       "deezer": "https://link.deezer.com/s/31AS44UDAVSHPMK6mXtso",
       "youtube": "https://www.youtube.com/watch?v=W_ei7GBM2dA",
       "transcription": "https://csoluble.media/epsode/transcription-les-logements-etudiants-moins-chers-et-a-la-ferme-campus-vert/",
-      "summary": null
+      "summary": "https://csoluble.media/epsode/comment-campus-vert-aide-les-etudiants-a-trouver-des-logements-abordables/"
     }
   },
   {
@@ -1687,7 +1687,7 @@ export const EPISODE_DATA: Episode[] = [
       "deezer": "https://link.deezer.com/s/31AS4tq3WMkkQFADA8Fao",
       "youtube": "https://www.youtube.com/watch?v=ntJhnEDWk20",
       "transcription": "https://csoluble.media/epsode/transcription-the-sorority-lappli-dentraide-pour-se-proteger-contre-les-violences-sexuelles/",
-      "summary": null
+      "summary": "https://csoluble.media/epsode/comment-the-sorority-aide-t-elle-les-victimes-de-violences-sexuelles-et-conjugales/"
     }
   },
   {
@@ -1697,7 +1697,7 @@ export const EPISODE_DATA: Episode[] = [
     "duration": "10:12",
     "guest": "Clément Nicaud",
     "category": "Société",
-    "description": "Découvrez comment Clément Nicaud a lancé un bistrot itinérant en Alsace pour redonner vie aux villages privés de commerces de proximité. À bord de son camion vintage, il offre produits locaux et convivialité, séduisant tous les âges.",
+    "description": "Découvrez comment Clément Nicaud a lancé un bistrot itinérant en Alsace pour redonner vie aux villages privés de commerces de proximité. À bord de son camion vintage, il mise sur les produits locaux, la convivialité et les tartes flambées.",
     "themes": ["Bistrot itinérant", "Alsace", "produits locaux", "restauration ambulante", "camion vintage", "tartes flambées", "planchettes apéritives", "bistrot de villages", "reconversion professionnelle", "commerce de proximité", "convivialité"],
     "links": {
       "page": "https://csoluble.media/epsode/le-bistrot-qui-se-deplace-dans-les-villages/",
@@ -1706,7 +1706,7 @@ export const EPISODE_DATA: Episode[] = [
       "deezer": "https://link.deezer.com/s/31AS4MWhhDYDV3tH2SxbV",
       "youtube": "https://www.youtube.com/watch?v=od59_qobZ4M",
       "transcription": "https://csoluble.media/epsode/transcription-le-bistrot-qui-se-deplace-dans-les-villages/",
-      "summary": null
+      "summary": "https://csoluble.media/epsode/comment-le-bistrot-de-villages-a-t-il-vu-le-jour-en-alsace/"
     }
   },
   {
@@ -1725,7 +1725,7 @@ export const EPISODE_DATA: Episode[] = [
       "deezer": "https://link.deezer.com/s/31AS52T7lEyX5JU3pPoan",
       "youtube": "https://www.youtube.com/watch?v=0kITyH3yJ9Y",
       "transcription": "https://csoluble.media/epsode/transcription-comment-proteger-les-mangroves/",
-      "summary": null
+      "summary": "https://csoluble.media/epsode/comment-proteger-et-restaurer-les-mangroves/"
     }
   },
   {
@@ -1744,7 +1744,7 @@ export const EPISODE_DATA: Episode[] = [
       "deezer": "https://link.deezer.com/s/31AS5hbpaIvArXOtnUVgc",
       "youtube": "https://www.youtube.com/watch?v=Q9bWXpSxvos",
       "transcription": "https://csoluble.media/epsode/transcription-le-velobus-ecolo-et-collaboratif-pour-se-rendre-a-lecole/",
-      "summary": null
+      "summary": "https://csoluble.media/epsode/quest-ce-que-le-woodybus-et-comment-ameliore-t-il-la-mobilite-scolaire/"
     }
   },
   {
@@ -1763,7 +1763,7 @@ export const EPISODE_DATA: Episode[] = [
       "deezer": "https://link.deezer.com/s/31AS5zaM33qi5fKPmXImu",
       "youtube": "https://www.youtube.com/watch?v=kBBL7_pgOME",
       "transcription": "https://csoluble.media/epsode/transcription-calculer-son-empreinte-carbone-individuelle-pour-agir-des-demain/",
-      "summary": null
+      "summary": "https://csoluble.media/epsode/comment-calculer-et-reduire-son-empreinte-carbone/"
     }
   },
   {
@@ -1782,7 +1782,7 @@ export const EPISODE_DATA: Episode[] = [
       "deezer": "https://link.deezer.com/s/31AS5O46qBZzFIxGAAPXv",
       "youtube": "https://www.youtube.com/watch?v=w1hBxAgsFO4",
       "transcription": "https://csoluble.media/epsode/transcription-la-solution-du-compostage-de-proximite/",
-      "summary": null
+      "summary": "https://csoluble.media/epsode/comment-le-compostage-peut-il-reduire-le-poids-des-dechets-a-la-source/"
     }
   },
   {
@@ -1801,7 +1801,7 @@ export const EPISODE_DATA: Episode[] = [
       "deezer": "https://link.deezer.com/s/31AS62tpycjTXkWR5MCeH",
       "youtube": "https://www.youtube.com/watch?v=patbOd95mmI",
       "transcription": "https://csoluble.media/epsode/transcription-etre-le-reseau-decoles-des-metiers-de-la-transition-ecologique/",
-      "summary": null
+      "summary": "https://csoluble.media/epsode/la-fondation-etre-quels-metiers-verts-et-quelles-initiatives-pour-la-transition-ecologique/"
     }
   },
   {
@@ -1820,7 +1820,7 @@ export const EPISODE_DATA: Episode[] = [
       "deezer": "https://link.deezer.com/s/31AS6kVD8zzhcfYAgr95h",
       "youtube": "https://www.youtube.com/watch?v=Z-HRefmkJDw",
       "transcription": "https://csoluble.media/epsode/transcription-la-voiture-electrique-est-elle-vraiment-ecolo/",
-      "summary": null
+      "summary": "https://csoluble.media/epsode/la-voiture-electrique-est-elle-vraiment-une-alliee-dans-la-lutte-contre-le-changement-climatique/"
     }
   },
   {
@@ -1839,7 +1839,7 @@ export const EPISODE_DATA: Episode[] = [
       "deezer": "https://link.deezer.com/s/31AS6BChHIDQKMw95Wm1F",
       "youtube": "https://www.youtube.com/watch?v=bLfjJ9zV4UA",
       "transcription": "https://csoluble.media/epsode/transcription-comment-proteger-les-papillons/",
-      "summary": null
+      "summary": "https://csoluble.media/epsode/comment-proteger-les-papillons-et-leur-role-essentiel-dans-la-nature/"
     }
   },
   {
@@ -1858,7 +1858,7 @@ export const EPISODE_DATA: Episode[] = [
       "deezer": "https://link.deezer.com/s/31AS6QzOqL4YlklsKwW47",
       "youtube": "https://www.youtube.com/watch?v=YZ1KkyCHVEI",
       "transcription": "https://csoluble.media/epsode/transcription-le-marsoins-ce-camion-de-sante-qui-se-deplace-vers-les-citoyens/",
-      "summary": null
+      "summary": "https://csoluble.media/epsode/comment-le-projet-marsoins-lutte-t-il-contre-les-inegalites-dacces-aux-soins/"
     }
   },
   {
@@ -1877,7 +1877,7 @@ export const EPISODE_DATA: Episode[] = [
       "deezer": null,
       "youtube": "https://www.youtube.com/watch?v=HJ3pUEVez2g",
       "transcription": "https://csoluble.media/epsode/transcription-en-gironde-la-culture-de-lolive-pour-sadapter-au-changement-climatique/",
-      "summary": null
+      "summary": "https://csoluble.media/epsode/pourquoi-un-viticulteur-de-gironde-se-lance-t-il-dans-la-culture-des-oliviers/"
     }
   },
   {
@@ -1896,7 +1896,7 @@ export const EPISODE_DATA: Episode[] = [
       "deezer": "https://link.deezer.com/s/31AS74CZjb2G3IgiNrBNj",
       "youtube": "https://www.youtube.com/watch?v=ipk1_BzKXcc",
       "transcription": "https://csoluble.media/epsode/transcription-a-marseille-le-presage-cuisine-a-la-chaleur-solaire/",
-      "summary": null
+      "summary": "https://csoluble.media/epsode/comment-pierre-andre-aubert-a-t-il-revolutionne-la-cuisine-solaire-a-marseille/"
     }
   },
   {
@@ -1915,7 +1915,7 @@ export const EPISODE_DATA: Episode[] = [
       "deezer": "https://link.deezer.com/s/31AS8m8KJZqdfuHJWoMUU",
       "youtube": "https://www.youtube.com/watch?v=FZNQ7dw-o7g",
       "transcription": "https://csoluble.media/epsode/transcription-la-collecte-tech-en-lutte-contre-la-precarite-numerique/",
-      "summary": null
+      "summary": "https://csoluble.media/epsode/comment-emmaus-connect-lutte-contre-la-precarite-numerique/"
     }
   },
   {
@@ -1934,7 +1934,7 @@ export const EPISODE_DATA: Episode[] = [
       "deezer": "https://link.deezer.com/s/31AS7QXqBkdnDBqKFBC7T",
       "youtube": "https://www.youtube.com/watch?v=VGCjhWT9_70",
       "transcription": "https://csoluble.media/epsode/transcription-reverredire-remet-la-consigne-au-gout-du-jour/",
-      "summary": null
+      "summary": "https://csoluble.media/epsode/pourquoi-la-consigne-de-verre-est-elle-importante-pour-lenvironnement-et-leconomie/"
     }
   },
   {
@@ -1953,7 +1953,7 @@ export const EPISODE_DATA: Episode[] = [
       "deezer": "https://link.deezer.com/s/31AS8UWXGpsBKANw5iMsI",
       "youtube": "https://www.youtube.com/watch?v=PuKANkaB3yo",
       "transcription": "https://csoluble.media/epsode/transcription-viensvoirmontaf-le-reseau-pour-trouver-son-stage-de-3e-sans-reseau/",
-      "summary": null
+      "summary": "https://csoluble.media/epsode/comment-viensvoirmontaf-aide-les-eleves-de-zones-defavorisees-a-trouver-des-stages-de-qualite/"
     }
   },
   {
@@ -1991,7 +1991,7 @@ export const EPISODE_DATA: Episode[] = [
       "youtube": "https://www.youtube.com/watch?v=mkOEcIEpL7Q",
       "deezer": "https://link.deezer.com/s/31ASaenKzqkaTuoViXam2",
       "transcription": "https://csoluble.media/epsode/transcription-quand-lhuile-de-friture-usagee-se-transforme-en-carburant/",
-      "summary": null
+      "summary": "https://csoluble.media/epsode/comment-lhuile-de-friture-usagee-peut-elle-devenir-un-carburant-ecologique/"
     }
   },
   {
@@ -2010,7 +2010,7 @@ export const EPISODE_DATA: Episode[] = [
       "deezer": "https://link.deezer.com/s/31AS9uErKS7ij6uIzpHKJ",
       "youtube": "https://www.youtube.com/watch?v=3MpgaqhUrDc",
       "transcription": "https://csoluble.media/epsode/transcription-modemplois-la-plateforme-pour-sinspirer-et-entreprendre-utile/",
-      "summary": null
+      "summary": "https://csoluble.media/epsode/comment-modemplois-aide-les-entrepreneurs-a-impact-10-questions-reponses-avec-christophe-itier/"
     }
   },
   {
@@ -2029,7 +2029,7 @@ export const EPISODE_DATA: Episode[] = [
       "deezer": "https://link.deezer.com/s/31AS9NrUSjCMxQr02wBZa",
       "youtube": "https://www.youtube.com/watch?v=IW2yY78MgUc",
       "transcription": "https://csoluble.media/epsode/transcription-le-pain-ultra-local-de-combaillaux-34/",
-      "summary": null
+      "summary": "https://csoluble.media/epsode/comment-combaillaux-a-reussi-a-creer-un-circuit-court-pour-son-pain-ultra-local/"
     }
   },
   {
@@ -2040,130 +2040,40 @@ export const EPISODE_DATA: Episode[] = [
     "guest": "Ludovic Franceschet",
     "category": "Environnement, Société",
     "description": "Ludovic Franceschet, éboueur parisien devenu star de la sensibilisation à la propreté et au civisme grâce à ses vidéos diffusées sur TikTok.",
-    "themes": ["Sensibilisation propreté", "TikTok", "éboueur", "civisme"],
+    "themes": ["Sensibilisation propreté", "TikTok", "éboueur"],
     "links": {
-      "page": "https://csoluble.media/epsode/ludovic-franceschet-eboueur-et-star-de-la-sensibilisation-sur-tiktok/",
-      "spotify": "https://open.spotify.com/episode/5vdIVy3gqmaZPjbWJ9Pj4i?si=08l2Q9vPSHetahB1iKuIbQ",
-      "apple": "https://podcasts.apple.com/fr/podcast/soluble-s/id1640003869?i=1000582482227",
-      "deezer": "https://link.deezer.com/s/31ASaBAEvVT8mOW0urPTI",
-      "youtube": "https://www.youtube.com/watch?v=BJ8R45u2VP4",
-      "transcription": "https://csoluble.media/epsode/transcription-ludovic-franceschet-eboueur-et-star-de-la-sensibilisation-sur-tiktok/",
-      "summary": null
-    }
-  },
-  {
-    "id": "ep3",
-    "title": "Chronotrains : la carte de l'Europe à portée de train",
-    "date": "2022-09-29",
-    "duration": "08:49",
-    "guest": "Benjamin Tran Dinh",
-    "category": "Vie quotidienne",
-    "description": "Benjamin Tran Dinh présente Chronotrains, une carte interactive qui montre les destinations accessibles en train jusqu'à 5 heures de chez soi.",
-    "themes": ["Chronotrains", "carte interactive", "train", "voyage", "Europe"],
-    "links": {
-      "page": "https://csoluble.media/epsode/chronotrains-la-carte-de-leurope-a-portee-de-train/",
-      "spotify": "https://open.spotify.com/episode/6ea8udijkZAtbOOLZubHJH?si=GSh7_TaPTXWYNaqHJGvxLQ",
-      "apple": "https://podcasts.apple.com/fr/podcast/soluble-s/id1640003869?i=1000580986222",
-      "deezer": "https://link.deezer.com/s/31ASaQM1d2tpZpPjEGQ8E",
-      "youtube": "https://www.youtube.com/watch?v=n0Q_fkLA3q8",
-      "transcription": "https://csoluble.media/epsode/transcription-chronotrains-la-carte-de-leurope-a-portee-de-train/",
-      "summary": null
-    }
-  },
-  {
-    "id": "ep2",
-    "title": "Les AGORAé, des épiceries sociales et solidaires pour étudiants",
-    "date": "2022-09-15",
-    "duration": "11:38",
-    "guest": "Paul Mayaux",
-    "category": "Société, Vie quotidienne",
-    "description": "Paul Mayaux présente les AGORAé, des épiceries sociales et solidaires qui aident les étudiants à lutter contre la précarité en offrant des produits à prix réduits.",
-    "themes": ["AGORAé", "épiceries sociales", "étudiants", "précarité", "solidarité"],
-    "links": {
-      "page": "https://csoluble.media/epsode/paul-mayaux-des-epiceries-sociales-et-solidaires-pour-etudiants/",
-      "spotify": "https://open.spotify.com/episode/07vhDO6gugPe0SGvh3YVjX?si=YdxkwSVaTjqdLUwLi4CI8g",
-      "apple": "https://podcasts.apple.com/fr/podcast/soluble-s/id1640003869?i=1000579528733",
-      "deezer": "https://link.deezer.com/s/31ASb7k04OUohqeIP40lk",
-      "youtube": "https://www.youtube.com/watch?v=0UYg7vLZAxs",
-      "transcription": "https://csoluble.media/epsode/transcription-paul-mayaux-des-epiceries-sociales-et-solidaires-pour-etudiants/",
-      "summary": null
-    }
-  },
-  {
-    "id": "ep1",
-    "title": "Comment protéger les abeilles",
-    "date": "2022-09-01",
-    "duration": "11:15",
-    "guest": "Béatrice Robrolle-Mary",
-    "category": "Environnement",
-    "description": "Béatrice Robrolle-Mary discute des solutions pour protéger les abeilles, en mettant l'accent sur les bonnes pratiques de jardinage, de consommation, et la sensibilisation.",
-    "themes": ["Abeilles", "protection", "pollinisateurs", "pesticides", "agroécologie"],
-    "links": {
-        "page": "https://csoluble.media/epsode/beatrice-robrolle-mary-comment-proteger-les-abeilles/",
-        "spotify": "https://open.spotify.com/episode/70xecF9PrM5yCCu3hMFKZl",
-        "apple": "https://podcasts.apple.com/us/podcast/b%C3%A9atrice-robrolle-mary-comment-prot%C3%A9ger-les-abeilles/id1640003869?i=1000578405631",
-        "deezer": "https://link.deezer.com/s/31ASblrKZPfxDs2OWJytq",
-        "youtube": "https://www.youtube.com/watch?v=2Dv0two4K7Y",
-        "transcription": "https://csoluble.media/epsode/transcription-beatrice-robrolle-mary-comment-proteger-les-abeilles/",
+        "page": "https://csoluble.media/epsode/ludovic-franceschet-eboueur-et-star-de-la-sensibilisation-sur-tiktok/",
+        "spotify": "https://open.spotify.com/episode/6gQ3qF9S2Y8K2J9R4Z7X6g",
+        "apple": "https://podcasts.apple.com/fr/podcast/ludovic-franceschet-eboueur-et-star-de-la/id1640003869?i=1000582463821",
+        "youtube": null,
+        "deezer": null,
+        "transcription": null,
         "summary": null
     }
   }
 ];
 
-export const GENERAL_PLATFORM_LINKS = {
-    spotify: "https://open.spotify.com/show/11CYdR9d0vEWmaD5DHZsaH",
-    apple: "https://podcasts.apple.com/fr/podcast/soluble-s-actu-ecologie-societe-solutions/id1640003869",
-    youtube: "https://www.youtube.com/@podcastsoluble.s",
-    deezer: "https://www.deezer.com/fr/show/4512867",
-    page: "https://csoluble.media",
-    podcastaddict: "https://podcastaddict.com/podcast/solubles-actu-ecologie-societe-solutions/4349936",
-    youtubemusic: "https://music.youtube.com/playlist?list=PLEeihXD_0avWLPuenYMHXrkCYnRa3upM8",
-    amazonmusic: "https://music.amazon.com/podcasts/1c164872-8e78-4569-a3b1-1163a808afe0/soluble-s-actu-ecologie-soci%C3%A9t%C3%A9-solutions",
-    pocketcasts: "https://pocketcasts.com/podcast/solubles-actu-ecologie-soci%C3%A9t%C3%A9-solutions/c5682b90-0f3b-013b-0585-0acc26574db2"
-};
-
-const episodesText = EPISODE_DATA.map(e => `- ID: ${e.id}, Date: ${e.date}, Titre: "${e.title}", Invité: ${e.guest}, Catégorie: ${e.category}, Thèmes: ${e.themes.join(', ')}, Description: ${e.description}`).join('\n');
-
 export const FAQ_DATA: FAQ[] = [
-  {
-    question: "Qu’est-ce que Soluble(s) ?",
-    answer: "Soluble(s) est un podcast animé par Simon Icard, consacré à des solutions concrètes aux défis environnementaux et sociétaux. Vous êtes au bon endroit pour l'explorer ! N'hésitez pas à me poser des questions sur un épisode, un thème ou un invité."
-  },
-  {
-    question: "Qui est Simon Icard ?",
-    answer: "Journaliste français, fondateur de Soluble(s) et animateur du podcast. Son approche est factuelle, inspirante et tournée vers l’action."
-  },
-  {
-    question: "Quels thèmes ou sujets sont abordés ?",
-    answer: "Environnement (climat, biodiversité, pollution), Société (éducation, solidarité, santé), Vie quotidienne (alimentation, logement, mobilité). Tu peux retrouver tout le catalogue ici : [catalogue des épisodes](https://csoluble.media/podcast-soluble-episodes)."
-  },
-  {
-    question: "Sur quelles plateformes écouter Soluble(s) ?",
-    answer: `Vous pouvez écouter Soluble(s) sur de nombreuses plateformes ! Voici les liens directs :\n\n- [Apple Podcasts](https://podcasts.apple.com/fr/podcast/soluble-s-actu-ecologie-societe-solutions/id1640003869)\n- [Spotify](https://open.spotify.com/show/11CYdR9d0vEWmaD5DHZsaH)\n- [Deezer](https://www.deezer.com/fr/show/4512867)\n- [Podcast Addict](https://podcastaddict.com/podcast/solubles-actu-ecologie-societe-solutions/4349936)\n- [YouTube](https://www.youtube.com/@podcastsoluble.s)\n- [YouTube Music](https://music.youtube.com/playlist?list=PLEeihXD_0avWLPuenYMHXrkCYnRa3upM8)\n- [Amazon Music](https://music.amazon.com/podcasts/1c164872-8e78-4569-a3b1-1163a808afe0/soluble-s-actu-ecologie-soci%C3%A9t%C3%A9-solutions)\n- [Pocket Casts](https://pocketcasts.com/podcast/solubles-actu-ecologie-soci%C3%A9t%C3%A9-solutions/c5682b90-0f3b-013b-0585-0acc26574db2)\n- Et bien sûr, sur le [site officiel](https://csoluble.media).\n\nChoisissez celle qui vous convient le mieux !`
-  },
-  {
-    question: "Comment contacter l’équipe du podcast ?",
-    answer: "Utilise le [formulaire en ligne](https://csoluble.media/contact-2) ou les réseaux sociaux : Instagram, LinkedIn, X, TikTok, Threads."
-  },
-  {
-    question: "Comment soutenir Soluble(s) ?",
-    answer: "Pour soutenir Soluble(s), tu peux t'abonner au podcast et activer les notifications sur ta plateforme préférée, noter 5 étoiles sur Apple Podcasts ou Spotify et laisser un avis, et partager les épisodes sur tes réseaux sociaux."
-  },
-  {
-    question: "Recherchez-vous des sponsors ou partenaires ?",
-    answer: "Oui ! Soluble(s) est ouvert à des partenariats éthiques avec des entreprises engagées. Utilise [ce formulaire](https://csoluble.media/contact-2) pour proposer un projet ou une collaboration."
-  },
-  {
-    question: "Comment s'inscrire à la newsletter ?",
-    answer: "Pour ne rien manquer, le mieux est de s'abonner à la newsletter via LinkedIn ici : [S'abonner sur LinkedIn](https://www.linkedin.com/build-relation/newsletter-follow?entityUrn=7104012692293574656)."
-  }
+    { question: "Quels sont les derniers sujets ?", answer: "Récemment, nous avons parlé de mobilité, de santé mentale, et d'initiatives citoyennes pour l'environnement." },
+    { question: "Comment écouter le podcast ?", answer: "Vous pouvez écouter Soluble(s) sur toutes les plateformes : Spotify, Apple Podcasts, Deezer, et sur notre site web." },
+    { question: "Qui est PetitSolu ?", answer: "Je suis l'assistant IA du podcast, là pour vous aider à trouver l'épisode qui vous correspond !" },
+    { question: "Je cherche un épisode sur le climat", answer: "Nous avons beaucoup d'épisodes sur le climat ! Demandez-moi par exemple 'épisodes sur le réchauffement climatique'." }
 ];
 
-const faqText = FAQ_DATA.map(f => `Q: ${f.question}\nA: ${f.answer}`).join('\n\n');
-const appleLink = GENERAL_PLATFORM_LINKS.apple;
-const spotifyLink = GENERAL_PLATFORM_LINKS.spotify;
-const currentDate = new Date().toISOString().split('T')[0]; // Format YYYY-MM-DD
+// Helper variables for SYSTEM_PROMPT
+const currentDate = new Date().toLocaleDateString('fr-FR', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
+const appleLink = "https://podcasts.apple.com/fr/podcast/soluble-s/id1640003869";
+const spotifyLink = "https://open.spotify.com/search/Soluble(s)";
 
+const GENERAL_PLATFORM_LINKS = {
+    apple: appleLink,
+    spotify: spotifyLink,
+    deezer: "https://www.deezer.com/search/Soluble(s)",
+    youtube: "https://www.youtube.com/results?search_query=Soluble(s)+podcast"
+};
+
+const faqText = FAQ_DATA.map(f => `Q: ${f.question}\nR: ${f.answer}`).join('\n\n');
+const episodesText = JSON.stringify(EPISODE_DATA);
 
 export const SYSTEM_PROMPT = `
 Tu es "PetitSolu", l'assistant IA expert et officiel du podcast "Soluble(s)". Ton ton est amical, professionnel et engageant.
@@ -2249,3 +2159,4 @@ ${episodesText}
 
 Réponds toujours en français.
 `;
+
