@@ -58,6 +58,42 @@ export const FAQ_DATA: FAQ[] = [
 
 export const EPISODE_DATA: Episode[] = [
   {
+"id": "ep110",
+"title": "Comment faire la paix avec nos écrans ? – Avec François Saltiel",
+"date": "2025-11-24",
+"duration": "24:48",
+"guest": "François Saltiel",
+"category": "Société",
+"description": "Dans cet épisode, François Saltiel, journaliste à France Culture et co-auteur de « Faire la paix avec nos écrans » (Flammarion, 2025), partage son expérience de parent, son analyse de la société amphinétique et sa méthode P.L.A.Y. pour une parentalité numérique éclairée. L’entretien aborde aussi les enjeux du smartphone, la captivité des plateformes, l’éducation aux médias et les solutions concrètes pour reprendre le contrôle au quotidien.",
+"themes": [
+"parentalité numérique",
+"écrans",
+"François Saltiel",
+"famille connectée",
+"parents",
+"enfants",
+"société amphinétique",
+"médias",
+"EMI",
+"éducation",
+"technodiscernement",
+"méthode P.L.A.Y.",
+"GAFAM",
+"éducation aux médias",
+"interopérabilité",
+"solutions concrètes"
+],
+"links": {
+"page": "https://csoluble.media/epsode/faire-la-paix-avec-ecrans-francois-saltiel",
+"spotify": "https://open.spotify.com/episode/0Tb2lqFGGoX6pxso0kuAWH?si=ec9f0c718f674197",
+"apple": "https://podcasts.apple.com/fr/podcast/comment-faire-la-paix-avec-nos-%C3%A9crans-avec-fran%C3%A7ois-saltiel/id1640003869?i=1000738069203",
+"deezer": "https://link.deezer.com/s/31GY6zn1UybeXjGbUCjt6",
+"youtube": "https://youtu.be/g8QzXOKwM2Q?si=RUefD96hczfcTklr",
+"transcription": "https://csoluble.media/epsode/transcription-comment-faire-la-paix-avec-nos-ecrans-avec-francois-saltiel/",
+"summary": "https://csoluble.media/epsode/parentalite-numerique-10-questions-reponses-avec-francois-saltiel-pour-faire-la-paix-avec-les-ecrans/"
+}
+}
+    {
     "id": "ep109",
     "title": "Conseiller mobilité : l’allié méconnu qui redonne le pouvoir de bouger – Avec Sébastien Bailleul (Wimoov)",
     "date": "2025-11-12",
