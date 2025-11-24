@@ -92,8 +92,8 @@ export const EPISODE_DATA: Episode[] = [
 "transcription": "https://csoluble.media/epsode/transcription-comment-faire-la-paix-avec-nos-ecrans-avec-francois-saltiel/",
 "summary": "https://csoluble.media/epsode/parentalite-numerique-10-questions-reponses-avec-francois-saltiel-pour-faire-la-paix-avec-les-ecrans/"
 }
-}
-    {
+},
+{
     "id": "ep109",
     "title": "Conseiller mobilité : l’allié méconnu qui redonne le pouvoir de bouger – Avec Sébastien Bailleul (Wimoov)",
     "date": "2025-11-12",
