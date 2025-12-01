@@ -44,7 +44,7 @@ export const FAQ_DATA: FAQ[] = [
   },
   {
     question: "Comment s'inscrire à la newsletter ?",
-    answer: `Vous pouvez vous inscrire à la newsletter "Le Ruissellement" pour recevoir les actualités et résumés du podcast directement dans votre boîte mail via ce lien : ${newsletterLink}`
+    answer: `Vous pouvez vous inscrire à la newsletter pour recevoir les actualités et résumés du podcast directement dans votre boîte mail via ce lien : ${newsletterLink}`
   },
   {
     question: "Où écouter le podcast ?",
@@ -57,7 +57,44 @@ export const FAQ_DATA: FAQ[] = [
 ];
 
 export const EPISODE_DATA: Episode[] = [
-  {
+ {
+  "id": "ep111",
+  "title": "« Tarpin moins » : Réduire nos déchets sans pression – La méthode marseillaise avec Fiona Cosson",
+  "date": "2025-12-01",
+  "duration": "24:14",
+  "guest": "Fiona Cosson",
+  "category": "Environnement",
+  "description": "Fiona Cosson, fondatrice de Zero Waste Marseille, raconte comment elle est passée de ses allergies aux produits ménagers à l'écriture de Tarpin moins, un guide zéro déchet pour Marseille : 200 adresses locales, des recettes, des services de location, de réparation et de seconde main.",
+  "themes": [
+    "zéro déchet Marseille",
+    "Tarpin moins",
+    "Fiona Cosson",
+    "réduction des déchets",
+    "marseille",
+    "poubelles",
+    "écologie",
+    "climat",
+    "Zero Waste Marseille",
+    "Métropole Aix-Marseille-Provence",
+    "tri sélectif",
+    "guide zéro déchet",
+    "Défi Familles Zéro Déchet",
+    "consommation responsable",
+    "fast fashion",
+    "seconde main",
+    "écologie Marseille",
+    "gestion des déchets",
+    "anti-gaspillage"
+  ],
+  "links": {
+    "page": "https://csoluble.media/epsode/tarpin-moins-reduire-dechets-marseille-zero-waste-fiona-cosson/",
+    "spotify": "https://open.spotify.com/episode/0z6mNd0Pso6VPdqxQQVE4Q?si=Xk0WmbGWT4GHMmg4jkcn1w",
+    "apple": "https://podcasts.apple.com/fr/podcast/tarpin-moins-r%C3%A9duire-nos-d%C3%A9chets-sans-pression-la-m%C3%A9thode/id1640003869?i=1000739072976",
+    "deezer": "https://link.deezer.com/s/31KWxcrKLrt7Gpp5n4l7u",
+    "transcription": "https://csoluble.media/epsode/transcription-tarpin-moins-reduire-nos-dechets-sans-pression-la-methode-marseillaise-avec-fiona-cosson/",
+    "summary": "https://csoluble.media/epsode/comment-reduire-ses-dechets-sans-culpabiliser-a-marseille/"
+  }
+}, {
 "id": "ep110",
 "title": "Comment faire la paix avec nos écrans ? – Avec François Saltiel",
 "date": "2025-11-24",
