@@ -57,7 +57,58 @@ export const FAQ_DATA: FAQ[] = [
 ];
 
 export const EPISODE_DATA: Episode[] = [
- {
+
+   {
+  "id": "ep112",
+  "title": "VISOV : Les sentinelles numériques des crises - Avec Élodie Boileau",
+  "date": "2025-12-08",
+  "duration": "26:55",
+  "guest": "Élodie Boileau",
+  "category": "Société",
+  "description": "Élodie Boileau, présidente de VISOV (Volontaires Internationaux en Soutien Opérationnel Virtuel), raconte comment 150 bénévoles scrutent les réseaux sociaux depuis leur écran lors des crises majeures : attentats, cyclone Irma, Lubrizol, mégafeux. Ces citoyens volontaires transforment le flot d'informations en ressource utile pour les autorités et les citoyens, traquent les fake news et sauvent des vies en agissant de citoyen à citoyen.",
+  "themes": [
+    "VISOV",
+    "sentinelles numériques",
+    "gestion de crise",
+    "volontaires numériques",
+    "sécurité civile",
+    "Élodie Boileau",
+    "réseaux sociaux",
+    "crises",
+    "attentats",
+    "catastrophes naturelles",
+    "cyclone Irma",
+    "Lubrizol",
+    "mégafeux",
+    "fake news",
+    "désinformation",
+    "rumeurs",
+    "Vigipirate",
+    "SDIS",
+    "pompiers",
+    "urgences",
+    "Météo-France",
+    "vigilance",
+    "feux de forêt",
+    "inondations",
+    "tempêtes",
+    "culture du risque",
+    "secours",
+    "veille numérique",
+    "citoyen",
+    "solidarité",
+    "bénévolat"
+  ],
+  "links": {
+    "page": "https://csoluble.media/epsode/visov-sentinelles-numeriques-crises/",
+    "spotify": "https://open.spotify.com/episode/2GsAvg6rI6EqL9GbaQbq0y?si=hh1Ao8iIRsG9AGjHccqfKg",
+    "apple": "https://podcasts.apple.com/fr/podcast/visov-les-sentinelles-num%C3%A9riques-des-crises-avec-%C3%A9lodie/id1640003869?i=1000740160416",
+    "deezer": "https://link.deezer.com/s/31OVkDhZVgYgI1Qc8UY36",
+    "youtube": "https://youtu.be/cprzLFP5LvU?si=nrywEXP4osIt6Xf4",
+    "transcription": "https://csoluble.media/epsode/transcription-visov-les-sentinelles-numeriques-des-crises-avec-elodie-boileau/",
+    "summary": "https://csoluble.media/epsode/comment-les-citoyens-peuvent-ils-aider-en-temps-de-crise/"
+  }
+}, {
   "id": "ep111",
   "title": "« Tarpin moins » : Réduire nos déchets sans pression – La méthode marseillaise avec Fiona Cosson",
   "date": "2025-12-01",
