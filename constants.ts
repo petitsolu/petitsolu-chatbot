@@ -59,6 +59,45 @@ export const FAQ_DATA: FAQ[] = [
 export const EPISODE_DATA: Episode[] = [
 
    {
+  "id": "ep113",
+  "title": "Le Défi de Janvier : pourquoi le Dry January marche vraiment - Avec le Pr Naassila",
+  "date": "2025-12-29",
+  "duration": "30:30",
+  "guest": "Mickael Naassila",
+  "category": "Santé",
+  "description": "Le professeur Mickael Naassila, président de la Société française d'alcoologie, explique comment une pause d'un mois sans alcool transforme durablement notre rapport à la boisson. Il détaille les bénéfices physiologiques immédiats (sommeil, glycémie, peau), les ressorts psychologiques du défi et donne des outils concrets pour réussir à déjouer la pression sociale.",
+  "themes": [
+    "Dry January",
+    "Défi de Janvier",
+    "alcool",
+    "santé publique",
+    "Mickael Naassila",
+    "prévention",
+    "addictions",
+    "alcoologie",
+    "bien-être",
+    "physiologie",
+    "pression sociale",
+    "consommation à risque",
+    "binge drinking",
+    "Société française d'alcoologie",
+    "My Défi",
+    "sevrage",
+    "vin sans alcool",
+    "habitudes",
+    "recherche médicale",
+    "santé"
+  ],
+  "links": {
+    "page": "https://csoluble.media/epsode/defi-janvier-dry-january-efficacite-naassila/",
+    "spotify": "https://open.spotify.com/episode/24nudMugO4zkdw1kAfSyJ7?si=134361d7c0184ccb",
+    "apple": "https://podcasts.apple.com/fr/podcast/le-d%C3%A9fi-de-janvier-pourquoi-le-dry-january-marche/id1640003869?i=1000743012391",
+    "deezer": "https://link.deezer.com/s/320UO0O2qKvWW16z5Op4L",
+    "youtube": "https://youtu.be/eus4Bz-RZl0?si=3zLI5kSdmaiI7xl6",
+    "transcription": "https://csoluble.media/epsode/transcription-defi-janvier-dry-january-efficacite-naassila/",
+    "summary": "https://csoluble.media/epsode/defi-janvier-faq-questions-reponses/"
+  }
+},  {
   "id": "ep112",
   "title": "VISOV : Les sentinelles numériques des crises - Avec Élodie Boileau",
   "date": "2025-12-08",
